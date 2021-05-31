@@ -1,0 +1,52 @@
+2021-05-31 10:46:41,836 [main] INFO parkIQ - URL is opened
+2021-05-31 10:50:47,234 [main] INFO parkIQ - URL is opened
+2021-05-31 11:35:07,842 [main] INFO parkIQ - URL is opened
+2021-05-31 11:35:36,258 [main] INFO parkIQ - Entered Email
+2021-05-31 11:35:36,391 [main] INFO parkIQ - Entered Password
+2021-05-31 11:35:39,309 [main] INFO parkIQ - Login test passed
+2021-05-31 11:42:46,018 [main] INFO parkIQ - URL is opened
+2021-05-31 11:43:16,295 [main] INFO parkIQ - Entered Email
+2021-05-31 11:43:16,545 [main] INFO parkIQ - Entered Password
+2021-05-31 11:43:21,883 [main] INFO parkIQ - Login test passed
+2021-05-31 11:46:13,323 [main] INFO parkIQ - URL is opened
+2021-05-31 11:46:24,755 [main] INFO parkIQ - Entered Email
+2021-05-31 11:46:25,853 [main] INFO parkIQ - Entered Password
+2021-05-31 11:46:29,970 [main] INFO parkIQ - Login test passed
+2021-05-31 13:46:13,616 [main] INFO parkIQ - URL is opened
+2021-05-31 13:46:22,843 [main] INFO parkIQ - Entered Email
+2021-05-31 13:46:22,923 [main] INFO parkIQ - Entered Password
+2021-05-31 13:46:27,073 [main] INFO parkIQ - Login test passed
+2021-05-31 13:55:35,053 [main] INFO parkIQ - URL is opened
+2021-05-31 13:55:43,919 [main] INFO parkIQ - Entered Email
+2021-05-31 13:55:44,204 [main] INFO parkIQ - Entered Password
+2021-05-31 13:55:46,683 [main] INFO parkIQ - Login test passed
+2021-05-31 14:01:11,760 [main] INFO parkIQ - URL is opened
+2021-05-31 14:01:19,545 [main] INFO parkIQ - Entered Email
+2021-05-31 14:01:19,623 [main] INFO parkIQ - Entered Password
+2021-05-31 14:01:22,244 [main] INFO parkIQ - Login test passed
+2021-05-31 14:38:53,231 [main] INFO parkIQ - URL is opened
+2021-05-31 14:39:06,856 [main] INFO parkIQ - Entered Email
+2021-05-31 14:39:06,999 [main] INFO parkIQ - Entered Password
+2021-05-31 14:39:11,238 [main] INFO parkIQ - Login test passed
+2021-05-31 14:40:14,320 [main] INFO parkIQ - URL is opened
+2021-05-31 14:40:23,835 [main] INFO parkIQ - Entered Email
+2021-05-31 14:40:23,910 [main] INFO parkIQ - Entered Password
+2021-05-31 14:40:25,883 [main] INFO parkIQ - Login test passed
+2021-05-31 21:25:21,885 [main] INFO parkIQ - URL is opened
+2021-05-31 21:26:12,495 [main] INFO parkIQ - Entered Email
+2021-05-31 21:26:12,611 [main] INFO parkIQ - Entered Password
+2021-05-31 21:26:16,998 [main] INFO parkIQ - Login test passed
+2021-05-31 21:29:29,707 [main] INFO parkIQ - URL is opened
+2021-05-31 21:30:03,920 [main] INFO parkIQ - Entered Email
+2021-05-31 21:30:04,046 [main] INFO parkIQ - Entered Password
+2021-05-31 21:34:00,420 [main] INFO parkIQ - Login test passed
+2021-05-31 21:58:05,159 [main] INFO parkIQ - Clicked Forgot Password
+2021-05-31 22:20:59,650 [main] INFO parkIQ - Clicked Forgot Password
+2021-05-31 22:21:00,053 [main] INFO parkIQ - Entered Email for reset
+2021-05-31 22:28:30,849 [main] INFO parkIQ - Clicked Forgot Password
+2021-05-31 22:28:31,135 [main] INFO parkIQ - Entered Email for reset
+2021-05-31 22:28:32,969 [main] INFO parkIQ - Reset password test passed
+2021-06-01 11:41:38,167 [main] INFO parkIQ - URL is opened
+2021-06-01 11:42:07,107 [main] INFO parkIQ - Entered Email
+2021-06-01 11:42:07,291 [main] INFO parkIQ - Entered Password
+2021-06-01 11:46:32,071 [main] INFO parkIQ - Login test passed
