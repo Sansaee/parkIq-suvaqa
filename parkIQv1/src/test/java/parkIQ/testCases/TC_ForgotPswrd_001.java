@@ -5,7 +5,7 @@ import org.testng.annotations.Test;
 
 import parkIQ.pageObjects.ForgotPassword;
 
-public class TC_ForgotPswrd_002 extends BaseClass {
+public class TC_ForgotPswrd_001 extends BaseClass {
 	
 	//STILL NEEDS TO ENHANCE THIS TEST CASE
 

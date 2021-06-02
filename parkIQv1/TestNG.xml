@@ -11,7 +11,7 @@
 		<parameter name="browser" value="chrome" />
 		<classes>
 			<class name="parkIQ.testCases.TC_LoginTest_001" />
-			<class name="parkIQ.testCases.TC_ForgotPswrd_002" />
+			<class name="parkIQ.testCases.TC_ForgotPswrd_001" />
 		</classes>
 	
 	</test>

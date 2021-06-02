@@ -39,5 +39,5 @@ at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
 ... Removed 32 stack frames]]>
     </failure>
   </testcase> <!-- loginTest -->
-  <testcase classname="parkIQ.testCases.TC_ForgotPswrd_002" name="forgotPaswrd" time="33.637"/>
+  <testcase classname="parkIQ.testCases.TC_ForgotPswrd_001" name="forgotPaswrd" time="33.637"/>
 </testsuite> <!-- Park IQ System Test -->

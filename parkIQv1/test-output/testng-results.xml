@@ -100,8 +100,8 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- parkIQ.testCases.TC_LoginTest_001 -->
-      <class name="parkIQ.testCases.TC_ForgotPswrd_002">
-        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:parkIQ.testCases.TC_ForgotPswrd_002@243c4f91]" started-at="2021-06-02T15:11:42 FJT" name="setup" finished-at="2021-06-02T15:11:57 FJT" duration-ms="15068" status="PASS">
+      <class name="parkIQ.testCases.TC_ForgotPswrd_001">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:parkIQ.testCases.TC_ForgotPswrd_001@243c4f91]" started-at="2021-06-02T15:11:42 FJT" name="setup" finished-at="2021-06-02T15:11:57 FJT" duration-ms="15068" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -112,15 +112,15 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="forgotPaswrd()[pri:0, instance:parkIQ.testCases.TC_ForgotPswrd_002@243c4f91]" started-at="2021-06-02T15:11:57 FJT" name="forgotPaswrd" finished-at="2021-06-02T15:12:31 FJT" duration-ms="33637" status="PASS">
+        <test-method signature="forgotPaswrd()[pri:0, instance:parkIQ.testCases.TC_ForgotPswrd_001@243c4f91]" started-at="2021-06-02T15:11:57 FJT" name="forgotPaswrd" finished-at="2021-06-02T15:12:31 FJT" duration-ms="33637" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- forgotPaswrd -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:parkIQ.testCases.TC_ForgotPswrd_002@243c4f91]" started-at="2021-06-02T15:12:31 FJT" name="tearDown" finished-at="2021-06-02T15:12:31 FJT" duration-ms="325" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:parkIQ.testCases.TC_ForgotPswrd_001@243c4f91]" started-at="2021-06-02T15:12:31 FJT" name="tearDown" finished-at="2021-06-02T15:12:31 FJT" duration-ms="325" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- parkIQ.testCases.TC_ForgotPswrd_002 -->
+      </class> <!-- parkIQ.testCases.TC_ForgotPswrd_001 -->
     </test> <!-- Park IQ System Test -->
   </suite> <!-- ParkIQv1 -->
 </testng-results>
