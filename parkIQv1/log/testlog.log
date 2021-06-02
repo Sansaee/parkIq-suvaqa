@@ -50,3 +50,6 @@
 2021-06-01 11:42:07,107 - parkIQ -INFO - Entered Email
 2021-06-01 11:42:07,291 - parkIQ -INFO - Entered Password
 2021-06-01 11:46:32,071 - parkIQ -INFO - Login test passed
+2021-06-02 12:38:54,092 - parkIQ -INFO - Clicked Forgot Password
+2021-06-02 12:38:54,371 - parkIQ -INFO - Entered Email for reset
+2021-06-02 12:38:58,940 - parkIQ -INFO - Reset password test passed
