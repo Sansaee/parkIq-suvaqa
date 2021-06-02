@@ -53,3 +53,32 @@
 2021-06-02 12:38:54,092 - parkIQ -INFO - Clicked Forgot Password
 2021-06-02 12:38:54,371 - parkIQ -INFO - Entered Email for reset
 2021-06-02 12:38:58,940 - parkIQ -INFO - Reset password test passed
+2021-06-02 14:44:21,893 - parkIQ -INFO - URL is opened
+2021-06-02 14:44:53,659 - parkIQ -INFO - Entered Email
+2021-06-02 14:44:53,790 - parkIQ -INFO - Entered Password
+2021-06-02 14:44:55,632 - parkIQ -INFO - Login test passed
+2021-06-02 14:45:16,740 - parkIQ -INFO - Clicked Forgot Password
+2021-06-02 14:45:16,908 - parkIQ -INFO - Entered Email for reset
+2021-06-02 14:45:22,235 - parkIQ -INFO - Reset password test passed
+2021-06-02 15:00:37,084 - parkIQ -INFO - URL is opened
+2021-06-02 15:00:54,133 - parkIQ -INFO - Park IQ and Park Industries Business Intelligence is displayed
+2021-06-02 15:00:54,411 - parkIQ -INFO - Sign In confirmed
+2021-06-02 15:00:54,733 - parkIQ -INFO - Entered Email
+2021-06-02 15:00:54,896 - parkIQ -INFO - Entered Password
+2021-06-02 15:00:59,402 - parkIQ -INFO - Login button is clicked
+2021-06-02 15:01:05,833 - parkIQ -INFO - Drop down button is clicked
+2021-06-02 15:01:05,943 - parkIQ -INFO - Role is clicked
+2021-06-02 15:01:06,076 - parkIQ -INFO - Select button is clicked
+2021-06-02 15:01:06,102 - parkIQ -INFO - Login test passed
+2021-06-02 15:02:10,311 - parkIQ -INFO - Clicked Forgot Password
+2021-06-02 15:02:10,520 - parkIQ -INFO - Entered Email for reset
+2021-06-02 15:02:13,242 - parkIQ -INFO - Reset password test passed
+2021-06-02 15:10:54,877 - parkIQ -INFO - URL is opened
+2021-06-02 15:11:23,911 - parkIQ -INFO - Park IQ and Park Industries Business Intelligence is displayed
+2021-06-02 15:11:24,306 - parkIQ -INFO - Sign In confirmed
+2021-06-02 15:11:24,681 - parkIQ -INFO - Entered Email
+2021-06-02 15:11:24,835 - parkIQ -INFO - Entered Password
+2021-06-02 15:11:27,218 - parkIQ -INFO - Login button is clicked
+2021-06-02 15:12:27,381 - parkIQ -INFO - Clicked Forgot Password
+2021-06-02 15:12:27,616 - parkIQ -INFO - Entered Email for reset
+2021-06-02 15:12:31,430 - parkIQ -INFO - Reset password test passed

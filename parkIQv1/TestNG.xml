@@ -2,6 +2,11 @@
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 
 <suite name="ParkIQv1">
+
+	<listeners>
+		<listener class-name="parkIQ.utilities.Reporting"/>
+	</listeners>
+	
 	<test name="Park IQ System Test">
 		<parameter name="browser" value="chrome" />
 		<classes>
