@@ -82,3 +82,64 @@
 2021-06-02 15:12:27,381 [main] INFO parkIQ - Clicked Forgot Password
 2021-06-02 15:12:27,616 [main] INFO parkIQ - Entered Email for reset
 2021-06-02 15:12:31,430 [main] INFO parkIQ - Reset password test passed
+2021-06-02 16:06:47,602 [main] INFO parkIQ - URL is opened
+2021-06-02 16:07:04,422 [main] INFO parkIQ - Park IQ and Park Industries Business Intelligence is displayed
+2021-06-02 16:07:04,741 [main] INFO parkIQ - Sign In confirmed
+2021-06-02 16:07:05,125 [main] INFO parkIQ - Entered Email
+2021-06-02 16:07:05,257 [main] INFO parkIQ - Entered Password
+2021-06-02 16:07:08,938 [main] INFO parkIQ - Login button is clicked
+2021-06-02 16:07:16,989 [main] INFO parkIQ - Drop down button is clicked
+2021-06-02 16:07:17,058 [main] INFO parkIQ - Role is clicked
+2021-06-02 16:07:17,138 [main] INFO parkIQ - Select button is clicked
+2021-06-02 16:07:17,248 [main] INFO parkIQ - Login test passed
+2021-06-03 08:37:22,125 [main] INFO parkIQ - URL is opened
+2021-06-03 08:37:48,099 [main] INFO parkIQ - Park IQ and Park Industries Business Intelligence is displayed
+2021-06-03 08:37:48,669 [main] INFO parkIQ - Sign In confirmed
+2021-06-03 08:37:48,997 [main] INFO parkIQ - Entered Email
+2021-06-03 08:37:49,112 [main] INFO parkIQ - Entered Password
+2021-06-03 08:37:52,508 [main] INFO parkIQ - Login button is clicked
+2021-06-03 08:38:01,361 [main] INFO parkIQ - Drop down button is clicked
+2021-06-03 08:38:01,430 [main] INFO parkIQ - Role is clicked
+2021-06-03 08:38:01,525 [main] INFO parkIQ - Select button is clicked
+2021-06-03 08:38:01,628 [main] INFO parkIQ - Login test passed
+2021-06-03 08:41:50,368 [main] INFO parkIQ - URL is opened
+2021-06-03 08:42:08,556 [main] INFO parkIQ - Park IQ and Park Industries Business Intelligence is displayed
+2021-06-03 08:42:08,727 [main] INFO parkIQ - Sign In confirmed
+2021-06-03 08:42:09,016 [main] INFO parkIQ - Entered Email
+2021-06-03 08:42:09,131 [main] INFO parkIQ - Entered Password
+2021-06-03 08:42:11,902 [main] INFO parkIQ - Login button is clicked
+2021-06-03 08:42:20,607 [main] INFO parkIQ - Drop down button is clicked
+2021-06-03 08:42:20,709 [main] INFO parkIQ - Role is clicked
+2021-06-03 08:42:20,854 [main] INFO parkIQ - Select button is clicked
+2021-06-03 08:42:20,874 [main] INFO parkIQ - Login test passed
+2021-06-03 08:56:45,889 [main] INFO parkIQ - URL is opened
+2021-06-03 08:57:17,503 [main] INFO parkIQ - Park IQ and Park Industries Business Intelligence is displayed
+2021-06-03 08:57:17,835 [main] INFO parkIQ - Sign In confirmed
+2021-06-03 08:57:18,249 [main] INFO parkIQ - Entered Email
+2021-06-03 08:57:18,458 [main] INFO parkIQ - Entered Password
+2021-06-03 08:57:22,767 [main] INFO parkIQ - Login button is clicked
+2021-06-03 08:57:30,161 [main] INFO parkIQ - Drop down button is clicked
+2021-06-03 11:30:34,762 [main] INFO parkIQ - Clicked Forgot Password
+2021-06-03 11:30:35,299 [main] INFO parkIQ - Entered Email for reset
+2021-06-03 11:30:39,081 [main] INFO parkIQ - Reset password test passed
+2021-06-03 11:31:48,071 [main] INFO parkIQ - Clicked Forgot Password
+2021-06-03 11:31:48,224 [main] INFO parkIQ - Entered Email for reset
+2021-06-03 11:31:49,950 [main] INFO parkIQ - Reset password test passed
+2021-06-03 13:08:10,049 [main] INFO parkIQ - Clicked Forgot Password
+2021-06-03 13:08:10,364 [main] INFO parkIQ - Entered Email for reset
+2021-06-03 13:08:25,777 [main] INFO parkIQ - Reset password test passed
+2021-06-03 13:09:30,631 [main] INFO parkIQ - Clicked Forgot Password
+2021-06-03 13:09:30,812 [main] INFO parkIQ - Cancelled password reset
+2021-06-03 13:09:31,281 [main] INFO parkIQ - Password reset cancellation passed
+2021-06-03 15:26:28,381 [main] INFO parkIQ - Clicked Forgot Password
+2021-06-03 15:26:28,712 [main] INFO parkIQ - Entered invalid email
+2021-06-03 15:26:28,766 [main] INFO parkIQ - Entered wrong email
+2021-06-03 15:42:51,968 [main] INFO parkIQ - Clicked Forgot Password
+2021-06-03 15:42:52,251 [main] INFO parkIQ - Entered Email for reset
+2021-06-03 15:42:54,129 [main] INFO parkIQ - Reset password test passed
+2021-06-03 15:50:36,039 [main] INFO parkIQ - Clicked Forgot Password
+2021-06-03 15:50:36,598 [main] INFO parkIQ - Entered Email for reset
+2021-06-03 15:50:39,325 [main] INFO parkIQ - Reset password test passed
+2021-06-03 15:50:49,416 [main] INFO parkIQ - Clicked Forgot Password
+2021-06-03 15:50:49,588 [main] INFO parkIQ - Cancelled password reset
+2021-06-03 15:50:50,088 [main] INFO parkIQ - Password reset cancellation passed

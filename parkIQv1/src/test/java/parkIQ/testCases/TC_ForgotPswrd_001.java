@@ -6,26 +6,13 @@ import org.testng.annotations.Test;
 import parkIQ.pageObjects.ForgotPassword;
 
 public class TC_ForgotPswrd_001 extends BaseClass {
-	
-	//STILL NEEDS TO ENHANCE THIS TEST CASE
-
-	//the target title https://api-nc-test-security.azurewebsites.net/Account/ForgotPassword
-	//type email
-	//click reset or click cancel (cancel talkes you back to sign in page)
-	
-	//become a member sign up here
-	//target url https://api-nc-test-security.azurewebsites.net/Account/Register
-	//fill details
-	//click sign up or cancel //click cancel then target url is Sign In Home Page
-	
-	//click I/m a member- Sign In, then target url : https://api-nc-test-security.azurewebsites.net/Account/Login
-	//click Need Help ?, then pop up of requirements. //click close 
 
 	
-	@Test
+	@Test (priority=0)
 	public void forgotPaswrd()
 	{
 		ForgotPassword fp = new ForgotPassword(driver);
+		
 		fp.clickFrgtPaswrd();
 		logger.info("Clicked Forgot Password");
 		fp.setEmail(email);
@@ -43,11 +30,49 @@ public class TC_ForgotPswrd_001 extends BaseClass {
 			logger.info("Reset password test failed");
 		}
 		
-		//test if incorrect email were entered, the message should be as such:
-		//No account was found with that email address. Verify your email address or click the Register link to create an account
-		//If successful reset: this is the target title : Password Reset - ParkIQ
-		
-		
 		
 	}
+		
+		@Test (priority=1)
+		public void forgotPaswrd1() // this tests that clicking cancel button goes back to the home page
+		{
+			driver.get(baseURL);
+			ForgotPassword fp = new ForgotPassword(driver);
+			
+			fp.clickFrgtPaswrd();
+			logger.info("Clicked Forgot Password");
+			fp.setEmail(email);
+			logger.info("Cancelled password reset");
+			fp.clickCancel();
+			
+			if(driver.getTitle().equals("Sign in - ParkIQ"))
+			{
+				Assert.assertTrue(true);
+				logger.info("Password reset cancellation passed");
+				
+			}
+			else {
+				Assert.assertTrue(false);
+				logger.info("Password reset cancellation failed");
+			}	
+		
+		}
+		
+//		@Test (priority=2)
+//		public void forgotPaswrd2() // this tests the validation message
+//		{
+//			driver.get(baseURL);
+//			ForgotPassword fp = new ForgotPassword(driver);
+//			
+//			fp.clickFrgtPaswrd();
+//			logger.info("Clicked Forgot Password");
+//			
+//			fp.setEmail(invalidEmail);
+//			logger.info("Entered invalid email");
+//			System.out(setEmail.getAttribute("validationMessage"));
+//			
+//			fp.setEmail(wrongEmail);
+//			logger.info("Entered wrong email");
+//		
+//		}
 }

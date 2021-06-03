@@ -1,5 +1,6 @@
 package parkIQ.pageObjects;
 
+import org.openqa.selenium.By;
 //import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
@@ -50,6 +51,8 @@ public class LoginPage {
 		@FindBy(xpath="/html/body/nav/a/img")
 		@CacheLookup
 		WebElement imgParkIQ;
+
+	
 		
 		//action methods
 		

@@ -29,6 +29,9 @@ public class BaseClass {
 	//object for readconfig class
 	ReadConfig readConfig = new ReadConfig();
 	
+	public static WebDriver driver;
+	public static Logger logger;
+	
 	public String baseURL=readConfig.getURL();
 	public String email=readConfig.getEmail();
 	public String password =readConfig.getPassword();
@@ -36,9 +39,9 @@ public class BaseClass {
 	public String chromedriverPath =readConfig.getChromePath();
 	public String msedgedriverPath = readConfig.getMsEdgePath();
 	public String operadriverPath= readConfig.getOperaPath();
-	public static WebDriver driver;
 	
-	public static Logger logger;
+	public String invalidEmail = "asfhwohb";
+	public String wrongEmail = "sdigniowej@gmail.com";
 	
 	@Parameters("browser")
 	@BeforeClass

@@ -66,6 +66,7 @@ public class ForgotPassword {
 		btnSignUp.click();
 	}
 
+	
 
 
 		

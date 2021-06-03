@@ -82,3 +82,64 @@
 2021-06-02 15:12:27,381 - parkIQ -INFO - Clicked Forgot Password
 2021-06-02 15:12:27,616 - parkIQ -INFO - Entered Email for reset
 2021-06-02 15:12:31,430 - parkIQ -INFO - Reset password test passed
+2021-06-02 16:06:47,602 - parkIQ -INFO - URL is opened
+2021-06-02 16:07:04,422 - parkIQ -INFO - Park IQ and Park Industries Business Intelligence is displayed
+2021-06-02 16:07:04,741 - parkIQ -INFO - Sign In confirmed
+2021-06-02 16:07:05,125 - parkIQ -INFO - Entered Email
+2021-06-02 16:07:05,257 - parkIQ -INFO - Entered Password
+2021-06-02 16:07:08,938 - parkIQ -INFO - Login button is clicked
+2021-06-02 16:07:16,989 - parkIQ -INFO - Drop down button is clicked
+2021-06-02 16:07:17,058 - parkIQ -INFO - Role is clicked
+2021-06-02 16:07:17,138 - parkIQ -INFO - Select button is clicked
+2021-06-02 16:07:17,248 - parkIQ -INFO - Login test passed
+2021-06-03 08:37:22,125 - parkIQ -INFO - URL is opened
+2021-06-03 08:37:48,099 - parkIQ -INFO - Park IQ and Park Industries Business Intelligence is displayed
+2021-06-03 08:37:48,669 - parkIQ -INFO - Sign In confirmed
+2021-06-03 08:37:48,997 - parkIQ -INFO - Entered Email
+2021-06-03 08:37:49,112 - parkIQ -INFO - Entered Password
+2021-06-03 08:37:52,508 - parkIQ -INFO - Login button is clicked
+2021-06-03 08:38:01,361 - parkIQ -INFO - Drop down button is clicked
+2021-06-03 08:38:01,430 - parkIQ -INFO - Role is clicked
+2021-06-03 08:38:01,525 - parkIQ -INFO - Select button is clicked
+2021-06-03 08:38:01,628 - parkIQ -INFO - Login test passed
+2021-06-03 08:41:50,368 - parkIQ -INFO - URL is opened
+2021-06-03 08:42:08,556 - parkIQ -INFO - Park IQ and Park Industries Business Intelligence is displayed
+2021-06-03 08:42:08,727 - parkIQ -INFO - Sign In confirmed
+2021-06-03 08:42:09,016 - parkIQ -INFO - Entered Email
+2021-06-03 08:42:09,131 - parkIQ -INFO - Entered Password
+2021-06-03 08:42:11,902 - parkIQ -INFO - Login button is clicked
+2021-06-03 08:42:20,607 - parkIQ -INFO - Drop down button is clicked
+2021-06-03 08:42:20,709 - parkIQ -INFO - Role is clicked
+2021-06-03 08:42:20,854 - parkIQ -INFO - Select button is clicked
+2021-06-03 08:42:20,874 - parkIQ -INFO - Login test passed
+2021-06-03 08:56:45,889 - parkIQ -INFO - URL is opened
+2021-06-03 08:57:17,503 - parkIQ -INFO - Park IQ and Park Industries Business Intelligence is displayed
+2021-06-03 08:57:17,835 - parkIQ -INFO - Sign In confirmed
+2021-06-03 08:57:18,249 - parkIQ -INFO - Entered Email
+2021-06-03 08:57:18,458 - parkIQ -INFO - Entered Password
+2021-06-03 08:57:22,767 - parkIQ -INFO - Login button is clicked
+2021-06-03 08:57:30,161 - parkIQ -INFO - Drop down button is clicked
+2021-06-03 11:30:34,762 - parkIQ -INFO - Clicked Forgot Password
+2021-06-03 11:30:35,299 - parkIQ -INFO - Entered Email for reset
+2021-06-03 11:30:39,081 - parkIQ -INFO - Reset password test passed
+2021-06-03 11:31:48,071 - parkIQ -INFO - Clicked Forgot Password
+2021-06-03 11:31:48,224 - parkIQ -INFO - Entered Email for reset
+2021-06-03 11:31:49,950 - parkIQ -INFO - Reset password test passed
+2021-06-03 13:08:10,049 - parkIQ -INFO - Clicked Forgot Password
+2021-06-03 13:08:10,364 - parkIQ -INFO - Entered Email for reset
+2021-06-03 13:08:25,777 - parkIQ -INFO - Reset password test passed
+2021-06-03 13:09:30,631 - parkIQ -INFO - Clicked Forgot Password
+2021-06-03 13:09:30,812 - parkIQ -INFO - Cancelled password reset
+2021-06-03 13:09:31,281 - parkIQ -INFO - Password reset cancellation passed
+2021-06-03 15:26:28,381 - parkIQ -INFO - Clicked Forgot Password
+2021-06-03 15:26:28,712 - parkIQ -INFO - Entered invalid email
+2021-06-03 15:26:28,766 - parkIQ -INFO - Entered wrong email
+2021-06-03 15:42:51,968 - parkIQ -INFO - Clicked Forgot Password
+2021-06-03 15:42:52,251 - parkIQ -INFO - Entered Email for reset
+2021-06-03 15:42:54,129 - parkIQ -INFO - Reset password test passed
+2021-06-03 15:50:36,039 - parkIQ -INFO - Clicked Forgot Password
+2021-06-03 15:50:36,598 - parkIQ -INFO - Entered Email for reset
+2021-06-03 15:50:39,325 - parkIQ -INFO - Reset password test passed
+2021-06-03 15:50:49,416 - parkIQ -INFO - Clicked Forgot Password
+2021-06-03 15:50:49,588 - parkIQ -INFO - Cancelled password reset
+2021-06-03 15:50:50,088 - parkIQ -INFO - Password reset cancellation passed
