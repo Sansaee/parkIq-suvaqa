@@ -3,13 +3,29 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="parkIQ.testCases.TC_ForgotPaswrdTest_002">
+      <class name="parkIQ.testCases.TC_SuperUser_002">
         <methods>
-          <include name="forgotPaswrd"/>
-          <include name="setup"/>
+          <include name="testEmailFieldDiplayedClickable"/>
+          <include name="testContinueButtonBackgroundColour"/>
+          <include name="testContinueButtonFunctionality"/>
+          <include name="testCreateNewUserLink"/>
+          <include name="testCancelButtonDiplayedClickable"/>
+          <include name="testFirstNameFieldDiplayedClickable"/>
+          <include name="testPhoneFieldDiplayedClickable"/>
+          <include name="testValidPhoneAccepted"/>
           <include name="tearDown"/>
+          <include name="testFormTitleDisplayed"/>
+          <include name="testPageTitleDisplayed"/>
+          <include name="testContinueButtonIsEnabledWhenFieldsAreFilled"/>
+          <include name="testContinueButtonDiplayedClickable"/>
+          <include name="testInvalidPhoneProducesValidationMessage"/>
+          <include name="testValidEmailAccepted"/>
+          <include name="setup"/>
+          <include name="testCancelButtonFunctionality"/>
+          <include name="testLastNameFieldDiplayedClickable"/>
+          <include name="testInvalidEmailProducesValidationMessage"/>
         </methods>
-      </class> <!-- parkIQ.testCases.TC_ForgotPaswrdTest_002 -->
+      </class> <!-- parkIQ.testCases.TC_SuperUser_002 -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

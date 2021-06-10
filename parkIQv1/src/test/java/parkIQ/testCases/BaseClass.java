@@ -4,10 +4,12 @@ package parkIQ.testCases;
 import java.io.File;
 import java.io.IOException;
 import java.util.concurrent.TimeUnit;
+import java.util.jar.Attributes.Name;
 
 import org.apache.commons.io.FileUtils;
 import org.apache.log4j.Logger;
 import org.apache.log4j.PropertyConfigurator;
+import org.apache.poi.ss.formula.EvaluationWorkbook.ExternalName;
 import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
@@ -17,6 +19,7 @@ import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Parameters;
 
+import freemarker.template.Template.WrongEncodingException;
 import parkIQ.utilities.ReadConfig;
 
 import org.openqa.selenium.firefox.FirefoxDriver;
@@ -39,9 +42,17 @@ public class BaseClass {
 	public String chromedriverPath =readConfig.getChromePath();
 	public String msedgedriverPath = readConfig.getMsEdgePath();
 	public String operadriverPath= readConfig.getOperaPath();
+
+	public String inputname = "Sara";
 	
+	//for creating new users in super user role
 	public String invalidEmail = "asfhwohb";
+	public String validPhone = "1111111111";
+	public String invalidPhone = "123";
 	public String wrongEmail = "sdigniowej@gmail.com";
+	public String name = "Sarah";
+	public String lname = "Hulio";
+	
 	
 	@Parameters("browser")
 	@BeforeClass
@@ -80,8 +91,7 @@ public class BaseClass {
 			driver.manage().timeouts().implicitlyWait(15, TimeUnit.SECONDS);
 		}
 		
-		driver.get(baseURL);
-		
+		driver.get(baseURL);	
 	}
 	
 	//testcases

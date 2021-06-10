@@ -143,3 +143,433 @@
 2021-06-03 15:50:49,416 - parkIQ -INFO - Clicked Forgot Password
 2021-06-03 15:50:49,588 - parkIQ -INFO - Cancelled password reset
 2021-06-03 15:50:50,088 - parkIQ -INFO - Password reset cancellation passed
+2021-06-04 09:43:55,782 - parkIQ -INFO - Clicked Forgot Password
+2021-06-04 09:43:56,759 - parkIQ -INFO - Entered Email for reset
+2021-06-04 09:44:01,600 - parkIQ -INFO - Reset password test passed
+2021-06-04 09:44:07,746 - parkIQ -INFO - Clicked Forgot Password
+2021-06-04 09:44:07,924 - parkIQ -INFO - Cancelled password reset
+2021-06-04 09:44:08,343 - parkIQ -INFO - Password reset cancellation passed
+2021-06-04 09:44:12,576 - parkIQ -INFO - Clicked Forgot Password
+2021-06-04 09:44:12,800 - parkIQ -INFO - Entered invalid email
+2021-06-04 09:44:12,865 - parkIQ -INFO - Entered wrong email
+2021-06-04 09:47:13,984 - parkIQ -INFO - Clicked Forgot Password
+2021-06-04 09:47:14,192 - parkIQ -INFO - Entered Email for reset
+2021-06-04 09:47:15,855 - parkIQ -INFO - Reset password test passed
+2021-06-04 09:47:21,921 - parkIQ -INFO - Clicked Forgot Password
+2021-06-04 09:47:22,108 - parkIQ -INFO - Cancelled password reset
+2021-06-04 09:47:22,520 - parkIQ -INFO - Password reset cancellation passed
+2021-06-04 09:47:25,448 - parkIQ -INFO - Clicked Forgot Password
+2021-06-04 09:47:25,580 - parkIQ -INFO - Entered invalid email
+2021-06-04 09:53:37,424 - parkIQ -INFO - Clicked Forgot Password
+2021-06-04 09:53:37,841 - parkIQ -INFO - Entered Email for reset
+2021-06-04 09:53:39,292 - parkIQ -INFO - Reset password test passed
+2021-06-04 09:53:50,657 - parkIQ -INFO - Clicked Forgot Password
+2021-06-04 09:53:50,822 - parkIQ -INFO - Cancelled password reset
+2021-06-04 09:53:51,250 - parkIQ -INFO - Password reset cancellation passed
+2021-06-04 09:53:59,857 - parkIQ -INFO - Clicked Forgot Password
+2021-06-04 09:54:00,006 - parkIQ -INFO - Entered invalid email
+2021-06-04 09:54:00,244 - parkIQ -INFO - Entered wrong email
+2021-06-04 09:56:45,137 - parkIQ -INFO - Clicked Forgot Password
+2021-06-04 09:56:45,312 - parkIQ -INFO - Entered Email for reset
+2021-06-04 09:56:46,924 - parkIQ -INFO - Reset password test passed
+2021-06-04 09:56:50,354 - parkIQ -INFO - Clicked Forgot Password
+2021-06-04 09:56:50,935 - parkIQ -INFO - Cancelled password reset
+2021-06-04 09:56:50,953 - parkIQ -INFO - Password reset cancellation passed
+2021-06-04 09:56:54,138 - parkIQ -INFO - Clicked Forgot Password
+2021-06-04 09:56:54,264 - parkIQ -INFO - Entered invalid email
+2021-06-04 09:56:54,365 - parkIQ -INFO - Entered wrong email
+2021-06-04 09:58:54,796 - parkIQ -INFO - Clicked Forgot Password
+2021-06-04 09:58:55,006 - parkIQ -INFO - Entered Email for reset
+2021-06-04 09:58:56,251 - parkIQ -INFO - Reset password test passed
+2021-06-04 09:59:00,125 - parkIQ -INFO - Clicked Forgot Password
+2021-06-04 09:59:00,812 - parkIQ -INFO - Cancelled password reset
+2021-06-04 09:59:00,830 - parkIQ -INFO - Password reset cancellation passed
+2021-06-04 09:59:04,305 - parkIQ -INFO - Clicked Forgot Password
+2021-06-04 09:59:04,427 - parkIQ -INFO - Entered invalid email
+2021-06-04 09:59:04,549 - parkIQ -INFO - Entered wrong email
+2021-06-04 10:06:52,058 - parkIQ -INFO - Clicked Forgot Password
+2021-06-04 10:06:52,237 - parkIQ -INFO - Entered Email for reset
+2021-06-04 10:06:53,538 - parkIQ -INFO - Reset password test passed
+2021-06-04 10:06:58,078 - parkIQ -INFO - Clicked Forgot Password
+2021-06-04 10:06:58,750 - parkIQ -INFO - Cancelled password reset
+2021-06-04 10:06:58,762 - parkIQ -INFO - Password reset cancellation passed
+2021-06-04 10:07:01,902 - parkIQ -INFO - Clicked Forgot Password
+2021-06-04 10:07:01,911 - parkIQ -INFO - Entered invalid email
+2021-06-04 10:07:02,062 - parkIQ -INFO - Entered wrong email
+2021-06-04 10:19:47,779 - parkIQ -INFO - Clicked Forgot Password
+2021-06-04 10:19:48,175 - parkIQ -INFO - Entered invalid email
+2021-06-04 10:21:01,859 - parkIQ -INFO - Clicked Forgot Password
+2021-06-04 10:21:01,870 - parkIQ -INFO - Entered invalid email
+2021-06-04 10:23:18,308 - parkIQ -INFO - Clicked Forgot Password
+2021-06-04 10:23:18,321 - parkIQ -INFO - Entered invalid email
+2021-06-04 10:24:46,964 - parkIQ -INFO - Clicked Forgot Password
+2021-06-04 10:24:47,304 - parkIQ -INFO - Entered Email for reset
+2021-06-04 10:24:48,781 - parkIQ -INFO - Reset password test passed
+2021-06-04 10:24:52,182 - parkIQ -INFO - Clicked Forgot Password
+2021-06-04 10:24:52,759 - parkIQ -INFO - Cancelled password reset
+2021-06-04 10:24:52,773 - parkIQ -INFO - Password reset cancellation passed
+2021-06-04 10:24:55,705 - parkIQ -INFO - Clicked Forgot Password
+2021-06-04 10:24:55,707 - parkIQ -INFO - Entered invalid email
+2021-06-04 10:30:52,167 - parkIQ -INFO - Clicked Forgot Password
+2021-06-04 10:30:52,404 - parkIQ -INFO - Entered Email for reset
+2021-06-04 10:30:54,334 - parkIQ -INFO - Reset password test passed
+2021-06-04 10:30:58,851 - parkIQ -INFO - Clicked Forgot Password
+2021-06-04 10:30:59,454 - parkIQ -INFO - Cancelled password reset
+2021-06-04 10:30:59,468 - parkIQ -INFO - Password reset cancellation passed
+2021-06-04 10:31:05,110 - parkIQ -INFO - Clicked Forgot Password
+2021-06-04 10:31:05,236 - parkIQ -INFO - Entered invalid email
+2021-06-04 10:33:24,444 - parkIQ -INFO - Clicked Forgot Password
+2021-06-04 10:33:24,606 - parkIQ -INFO - Entered invalid email
+2021-06-04 11:07:30,240 - parkIQ -INFO - Clicked Forgot Password
+2021-06-04 11:07:30,575 - parkIQ -INFO - Entered invalid email
+2021-06-04 11:10:09,439 - parkIQ -INFO - Clicked Forgot Password
+2021-06-04 11:10:09,616 - parkIQ -INFO - Entered invalid email
+2021-06-04 11:37:05,105 - parkIQ -INFO - Clicked Forgot Password
+2021-06-04 11:37:05,594 - parkIQ -INFO - Entered invalid email
+2021-06-07 14:22:55,214 - parkIQ -INFO - Clicked Forgot Password
+2021-06-07 14:22:55,603 - parkIQ -INFO - Entered Email for reset
+2021-06-07 14:23:02,317 - parkIQ -INFO - Reset password test passed
+2021-06-07 14:23:17,196 - parkIQ -INFO - Clicked Forgot Password
+2021-06-07 14:23:18,247 - parkIQ -INFO - Cancelled password reset
+2021-06-07 14:23:18,257 - parkIQ -INFO - Password reset cancellation passed
+2021-06-07 14:23:25,219 - parkIQ -INFO - Clicked Forgot Password
+2021-06-07 14:30:22,725 - parkIQ -INFO - Clicked Forgot Password
+2021-06-07 14:30:23,465 - parkIQ -INFO - Entered Email for reset
+2021-06-07 14:30:30,189 - parkIQ -INFO - Clicked Forgot Password
+2021-06-07 14:30:30,444 - parkIQ -INFO - Cancelled password reset
+2021-06-07 14:30:33,279 - parkIQ -INFO - Clicked Forgot Password
+2021-06-07 14:30:33,786 - parkIQ -INFO - Entered invalid email
+2021-06-07 14:30:33,787 - parkIQ -INFO - Entered wrong email
+2021-06-07 14:57:14,717 - parkIQ -INFO - Clicked Forgot Password
+2021-06-07 14:57:15,045 - parkIQ -INFO - Entered Email for reset
+2021-06-07 14:57:16,557 - parkIQ -INFO - Reset password test passed
+2021-06-07 14:57:19,665 - parkIQ -INFO - Clicked Forgot Password
+2021-06-07 14:57:20,406 - parkIQ -INFO - Cancelled password reset
+2021-06-07 14:57:20,418 - parkIQ -INFO - Password reset cancellation passed
+2021-06-07 14:57:23,888 - parkIQ -INFO - Clicked Forgot Password
+2021-06-07 15:31:42,380 - parkIQ -INFO - Clicked Forgot Password
+2021-06-07 15:33:58,216 - parkIQ -INFO - Clicked Forgot Password
+2021-06-07 15:33:58,343 - parkIQ -INFO - Entered invalid email
+2021-06-07 19:58:20,867 - parkIQ -INFO - Clicked Forgot Password
+2021-06-07 19:58:21,164 - parkIQ -INFO - Entered invalid email
+2021-06-08 08:38:35,145 - parkIQ -INFO - Clicked Forgot Password
+2021-06-08 08:38:35,871 - parkIQ -INFO - Entered invalid email
+2021-06-08 08:44:10,443 - parkIQ -INFO - Clicked Forgot Password
+2021-06-08 08:44:10,587 - parkIQ -INFO - Entered invalid email
+2021-06-08 08:51:32,912 - parkIQ -INFO - Clicked Forgot Password
+2021-06-08 08:51:35,051 - parkIQ -INFO - Entered invalid email
+2021-06-10 00:53:51,009 - parkIQ -INFO - Successfully logged in
+2021-06-10 00:53:58,349 - parkIQ -INFO - Expanded drop down
+2021-06-10 00:53:58,573 - parkIQ -INFO - Clicked Super User Role
+2021-06-10 00:54:01,743 - parkIQ -INFO - Logo is displayed correctly
+2021-06-10 01:20:45,961 - parkIQ -INFO - Successfully logged in
+2021-06-10 01:20:52,037 - parkIQ -INFO - Expanded drop down
+2021-06-10 01:20:52,244 - parkIQ -INFO - Clicked Super User Role
+2021-06-10 01:20:55,372 - parkIQ -INFO - Logo is displayed correctly
+2021-06-10 01:20:55,502 - parkIQ -INFO - Page Title is displayed correctly
+2021-06-10 01:20:55,565 - parkIQ -INFO - Section Header is displayed correctly
+2021-06-10 01:20:55,631 - parkIQ -INFO - Create New User Link is displayed correctly
+2021-06-10 01:24:45,560 - parkIQ -INFO - Successfully logged in
+2021-06-10 01:24:51,265 - parkIQ -INFO - Expanded drop down
+2021-06-10 01:24:51,471 - parkIQ -INFO - Clicked Super User Role
+2021-06-10 01:24:54,562 - parkIQ -INFO - Logo is displayed correctly
+2021-06-10 01:24:54,658 - parkIQ -INFO - Page Title is displayed correctly
+2021-06-10 01:24:54,728 - parkIQ -INFO - Section Header is displayed correctly
+2021-06-10 01:24:54,807 - parkIQ -INFO - Create New User Link is displayed correctly
+2021-06-10 01:24:54,854 - parkIQ -INFO - Search Bar is displayed correctly
+2021-06-10 11:35:52,806 - parkIQ -INFO - Clicked Forgot Password link and form opens
+2021-06-10 11:35:53,108 - parkIQ -INFO - Forgot Password Title is displayed correctly
+2021-06-10 11:35:53,164 - parkIQ -INFO - Email text is missing
+2021-06-10 11:35:53,208 - parkIQ -INFO - Email field is displayed correctly
+2021-06-10 11:35:53,333 - parkIQ -INFO - Entered Email for reset
+2021-06-10 11:35:53,475 - parkIQ -INFO - Reset text is displayed correctly
+2021-06-10 11:35:58,917 - parkIQ -INFO - Reset password test passed
+2021-06-10 11:36:03,578 - parkIQ -INFO - Clicked Forgot Password
+2021-06-10 11:36:03,724 - parkIQ -INFO - Entered Email
+2021-06-10 11:36:03,791 - parkIQ -INFO - Cancel text is displayed correctly
+2021-06-10 11:36:04,538 - parkIQ -INFO - Cancelled password reset
+2021-06-10 11:36:04,554 - parkIQ -INFO - Password reset cancellation passed
+2021-06-10 11:36:08,976 - parkIQ -INFO - Clicked Forgot Password
+2021-06-10 11:36:09,047 - parkIQ -INFO - Become Member text is displayed correctly
+2021-06-10 11:36:09,139 - parkIQ -INFO - Sign Up text is displayed correctly
+2021-06-10 11:36:12,905 - parkIQ -INFO - Clicked Forgot Password
+2021-06-10 11:36:13,567 - parkIQ -INFO - Entered invalid email
+2021-06-10 13:05:45,131 - parkIQ -INFO - Clicked Forgot Password link and form opens
+2021-06-10 13:05:45,750 - parkIQ -INFO - Forgot Password Title is displayed correctly
+2021-06-10 13:05:45,827 - parkIQ -INFO - Email text is missing
+2021-06-10 13:05:45,877 - parkIQ -INFO - Email field is displayed correctly
+2021-06-10 13:05:46,045 - parkIQ -INFO - Entered Email for reset
+2021-06-10 13:05:46,509 - parkIQ -INFO - Reset text is missing
+2021-06-10 13:05:51,497 - parkIQ -INFO - Reset password test passed
+2021-06-10 13:13:21,690 - parkIQ -INFO - Clicked Forgot Password link and form opens
+2021-06-10 13:13:21,835 - parkIQ -INFO - Forgot Password Title is displayed correctly
+2021-06-10 13:13:21,927 - parkIQ -INFO - Email text is missing
+2021-06-10 13:13:21,993 - parkIQ -INFO - Email field is displayed correctly
+2021-06-10 13:13:22,163 - parkIQ -INFO - Entered Email for reset
+2021-06-10 13:13:22,279 - parkIQ -INFO - Reset text is missing
+2021-06-10 13:13:24,753 - parkIQ -INFO - Reset password test passed
+2021-06-10 13:13:33,141 - parkIQ -INFO - Clicked Forgot Password
+2021-06-10 13:13:33,555 - parkIQ -INFO - Entered Email
+2021-06-10 13:13:33,635 - parkIQ -INFO - Cancel text is displayed correctly
+2021-06-10 13:13:34,366 - parkIQ -INFO - Cancelled password reset
+2021-06-10 13:13:34,375 - parkIQ -INFO - Password reset cancellation passed
+2021-06-10 13:13:39,286 - parkIQ -INFO - Clicked Forgot Password
+2021-06-10 13:13:39,400 - parkIQ -INFO - Become Member text is displayed correctly
+2021-06-10 13:13:39,498 - parkIQ -INFO - Sign Up text is displayed correctly
+2021-06-10 13:15:06,811 - parkIQ -INFO - Clicked Forgot Password link and form opens
+2021-06-10 13:15:06,977 - parkIQ -INFO - Forgot Password Title is displayed correctly
+2021-06-10 13:15:07,126 - parkIQ -INFO - Email text is missing
+2021-06-10 13:15:07,175 - parkIQ -INFO - Email field is displayed correctly
+2021-06-10 13:15:07,334 - parkIQ -INFO - Entered Email for reset
+2021-06-10 13:15:07,437 - parkIQ -INFO - Reset text is missing
+2021-06-10 13:15:09,370 - parkIQ -INFO - Reset password test passed
+2021-06-10 13:15:14,355 - parkIQ -INFO - Clicked Forgot Password
+2021-06-10 13:15:14,530 - parkIQ -INFO - Entered Email
+2021-06-10 13:15:14,597 - parkIQ -INFO - Cancel text is displayed correctly
+2021-06-10 13:15:15,138 - parkIQ -INFO - Cancelled password reset
+2021-06-10 13:15:15,152 - parkIQ -INFO - Password reset cancellation passed
+2021-06-10 13:15:18,136 - parkIQ -INFO - Clicked Forgot Password
+2021-06-10 13:15:18,229 - parkIQ -INFO - Become Member text is displayed correctly
+2021-06-10 13:15:18,302 - parkIQ -INFO - Sign Up text is displayed correctly
+2021-06-10 16:00:40,043 - parkIQ -INFO - Clicked Forgot Password link and form opens
+2021-06-10 16:00:40,987 - parkIQ -INFO - Forgot Password Title is displayed correctly
+2021-06-10 16:00:41,047 - parkIQ -INFO - Email text is missing
+2021-06-10 16:00:41,092 - parkIQ -INFO - Email field is displayed correctly
+2021-06-10 16:00:41,449 - parkIQ -INFO - Entered Email for reset
+2021-06-10 16:00:41,731 - parkIQ -INFO - Reset text is missing
+2021-06-10 16:00:47,010 - parkIQ -INFO - Reset password test passed
+2021-06-10 16:00:52,500 - parkIQ -INFO - Clicked Forgot Password
+2021-06-10 16:00:52,681 - parkIQ -INFO - Entered Email
+2021-06-10 16:00:52,756 - parkIQ -INFO - Cancel text is displayed correctly
+2021-06-10 16:00:53,216 - parkIQ -INFO - Cancelled password reset
+2021-06-10 16:00:53,232 - parkIQ -INFO - Password reset cancellation passed
+2021-06-10 16:00:57,426 - parkIQ -INFO - Clicked Forgot Password
+2021-06-10 16:00:57,521 - parkIQ -INFO - Become Member text is displayed correctly
+2021-06-10 16:00:57,631 - parkIQ -INFO - Sign Up text is displayed correctly. Text underlined: underline solid rgb(60, 114, 175)
+
+2021-06-10 16:06:47,741 - parkIQ -INFO - Clicked Forgot Password link and form opens
+2021-06-10 16:06:48,155 - parkIQ -INFO - Forgot Password Title is displayed correctly
+2021-06-10 16:06:48,213 - parkIQ -INFO - Email text is missing
+2021-06-10 16:06:48,252 - parkIQ -INFO - Email field is displayed correctly
+2021-06-10 16:06:48,501 - parkIQ -INFO - Entered Email for reset
+2021-06-10 16:06:48,807 - parkIQ -INFO - Reset text is missing
+2021-06-10 16:06:51,386 - parkIQ -INFO - Reset password test passed
+2021-06-10 16:06:57,155 - parkIQ -INFO - Clicked Forgot Password
+2021-06-10 16:06:57,323 - parkIQ -INFO - Entered Email
+2021-06-10 16:06:57,402 - parkIQ -INFO - Cancel text is displayed correctly
+2021-06-10 16:06:57,857 - parkIQ -INFO - Cancelled password reset
+2021-06-10 16:06:57,871 - parkIQ -INFO - Password reset cancellation passed
+2021-06-10 16:07:02,673 - parkIQ -INFO - Clicked Forgot Password
+2021-06-10 16:07:02,772 - parkIQ -INFO - Become Member text is displayed correctly
+2021-06-10 16:07:02,920 - parkIQ -INFO - Sign Up text is displayed correctly. Text underlined: underline solid rgb(60, 114, 175)Text color:#3c72af\n
+2021-06-10 16:11:38,485 - parkIQ -INFO - Clicked Forgot Password link and form opens
+2021-06-10 16:11:38,614 - parkIQ -INFO - Forgot Password Title is displayed correctly
+2021-06-10 16:11:38,695 - parkIQ -INFO - Email text is missing
+2021-06-10 16:11:38,779 - parkIQ -INFO - Email field is displayed correctly
+2021-06-10 16:11:38,924 - parkIQ -INFO - Entered Email for reset
+2021-06-10 16:11:39,076 - parkIQ -INFO - Reset text is missing
+2021-06-10 16:11:40,602 - parkIQ -INFO - Reset password test passed
+2021-06-10 16:11:46,073 - parkIQ -INFO - Clicked Forgot Password
+2021-06-10 16:11:46,242 - parkIQ -INFO - Entered Email
+2021-06-10 16:11:46,309 - parkIQ -INFO - Cancel text is displayed correctly
+2021-06-10 16:11:46,731 - parkIQ -INFO - Cancelled password reset
+2021-06-10 16:11:46,748 - parkIQ -INFO - Password reset cancellation passed: User is navigated to sign-in form
+2021-06-10 16:11:49,864 - parkIQ -INFO - Clicked Forgot Password
+2021-06-10 16:11:49,949 - parkIQ -INFO - Become Member text is displayed correctly
+2021-06-10 16:11:50,050 - parkIQ -INFO - Sign Up text is displayed correctly. Text underlined: underline solid rgb(60, 114, 175)Text color:#3c72af\n
+2021-06-10 16:18:02,720 - parkIQ -INFO - Clicked Forgot Password link and form opens
+2021-06-10 16:18:02,846 - parkIQ -INFO - Forgot Password Title is displayed correctly
+2021-06-10 16:18:02,943 - parkIQ -INFO - Email text is missing
+2021-06-10 16:18:02,987 - parkIQ -INFO - Email field is displayed correctly
+2021-06-10 16:18:03,167 - parkIQ -INFO - Entered Email for reset
+2021-06-10 16:18:03,287 - parkIQ -INFO - Reset text is missing
+2021-06-10 16:18:05,914 - parkIQ -INFO - Reset password test passed
+2021-06-10 16:18:10,402 - parkIQ -INFO - Clicked Forgot Password
+2021-06-10 16:18:10,590 - parkIQ -INFO - Entered Email
+2021-06-10 16:18:10,697 - parkIQ -INFO - Cancel text is displayed correctly. Text color:#ffffff\n
+2021-06-10 16:18:11,138 - parkIQ -INFO - Cancelled password reset
+2021-06-10 16:18:11,152 - parkIQ -INFO - Password reset cancellation passed: User is navigated to sign-in form
+2021-06-10 16:18:14,203 - parkIQ -INFO - Clicked Forgot Password
+2021-06-10 16:18:14,285 - parkIQ -INFO - Become Member text is displayed correctly
+2021-06-10 16:18:14,388 - parkIQ -INFO - Sign Up text is displayed correctly. Text underlined: underline solid rgb(60, 114, 175)Text color:#3c72af\n
+2021-06-10 16:26:51,196 - parkIQ -INFO - Clicked Forgot Password link and form opens
+2021-06-10 16:26:51,378 - parkIQ -INFO - Forgot Password Title is displayed correctly
+2021-06-10 16:26:51,487 - parkIQ -INFO - Email text is missing
+2021-06-10 16:26:51,554 - parkIQ -INFO - Email field is displayed correctly
+2021-06-10 16:26:51,705 - parkIQ -INFO - Entered Email for reset
+2021-06-10 16:26:51,840 - parkIQ -INFO - Reset text is displayed correctly. Text Colour: #ffffff
+
+2021-06-10 16:26:54,036 - parkIQ -INFO - Reset password test passed
+2021-06-10 16:26:58,903 - parkIQ -INFO - Clicked Forgot Password
+2021-06-10 16:26:59,087 - parkIQ -INFO - Entered Email
+2021-06-10 16:26:59,173 - parkIQ -INFO - Cancel text is displayed correctly. Text color:#ffffffBackground Color:#000000
+
+2021-06-10 16:26:59,620 - parkIQ -INFO - Cancelled password reset
+2021-06-10 16:26:59,631 - parkIQ -INFO - Password reset cancellation passed: User is navigated to sign-in form
+2021-06-10 16:27:04,551 - parkIQ -INFO - Clicked Forgot Password
+2021-06-10 16:27:04,645 - parkIQ -INFO - Become Member text is displayed correctly
+2021-06-10 16:27:04,778 - parkIQ -INFO - Sign Up text is displayed correctly. Text underlined: underline solid rgb(60, 114, 175)Text color:#3c72af
+
+2021-06-10 16:36:09,891 - parkIQ -INFO - Clicked Forgot Password link and form opens
+2021-06-10 16:36:10,013 - parkIQ -INFO - Forgot Password Title is displayed correctly
+2021-06-10 16:36:10,096 - parkIQ -INFO - Email text is missing
+2021-06-10 16:36:10,147 - parkIQ -INFO - Email field is displayed correctly
+
+2021-06-10 16:36:10,361 - parkIQ -INFO - Entered Email for reset
+2021-06-10 16:36:10,460 - parkIQ -INFO - Reset text is displayed correctly. Text Colour: #ffffff  Background Color:#000000
+2021-06-10 16:36:11,727 - parkIQ -INFO - Reset password test passed
+
+2021-06-10 16:36:17,207 - parkIQ -INFO - Clicked Forgot Password
+2021-06-10 16:36:17,393 - parkIQ -INFO - Entered Email
+2021-06-10 16:36:17,480 - parkIQ -INFO - Cancel text is displayed correctly. Text color:#ffffff  Background Color:#000000
+
+2021-06-10 16:36:17,891 - parkIQ -INFO - Cancelled password reset
+2021-06-10 16:36:17,906 - parkIQ -INFO - Password reset cancellation passed: User is navigated to sign-in form
+
+2021-06-10 16:36:22,052 - parkIQ -INFO - Clicked Forgot Password
+2021-06-10 16:36:22,137 - parkIQ -INFO - Become Member text is displayed correctly
+2021-06-10 16:36:22,246 - parkIQ -INFO - Sign Up text is displayed correctly. Text underlined: underline solid rgb(60, 114, 175)Text color:#3c72af
+
+2021-06-10 16:51:37,543 - parkIQ -INFO - Successfully logged in
+2021-06-10 16:51:43,640 - parkIQ -INFO - Expanded drop down
+2021-06-10 16:51:43,710 - parkIQ -INFO - Clicked Super User Role
+2021-06-10 16:51:43,818 - parkIQ -INFO - Clicked select button
+2021-06-10 16:51:43,874 - parkIQ -INFO - User navigated to super user role form
+
+2021-06-10 16:51:47,180 - parkIQ -INFO - Logo is displayed correctly
+2021-06-10 16:51:47,281 - parkIQ -INFO - Page Title is displayed correctly
+2021-06-10 16:51:47,340 - parkIQ -INFO - Section Header is displayed correctly
+2021-06-10 16:51:47,444 - parkIQ -INFO - Create New User Link is displayed correctly
+2021-06-10 16:51:47,501 - parkIQ -INFO - Search Bar is displayed correctly
+2021-06-10 21:46:33,454 - parkIQ -INFO - Clicked Forgot Password link and form opens
+2021-06-10 21:46:33,862 - parkIQ -INFO - Forgot Password Title is displayed correctly
+2021-06-10 21:46:34,001 - parkIQ -INFO - Email text is missing
+2021-06-10 21:46:34,066 - parkIQ -INFO - Email field is displayed correctly
+
+2021-06-10 21:46:34,886 - parkIQ -INFO - Entered Email for reset
+2021-06-10 21:46:35,120 - parkIQ -INFO - Reset text is displayed correctly. Text Colour: #ffffff  Background Color:#000000
+2021-06-10 21:46:41,735 - parkIQ -INFO - Reset password test passed
+
+2021-06-10 21:46:50,993 - parkIQ -INFO - Clicked Forgot Password
+2021-06-10 21:46:51,349 - parkIQ -INFO - Entered Email
+2021-06-10 21:46:51,494 - parkIQ -INFO - Cancel text is displayed correctly. Text color:#ffffff  Background Color:#000000
+2021-06-10 21:46:51,995 - parkIQ -INFO - Cancelled password reset
+2021-06-10 21:46:52,084 - parkIQ -INFO - Password reset cancellation passed: User is navigated to sign-in form
+
+2021-06-10 21:46:58,949 - parkIQ -INFO - Clicked Forgot Password
+2021-06-10 21:46:59,131 - parkIQ -INFO - Become Member text is displayed correctly
+2021-06-10 21:46:59,355 - parkIQ -INFO - Sign Up text is displayed correctly. Text underlined: underline solid rgb(60, 114, 175)Text color:#3c72af
+
+2021-06-10 22:10:49,517 - parkIQ -INFO - Clicked Forgot Password link and form opens
+2021-06-10 22:10:49,796 - parkIQ -INFO - Forgot Password Title is displayed correctly
+2021-06-10 22:10:49,893 - parkIQ -INFO - Email text is missing
+2021-06-10 22:10:49,952 - parkIQ -INFO - Email field is displayed correctly
+
+2021-06-10 22:10:50,538 - parkIQ -INFO - Entered Email for reset
+2021-06-10 22:10:50,635 - parkIQ -INFO - Reset text is displayed correctly. Text Colour: #ffffff  Background Color:#000000
+2021-06-10 22:10:52,652 - parkIQ -INFO - Reset password test passed
+
+2021-06-10 22:11:01,385 - parkIQ -INFO - Clicked Forgot Password
+2021-06-10 22:11:01,583 - parkIQ -INFO - Entered Email
+2021-06-10 22:11:01,702 - parkIQ -INFO - Cancel text is displayed correctly. Text color:#ffffff  Background Color:#000000
+2021-06-10 22:11:02,282 - parkIQ -INFO - Cancelled password reset
+2021-06-10 22:11:02,316 - parkIQ -INFO - Password reset cancellation passed: User is navigated to sign-in form
+
+2021-06-10 22:11:08,433 - parkIQ -INFO - Clicked Forgot Password
+2021-06-10 22:11:08,542 - parkIQ -INFO - Become Member text is displayed correctly
+2021-06-10 22:11:08,667 - parkIQ -INFO - Sign Up text is displayed correctly. Text underlined: underline solid rgb(60, 114, 175)Text color:#3c72af
+
+2021-06-10 23:47:04,700 - parkIQ -INFO - Logged in Successfully as Super User
+2021-06-10 23:47:12,244 - parkIQ -INFO - Operation Mode Selection Mode Displayed
+2021-06-10 23:47:12,345 - parkIQ -INFO - Super User Portal Option Selected
+2021-06-10 23:47:12,656 - parkIQ -INFO - Select Button Clicked
+2021-06-10 23:47:12,660 - parkIQ -INFO - Entered Super User Portal Page
+2021-06-10 23:47:16,828 - parkIQ -INFO - Create New User link clicked, redirecting to User Information Page
+2021-06-10 23:47:16,982 - parkIQ -INFO - Create New User Form is Open
+2021-06-10 23:47:16,983 - parkIQ -INFO - Page Header 'User Information' is displayed
+2021-06-10 23:47:17,494 - parkIQ -INFO - Page Title 'Create New User' is displayed correctly
+2021-06-10 23:47:17,551 - parkIQ -INFO - Form Title 'User Information' is displayed
+2021-06-10 23:47:17,611 - parkIQ -INFO - First Name Text Field is Displayed and is Clickable
+2021-06-10 23:47:17,659 - parkIQ -INFO - Last Name Text Field is Displayed and is Clickable
+2021-06-10 23:47:17,709 - parkIQ -INFO - Email Text Field is Displayed and is Clickable
+2021-06-10 23:47:19,672 - parkIQ -INFO - Entered vaild email: 'sposterick@parkindustries.com'
+2021-06-10 23:47:19,673 - parkIQ -INFO - Email 'sposterick@parkindustries.com' is accepted as a valid email
+2021-06-10 23:47:19,862 - parkIQ -INFO - Entered invalid email: 'asfhwohb'
+2021-06-10 23:47:19,864 - parkIQ -INFO - Email 'asfhwohb' is an invalid email
+2021-06-10 23:47:19,926 - parkIQ -INFO - Phone Number  is Displayed and is Clickable
+2021-06-10 23:47:20,328 - parkIQ -INFO - Entered Valid Phone Number: '1111111111'
+2021-06-10 23:47:20,329 - parkIQ -INFO - Phone number '1111111111' is a valid number
+2021-06-10 23:47:20,524 - parkIQ -INFO - Entered Invalid Phone Number: '123'
+2021-06-10 23:47:20,524 - parkIQ -INFO - Phone number '123' is an invalid number
+2021-06-10 23:47:20,582 - parkIQ -INFO - Cancel Button is Displayed and is Clickable
+2021-06-10 23:47:24,177 - parkIQ -INFO - Continue Button is Displayed but is Disabled. Please Fill in Fields
+2021-06-10 23:47:24,226 - parkIQ -INFO - Continue Button Background Colour is: '#686868'
+2021-06-10 23:47:24,328 - parkIQ -INFO - Cancel Button Clicked
+2021-06-10 23:47:24,389 - parkIQ -INFO - Cancel Button Functions as Expected... redirects back to 'Users Form'
+2021-06-10 23:47:26,829 - parkIQ -INFO - Create New User link clicked, redirecting to User Information Page
+2021-06-10 23:47:26,995 - parkIQ -INFO - Entered First Name: 'Sarah'
+2021-06-10 23:47:27,162 - parkIQ -INFO - Entered Last Name: 'Hulio'
+2021-06-10 23:47:27,462 - parkIQ -INFO - Entered Email: 'sposterick@parkindustries.com'
+2021-06-10 23:47:27,691 - parkIQ -INFO - Entered Phone Number: '1111111111'
+2021-06-10 23:47:27,739 - parkIQ -INFO - Continue Button is enabled and is clickable
+2021-06-10 23:47:28,065 - parkIQ -INFO - Continue Button clicked
+2021-06-10 23:47:28,116 - parkIQ -INFO - Continue Button Functions as Expected... redirects back to 'Users Form'
+2021-06-10 23:55:02,539 - parkIQ -INFO - Logged in Successfully as Super User
+2021-06-10 23:55:09,233 - parkIQ -INFO - Operation Mode Selection Mode Displayed
+2021-06-10 23:55:09,364 - parkIQ -INFO - Super User Portal Option Selected
+2021-06-10 23:55:09,461 - parkIQ -INFO - Select Button Clicked
+2021-06-10 23:55:09,462 - parkIQ -INFO - Entered Super User Portal Page
+2021-06-10 23:55:11,930 - parkIQ -INFO - Create New User link clicked, redirecting to User Information Page
+2021-06-10 23:55:12,100 - parkIQ -INFO - Create New User Form is Open
+2021-06-10 23:55:12,101 - parkIQ -INFO - Page Header 'User Information' is displayed
+2021-06-10 23:55:12,256 - parkIQ -INFO - Page Title 'Create New User' is displayed correctly
+2021-06-10 23:55:12,323 - parkIQ -INFO - Form Title 'User Information' is displayed
+2021-06-10 23:55:12,389 - parkIQ -INFO - First Name Text Field is Displayed and is Clickable
+2021-06-10 23:55:12,447 - parkIQ -INFO - Last Name Text Field is Displayed and is Clickable
+2021-06-10 23:55:12,492 - parkIQ -INFO - Email Text Field is Displayed and is Clickable
+2021-06-10 23:55:12,746 - parkIQ -INFO - Entered vaild email: 'sposterick@parkindustries.com'
+2021-06-10 23:55:12,746 - parkIQ -INFO - Email 'sposterick@parkindustries.com' is accepted as a valid email
+2021-06-10 23:55:12,972 - parkIQ -INFO - Entered invalid email: 'asfhwohb'
+2021-06-10 23:55:12,975 - parkIQ -INFO - Email 'asfhwohb' is an invalid email
+2021-06-10 23:55:13,072 - parkIQ -INFO - Phone Number  is Displayed and is Clickable
+2021-06-10 23:55:13,303 - parkIQ -INFO - Entered Valid Phone Number: '1111111111'
+2021-06-10 23:55:13,303 - parkIQ -INFO - Phone number '1111111111' is a valid number
+2021-06-10 23:55:13,475 - parkIQ -INFO - Entered Invalid Phone Number: '123'
+2021-06-10 23:55:13,476 - parkIQ -INFO - Phone number '123' is an invalid number
+2021-06-10 23:55:13,526 - parkIQ -INFO - Cancel Button is Displayed and is Clickable
+2021-06-10 23:55:16,878 - parkIQ -INFO - Continue Button is Displayed but is Disabled. Please Fill in Fields
+2021-06-10 23:55:16,904 - parkIQ -INFO - Continue Button Background Colour is: '#686868'
+2021-06-10 23:55:16,987 - parkIQ -INFO - Cancel Button Clicked
+2021-06-10 23:55:17,042 - parkIQ -INFO - Cancel Button Functions as Expected... redirects back to 'Users Form'
+2021-06-10 23:55:19,036 - parkIQ -INFO - Create New User link clicked, redirecting to User Information Page
+2021-06-10 23:55:19,153 - parkIQ -INFO - Entered First Name: 'Sarah'
+2021-06-10 23:55:19,273 - parkIQ -INFO - Entered Last Name: 'Hulio'
+2021-06-10 23:55:19,510 - parkIQ -INFO - Entered Email: 'sposterick@parkindustries.com'
+2021-06-10 23:55:19,674 - parkIQ -INFO - Entered Phone Number: '1111111111'
+2021-06-10 23:55:19,714 - parkIQ -INFO - Continue Button is enabled and is clickable
+2021-06-10 23:55:19,794 - parkIQ -INFO - Continue Button clicked
+2021-06-10 23:55:19,841 - parkIQ -INFO - Continue Button Functions as Expected... redirects back to 'Users Form'
+2021-06-11 00:05:41,291 - parkIQ -INFO - Successfully logged in
+2021-06-11 00:05:49,119 - parkIQ -INFO - Expanded drop down
+2021-06-11 00:05:49,223 - parkIQ -INFO - Clicked super user role
+2021-06-11 00:05:49,348 - parkIQ -INFO - Clicked select button
+2021-06-11 00:05:49,490 - parkIQ -INFO - User navigated to super user role form
+
+2021-06-11 00:05:52,713 - parkIQ -INFO - Logo is displayed correctly
+2021-06-11 00:05:52,916 - parkIQ -INFO - Create Customer Service User title is displayed correctly
+2021-06-11 00:05:52,993 - parkIQ -INFO - Users section header is displayed correctly
+2021-06-11 00:05:53,176 - parkIQ -INFO - Create New User link is displayed correctly.Text underlined: none solid rgb(38, 82, 175)Text color:#2652af
+2021-06-11 00:05:53,215 - parkIQ -INFO - Search bar is displayed correctly
+2021-06-11 00:05:53,255 - parkIQ -INFO - Sort By drop down is displayed correctly
+2021-06-11 00:06:54,573 - parkIQ -INFO - Successfully logged in
+2021-06-11 00:07:01,521 - parkIQ -INFO - Expanded drop down
+2021-06-11 00:07:01,607 - parkIQ -INFO - Clicked super user role
+2021-06-11 00:07:01,713 - parkIQ -INFO - Clicked select button
+2021-06-11 00:07:01,723 - parkIQ -INFO - User navigated to super user role form
+
+2021-06-11 00:07:04,811 - parkIQ -INFO - Logo is displayed correctly
+2021-06-11 00:07:04,893 - parkIQ -INFO - Create Customer Service User title is displayed correctly
+2021-06-11 00:07:04,969 - parkIQ -INFO - Users section header is displayed correctly
+2021-06-11 00:07:05,054 - parkIQ -INFO - Create New User link is displayed correctly.Text underlined: none solid rgb(38, 82, 175)Text color:#2652af
+2021-06-11 00:07:05,108 - parkIQ -INFO - Search bar is displayed correctly
+2021-06-11 00:07:05,168 - parkIQ -INFO - Sort By drop down is displayed correctly

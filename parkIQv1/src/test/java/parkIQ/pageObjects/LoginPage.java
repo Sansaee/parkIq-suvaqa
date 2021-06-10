@@ -1,6 +1,5 @@
 package parkIQ.pageObjects;
 
-import org.openqa.selenium.By;
 //import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
@@ -87,5 +86,12 @@ public class LoginPage {
 		public void confirmParkIQ()
 		{
 			imgParkIQ.isDisplayed();
+		}
+		
+		public void logIn(String user, String password)
+		{
+		 txtEmail.sendKeys(user);
+		 txtPassword.sendKeys(password);
+		 btnLogin.click();
 		}
 }
