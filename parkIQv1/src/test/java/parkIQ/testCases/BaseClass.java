@@ -38,6 +38,8 @@ public class BaseClass {
 	public String baseURL=readConfig.getURL();
 	public String email=readConfig.getEmail();
 	public String password =readConfig.getPassword();
+	String invalidemail = readConfig.getInvalidEmail();
+	String invalidpassword = readConfig.getInvalidPassword();
 	public String geckodriverPath =readConfig.getFirefoxPath();
 	public String chromedriverPath =readConfig.getChromePath();
 	public String msedgedriverPath = readConfig.getMsEdgePath();
