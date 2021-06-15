@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="7" passed="6" failed="1" skipped="0">
+<testng-results ignored="0" total="8" passed="8" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2021-06-10T12:06:24Z" name="ParkIQv1" finished-at="2021-06-10T12:07:05Z" duration-ms="41355">
+  <suite started-at="2021-06-15T10:17:56 FJT" name="ParkIQv1" finished-at="2021-06-15T10:18:46 FJT" duration-ms="50123">
     <groups>
     </groups>
-    <test started-at="2021-06-10T12:06:24Z" name="Park IQ System Test" finished-at="2021-06-10T12:07:05Z" duration-ms="41355">
-      <class name="parkIQ.testCases.TC_SuperUser_001">
-        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:parkIQ.testCases.TC_SuperUser_001@4e3958e7]" started-at="2021-06-10T12:06:25Z" name="setup" finished-at="2021-06-10T12:06:40Z" duration-ms="15112" status="PASS">
+    <test started-at="2021-06-15T10:17:56 FJT" name="Park IQ System Test" finished-at="2021-06-15T10:18:46 FJT" duration-ms="50123">
+      <class name="parkIQ.testCases.TC_LoginTest_001">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:parkIQ.testCases.TC_LoginTest_001@243c4f91]" started-at="2021-06-15T10:17:56 FJT" name="setup" finished-at="2021-06-15T10:18:17 FJT" duration-ms="20243" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -18,82 +18,43 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="setupSuperUserRole()[pri:0, instance:parkIQ.testCases.TC_SuperUser_001@4e3958e7]" started-at="2021-06-10T12:06:40Z" name="setupSuperUserRole" finished-at="2021-06-10T12:07:04Z" duration-ms="24574" status="PASS">
+        <test-method signature="validationTest1()[pri:0, instance:parkIQ.testCases.TC_LoginTest_001@243c4f91]" started-at="2021-06-15T10:18:17 FJT" name="validationTest1" finished-at="2021-06-15T10:18:35 FJT" duration-ms="18435" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- setupSuperUserRole -->
-        <test-method signature="checkLogo()[pri:1, instance:parkIQ.testCases.TC_SuperUser_001@4e3958e7]" started-at="2021-06-10T12:07:04Z" name="checkLogo" finished-at="2021-06-10T12:07:04Z" duration-ms="67" status="PASS">
+        </test-method> <!-- validationTest1 -->
+        <test-method signature="validationTest2()[pri:1, instance:parkIQ.testCases.TC_LoginTest_001@243c4f91]" started-at="2021-06-15T10:18:35 FJT" name="validationTest2" finished-at="2021-06-15T10:18:39 FJT" duration-ms="3735" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- checkLogo -->
-        <test-method signature="checkTitles()[pri:2, instance:parkIQ.testCases.TC_SuperUser_001@4e3958e7]" started-at="2021-06-10T12:07:04Z" name="checkTitles" finished-at="2021-06-10T12:07:04Z" duration-ms="79" status="PASS">
+        </test-method> <!-- validationTest2 -->
+        <test-method signature="validationTest3()[pri:2, instance:parkIQ.testCases.TC_LoginTest_001@243c4f91]" started-at="2021-06-15T10:18:39 FJT" name="validationTest3" finished-at="2021-06-15T10:18:42 FJT" duration-ms="2818" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- checkTitles -->
-        <test-method signature="checkSectionHeader()[pri:3, instance:parkIQ.testCases.TC_SuperUser_001@4e3958e7]" started-at="2021-06-10T12:07:04Z" name="checkSectionHeader" finished-at="2021-06-10T12:07:04Z" duration-ms="73" status="PASS">
+        </test-method> <!-- validationTest3 -->
+        <test-method signature="loginDetailsTest1()[pri:3, instance:parkIQ.testCases.TC_LoginTest_001@243c4f91]" started-at="2021-06-15T10:18:42 FJT" name="loginDetailsTest1" finished-at="2021-06-15T10:18:44 FJT" duration-ms="2115" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- checkSectionHeader -->
-        <test-method signature="checkCreateNewUserLink()[pri:4, instance:parkIQ.testCases.TC_SuperUser_001@4e3958e7]" started-at="2021-06-10T12:07:04Z" name="checkCreateNewUserLink" finished-at="2021-06-10T12:07:05Z" duration-ms="85" status="PASS">
+        </test-method> <!-- loginDetailsTest1 -->
+        <test-method signature="loginDetailsTest2()[pri:4, instance:parkIQ.testCases.TC_LoginTest_001@243c4f91]" started-at="2021-06-15T10:18:44 FJT" name="loginDetailsTest2" finished-at="2021-06-15T10:18:44 FJT" duration-ms="39" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- checkCreateNewUserLink -->
-        <test-method signature="searchFunctionality()[pri:5, instance:parkIQ.testCases.TC_SuperUser_001@4e3958e7]" started-at="2021-06-10T12:07:05Z" name="searchFunctionality" finished-at="2021-06-10T12:07:05Z" duration-ms="52" status="PASS">
+        </test-method> <!-- loginDetailsTest2 -->
+        <test-method signature="loginDetailsTest3()[pri:5, instance:parkIQ.testCases.TC_LoginTest_001@243c4f91]" started-at="2021-06-15T10:18:44 FJT" name="loginDetailsTest3" finished-at="2021-06-15T10:18:44 FJT" duration-ms="23" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- searchFunctionality -->
-        <test-method signature="sortByDropDown()[pri:6, instance:parkIQ.testCases.TC_SuperUser_001@4e3958e7]" started-at="2021-06-10T12:07:05Z" name="sortByDropDown" finished-at="2021-06-10T12:07:05Z" duration-ms="75" status="FAIL">
-          <exception class="org.openqa.selenium.support.ui.UnexpectedTagNameException">
-            <message>
-              <![CDATA[Element should have been "select" but was "div"
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'DESKTOP-C9T0B5A', ip: '192.168.149.21', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '15.0.2'
-Driver info: driver.version: unknown]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.support.ui.UnexpectedTagNameException: Element should have been "select" but was "div"
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'DESKTOP-C9T0B5A', ip: '192.168.149.21', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '15.0.2'
-Driver info: driver.version: unknown
-at org.openqa.selenium.support.ui.Select.<init>(Select.java:48)
-at parkIQ.pageObjects.SuperUserRole.validateValueDropDown(SuperUserRole.java:196)
-at parkIQ.testCases.TC_SuperUser_001.sortByDropDown(TC_SuperUser_001.java:166)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:564)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
-at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
-at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
-at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
-at org.testng.TestRunner.privateRun(TestRunner.java:648)
-at org.testng.TestRunner.run(TestRunner.java:505)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
-at org.testng.SuiteRunner.run(SuiteRunner.java:364)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
-at org.testng.TestNG.runSuites(TestNG.java:1049)
-at org.testng.TestNG.run(TestNG.java:1017)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.support.ui.UnexpectedTagNameException -->
+        </test-method> <!-- loginDetailsTest3 -->
+        <test-method signature="loginDetailsTest4()[pri:6, instance:parkIQ.testCases.TC_LoginTest_001@243c4f91]" started-at="2021-06-15T10:18:44 FJT" name="loginDetailsTest4" finished-at="2021-06-15T10:18:44 FJT" duration-ms="403" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- sortByDropDown -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:parkIQ.testCases.TC_SuperUser_001@4e3958e7]" started-at="2021-06-10T12:07:05Z" name="tearDown" finished-at="2021-06-10T12:07:05Z" duration-ms="798" status="PASS">
+        </test-method> <!-- loginDetailsTest4 -->
+        <test-method signature="loginTest()[pri:7, instance:parkIQ.testCases.TC_LoginTest_001@243c4f91]" started-at="2021-06-15T10:18:44 FJT" name="loginTest" finished-at="2021-06-15T10:18:46 FJT" duration-ms="1763" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:parkIQ.testCases.TC_LoginTest_001@243c4f91]" started-at="2021-06-15T10:18:46 FJT" name="tearDown" finished-at="2021-06-15T10:18:46 FJT" duration-ms="154" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- parkIQ.testCases.TC_SuperUser_001 -->
+      </class> <!-- parkIQ.testCases.TC_LoginTest_001 -->
     </test> <!-- Park IQ System Test -->
   </suite> <!-- ParkIQv1 -->
 </testng-results>

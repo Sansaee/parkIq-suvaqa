@@ -1,5 +1,5 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml">
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "https://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="https://www.w3.org/1999/xhtml">
 <head>
 <meta http-equiv="content-type" content="text/html; charset=UTF-8"/>
 <title>TestNG Report</title>
@@ -7,25 +7,19 @@
 </head>
 <body>
 <table>
-<tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr>
-<tr><th colspan="7">ParkIQv1</th></tr>
-<tr><td><a href="#t0">Park IQ System Test</a></td><td class="num">6</td><td class="num">0</td><td class="num attn">1</td><td class="num">41,355</td><td></td><td></td></tr>
+<tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Retried</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr>
+<tr><th colspan="8">ParkIQv1</th></tr>
+<tr><td><a href="#t0">Park IQ System Test</a></td><td class="num">8</td><td class="num">0</td><td class="num">0</td><td class="num">0</td><td class="num">50,123</td><td></td><td></td></tr>
 </table>
-<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">ParkIQv1</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Park IQ System Test &#8212; failed</th></tr><tr class="failedeven"><td rowspan="1">parkIQ.testCases.TC_SuperUser_001</td><td><a href="#m0">sortByDropDown</a></td><td rowspan="1">1623326825111</td><td rowspan="1">75</td></tr><tr><th colspan="4">Park IQ System Test &#8212; passed</th></tr><tr class="passedeven"><td rowspan="6">parkIQ.testCases.TC_SuperUser_001</td><td><a href="#m1">checkCreateNewUserLink</a></td><td rowspan="1">1623326824970</td><td rowspan="1">85</td></tr><tr class="passedeven"><td><a href="#m2">checkLogo</a></td><td rowspan="1">1623326824745</td><td rowspan="1">67</td></tr><tr class="passedeven"><td><a href="#m3">checkSectionHeader</a></td><td rowspan="1">1623326824896</td><td rowspan="1">73</td></tr><tr class="passedeven"><td><a href="#m4">checkTitles</a></td><td rowspan="1">1623326824815</td><td rowspan="1">79</td></tr><tr class="passedeven"><td><a href="#m5">searchFunctionality</a></td><td rowspan="1">1623326825057</td><td rowspan="1">52</td></tr><tr class="passedeven"><td><a href="#m6">setupSuperUserRole</a></td><td rowspan="1">1623326800155</td><td rowspan="1">24574</td></tr></tbody>
+<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">ParkIQv1</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Park IQ System Test &#8212; passed</th></tr><tr class="passedeven"><td rowspan="8">parkIQ.testCases.TC_LoginTest_001</td><td><a href="#m0">loginDetailsTest1</a></td><td rowspan="1">1623709122135</td><td rowspan="1">2115</td></tr><tr class="passedeven"><td><a href="#m1">loginDetailsTest2</a></td><td rowspan="1">1623709124251</td><td rowspan="1">39</td></tr><tr class="passedeven"><td><a href="#m2">loginDetailsTest3</a></td><td rowspan="1">1623709124292</td><td rowspan="1">23</td></tr><tr class="passedeven"><td><a href="#m3">loginDetailsTest4</a></td><td rowspan="1">1623709124316</td><td rowspan="1">403</td></tr><tr class="passedeven"><td><a href="#m4">loginTest</a></td><td rowspan="1">1623709124721</td><td rowspan="1">1763</td></tr><tr class="passedeven"><td><a href="#m5">validationTest1</a></td><td rowspan="1">1623709097104</td><td rowspan="1">18435</td></tr><tr class="passedeven"><td><a href="#m6">validationTest2</a></td><td rowspan="1">1623709115579</td><td rowspan="1">3735</td></tr><tr class="passedeven"><td><a href="#m7">validationTest3</a></td><td rowspan="1">1623709119316</td><td rowspan="1">2818</td></tr></tbody>
 </table>
-<h2>Park IQ System Test</h2><h3 id="m0">parkIQ.testCases.TC_SuperUser_001#sortByDropDown</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.support.ui.UnexpectedTagNameException: Element should have been &quot;select&quot; but was &quot;div&quot;
-Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
-System info: host: &apos;DESKTOP-C9T0B5A&apos;, ip: &apos;192.168.149.21&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;15.0.2&apos;
-Driver info: driver.version: unknown
-	at org.openqa.selenium.support.ui.Select.&lt;init&gt;(Select.java:48)
-	at parkIQ.pageObjects.SuperUserRole.validateValueDropDown(SuperUserRole.java:196)
-	at parkIQ.testCases.TC_SuperUser_001.sortByDropDown(TC_SuperUser_001.java:166)
-... Removed 25 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m1">parkIQ.testCases.TC_SuperUser_001#checkCreateNewUserLink</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m2">parkIQ.testCases.TC_SuperUser_001#checkLogo</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m3">parkIQ.testCases.TC_SuperUser_001#checkSectionHeader</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m4">parkIQ.testCases.TC_SuperUser_001#checkTitles</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m5">parkIQ.testCases.TC_SuperUser_001#searchFunctionality</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m6">parkIQ.testCases.TC_SuperUser_001#setupSuperUserRole</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h2>Park IQ System Test</h2><h3 id="m0">parkIQ.testCases.TC_LoginTest_001#loginDetailsTest1</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m1">parkIQ.testCases.TC_LoginTest_001#loginDetailsTest2</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m2">parkIQ.testCases.TC_LoginTest_001#loginDetailsTest3</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m3">parkIQ.testCases.TC_LoginTest_001#loginDetailsTest4</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m4">parkIQ.testCases.TC_LoginTest_001#loginTest</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m5">parkIQ.testCases.TC_LoginTest_001#validationTest1</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m6">parkIQ.testCases.TC_LoginTest_001#validationTest2</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m7">parkIQ.testCases.TC_LoginTest_001#validationTest3</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
 </body>
 </html>
