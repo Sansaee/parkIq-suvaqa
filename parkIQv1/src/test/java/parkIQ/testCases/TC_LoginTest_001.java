@@ -2,7 +2,6 @@ package parkIQ.testCases;
 
 import java.io.IOException;
 
-import org.testng.Assert;
 import org.testng.annotations.Test;
 import parkIQ.pageObjects.LoginPage;
 
@@ -74,7 +73,7 @@ public class TC_LoginTest_001 extends BaseClass {
 		  logger.info("Login is displayed");
 		  
 	  }
-		
+
 	  //Login Details Test 2
 	  @Test(priority = 4)
 	  public void loginDetailsTest2() throws IOException 
@@ -82,6 +81,7 @@ public class TC_LoginTest_001 extends BaseClass {
 		  LoginPage lf = new LoginPage(driver);
 		  System.out.print(lf.txtLoginColor() + "\n");
 		  logger.info("Login Color is displayed");
+
 			
 	  }
 		

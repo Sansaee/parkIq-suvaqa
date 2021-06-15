@@ -1,6 +1,5 @@
 package parkIQ.testCases;
 
-
 import org.testng.Assert;
 import org.testng.annotations.Test;
 import parkIQ.pageObjects.CreateNewUser_AssignCustomersToUserProfilePage;
@@ -11,15 +10,19 @@ import parkIQ.pageObjects.SuperUserPortalPage;
 
 
 public class TC_SuperUser_002 extends BaseClass {
-	//Tests if create user link redirects to Create New User Form when link is clicked (Verify by locating Page Header)
+	//Test Case for creating new user in super user role
+	
 		@Test (priority=0)
 		public void testCreateNewUserLink()
 		{
+			//Tests if create user link redirects to Create New User Form when link is clicked (Verify by locating Page Header)
 			LoginPage lp = new LoginPage(driver);
 			OperationModePrompt omp = new OperationModePrompt(driver);
 			SuperUserPortalPage sup = new SuperUserPortalPage(driver);
 			CreateNewUser_UserInformationPage uip = new CreateNewUser_UserInformationPage(driver);
 
+			logger.info("SUPER USER ROLE TEST CASES - CREATE NEW USERS");
+			
 			lp.logIn(email, password);
 			logger.info("Logged in Successfully as Super User");
 

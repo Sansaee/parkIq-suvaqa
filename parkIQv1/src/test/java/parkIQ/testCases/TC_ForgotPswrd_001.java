@@ -3,6 +3,8 @@ package parkIQ.testCases;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 import java.util.concurrent.TimeUnit;
+
+import parkIQ.pageObjects.CreateNewUser_UserInformationPage;
 import parkIQ.pageObjects.ForgotPassword;
 
 public class TC_ForgotPswrd_001 extends BaseClass {
@@ -11,7 +13,9 @@ public class TC_ForgotPswrd_001 extends BaseClass {
 		public void checkTitle()
 		{
 			ForgotPassword fp = new ForgotPassword(driver);
-	
+			
+			logger.info("FORGOT PASSWORD TEST CASES");
+			
 			fp.clickFrgtPaswrd();
 			logger.info("Clicked Forgot Password link and form opens");
 			
@@ -44,7 +48,6 @@ public class TC_ForgotPswrd_001 extends BaseClass {
 				{
 					logger.info("Email field is missing" +"\n");
 				}
-					
 			
 		}
 	
@@ -53,7 +56,7 @@ public class TC_ForgotPswrd_001 extends BaseClass {
 		{
 			ForgotPassword fp = new ForgotPassword(driver);
 			
-			fp.setEmail(email);
+			fp.inputEmail(email);
 			logger.info("Entered Email for reset");
 			boolean resetBtn = fp.locateResetBtn(); 
 			if(resetBtn == true)
@@ -89,7 +92,7 @@ public class TC_ForgotPswrd_001 extends BaseClass {
 			
 			fp.clickFrgtPaswrd();
 			logger.info("Clicked Forgot Password");
-			fp.setEmail(email);
+			fp.inputEmail(email);
 			logger.info("Entered Email");
 			
 			driver.manage().timeouts().implicitlyWait(10,TimeUnit.SECONDS);
@@ -147,25 +150,57 @@ public class TC_ForgotPswrd_001 extends BaseClass {
 						logger.info("Sign Up text is missing" +"\n");
 					}
 		}
-//		@Test  (priority=4)
-//		public void validateErrorMessage() throws IOException // this tests the validation message
-//		{
-//			
-//			driver.get(baseURL);
-//			ForgotPassword fp = new ForgotPassword(driver);
-//			
-//			fp.clickFrgtPaswrd();
-//			logger.info("Clicked Forgot Password");
-//			driver.navigate().refresh();
-//			fp.setEmail(invalidEmail);
-//			logger.info("Entered invalid email");
-//			driver.manage().timeouts().implicitlyWait(15, TimeUnit.SECONDS);
-//			fp.clickReset();;
-//			System.out.print(fp.errorValidation() + "\n");
-//			
-//
-//			//logger.info("Entered wrong email");
-//
-//		
-//		}
+
+		
+		@Test (priority=4)
+		public void testValidEmail()
+		{
+			ForgotPassword fp = new ForgotPassword(driver);
+			driver.get(baseURL);
+			fp.clickFrgtPaswrd();
+			logger.info("Clicked Forgot Password");
+			
+		//	driver.manage().timeouts().implicitlyWait(10,TimeUnit.SECONDS);
+			boolean validationMessage = fp.setEmail(email);
+			logger.info("Entered vaild email: '" + email + "'");
+			
+
+			if(!validationMessage)
+			{
+				Assert.assertTrue(true);
+				logger.info("Email '" + email + "' is accepted as a valid email");
+			}
+			else
+			{
+				Assert.assertTrue(false);
+				logger.info("Email validation is faulty");
+			}
+		}
+		
+		@Test (priority = 5)
+		public void testInvalidEmail()
+		{
+			ForgotPassword fp = new ForgotPassword(driver);
+			driver.get(baseURL);
+			fp.clickFrgtPaswrd();
+			logger.info("Clicked Forgot Password");
+			
+			//driver.manage().timeouts().implicitlyWait(10,TimeUnit.SECONDS);
+			boolean isValidationMessage = fp.setEmail(invalidEmail);
+			System.out.print("Validation Message: " + isValidationMessage);
+			logger.info("Entered invalid email: '" + invalidEmail + "'");
+
+			if(isValidationMessage)
+			{
+				Assert.assertTrue(true);
+				logger.info("Email '" + invalidEmail + "' is an invalid email");
+			}
+			else
+			{
+				Assert.assertTrue(false);
+				logger.info("Email validation is faulty");
+			}
+		}
+		
+		//have to test emails stored or not stored in database
 }
