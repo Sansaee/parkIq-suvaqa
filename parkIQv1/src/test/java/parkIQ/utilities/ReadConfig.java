@@ -37,10 +37,22 @@ public class ReadConfig {
 		return email;
 	}
 	
+	public String getInvalidEmail() 
+	{
+		String invalidemail=pro.getProperty("invalidemail");
+		return invalidemail;
+	}
+	
 	public String getPassword()
 	{
 		String pswrd =pro.getProperty("password");
 		return pswrd;
+	}
+	
+	public String getInvalidPassword() 
+	{
+		String invalidpassword=pro.getProperty("invalidpassword");
+		return invalidpassword;
 	}
 	
 	public String getChromePath()
