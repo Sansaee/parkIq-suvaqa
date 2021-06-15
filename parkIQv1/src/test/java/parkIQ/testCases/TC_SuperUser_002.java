@@ -33,9 +33,18 @@ public class TC_SuperUser_002 extends BaseClass {
 			logger.info("Super User Portal Option Selected");
 
 			omp.clickSelect();
+			System.out.print("Overlay is displayed: " + sup.overlayIsDisplayed() + "'\n");
 			logger.info("Select Button Clicked");
 
 			logger.info("Entered Super User Portal Page");
+
+
+//			boolean isClickable = false;
+//			while(!isClickable)
+//			{
+//				isClickable = sup.createUserLinkClickable();
+//				System.out.print("Is clickable: '" + isClickable + "'");
+//			}
 
 			sup.clickCreateUserLink();
 
@@ -112,28 +121,6 @@ public class TC_SuperUser_002 extends BaseClass {
 				logger.info("First Name Text Field doesn't exist");
 			}
 		}
-
-		//Tests if First Name Field is Displayed and Clickable
-//		@Test (priority = 4)
-//		public void firstNameField_b()
-//		{
-//			CreateNewUser_UserInformationPage uip = new CreateNewUser_UserInformationPage(driver);
-//			String validationMessage = uip.setFirstName("");
-//			System.out.print("Error message: " + validationMessage + "\n");
-	//
-	//
-////			if(fnClickable)
-////			{
-////				Assert.assertTrue(true);
-////				logger.info("First Name Text Field is Displayed and is Clickable");
-////			}
-////			else
-////			{
-////				Assert.assertTrue(false);
-////				logger.info("First Name Text Field doesn't exist");
-////			}
-//		}
-
 
 
 		//Tests if Last Name Field is Displayed and Clickable
@@ -342,7 +329,8 @@ public class TC_SuperUser_002 extends BaseClass {
 			uip.clickCancel();
 			logger.info("Cancel Button Clicked");
 
-			uip.load(); //implicit wait
+			System.out.print("Overlay is displayed: " + sup.overlayIsDisplayed() + "'\n");
+
 			boolean isUserFormTitle = sup.locateTitle();
 
 			if(isUserFormTitle)
@@ -364,10 +352,13 @@ public class TC_SuperUser_002 extends BaseClass {
 			CreateNewUser_UserInformationPage uip = new CreateNewUser_UserInformationPage(driver);
 			SuperUserPortalPage sup = new SuperUserPortalPage(driver);
 
+
+
 			sup.clickCreateUserLink();
+
+
 			logger.info("Create New User link clicked, redirecting to User Information Page");
 
-			sup.load();
 
 			uip.setFirstName(name);
 			logger.info("Entered First Name: '" + name + "'");
@@ -406,7 +397,6 @@ public class TC_SuperUser_002 extends BaseClass {
 
 			uip.clickContinue();
 			logger.info("Continue Button clicked");
-			assignCus.load();
 
 			boolean isFormTitle = assignCus.verifyFormTitle();
 			if(isFormTitle)

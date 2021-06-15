@@ -100,9 +100,8 @@ public class LoginPage {
 		WebElement btnLogout;
 		
 		WebElementFunctions func = new WebElementFunctions();
-		
-		//Wait
-		public void load() { func.pageLoad(ldriver); }
+
+
 		
 		//action methods
 		//Enter valid email

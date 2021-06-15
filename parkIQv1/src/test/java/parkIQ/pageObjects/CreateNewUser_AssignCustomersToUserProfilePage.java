@@ -80,13 +80,7 @@ public class CreateNewUser_AssignCustomersToUserProfilePage {
 		
 			WebElementFunctions func = new WebElementFunctions();
 
-			//Wait
-			public void load()
-			{
-				func.pageLoad(ldriver);
-			}
 
-			//Confirm Form Title "Assign Customers to User Profile"
 			public boolean verifyFormTitle()
 			{
 				return func.verifyElementDisplayedWithText(formTitle, "Assign Customers to User Profile");

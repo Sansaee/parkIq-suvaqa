@@ -80,8 +80,7 @@ public class CreateNewUser_UserInformationPage {
 
 
 
-			//Wait
-			public void load() { func.pageLoad(ldriver); }
+
 
 			//Confirm Header "User Information"
 			public boolean verifyHeader()
