@@ -52,11 +52,22 @@ public class ForgotPassword {
 		@CacheLookup
 		WebElement txtSignUp;
 		
-		@FindBy(xpath="/html[1]/body[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/form[1]/section[1]/div[1]/div[1]/div[1]/span[1]")
+		@FindBy(xpath="//span[contains(text(),'The Email field is not a valid e-mail address.')]")
 		@CacheLookup
-		WebElement emailValidation;
+		WebElement invalidEmailValidation;
+
+		@FindBy(xpath="//span[contains(text(),'No account was found with that email address. Veri')]")
+		@CacheLookup
+		WebElement emailNotExistValidation;
+
+
+
+
+
+
 		
 		WebElementFunctions func = new WebElementFunctions();
+
 	
 	//action methods		
 	public void clickFrgtPaswrd()
@@ -80,18 +91,14 @@ public class ForgotPassword {
 			return enterEmail.isDisplayed();
 			
 		}
-	public void inputEmail(String email1)
-	{
-		enterEmail.sendKeys(email1);
-	}
 
-	public boolean setEmail(String email)
+
+	public void setEmail(String email)
 	{
 		enterEmail.clear();
 		enterEmail.sendKeys(email);
-		boolean validation = func.verifyElementDisplayedWithText(emailValidation, "Not a valid email"); //check if validation message is displayed
-		return validation;
 	}
+
 	
 		public boolean locateResetBtn()
 		{
@@ -114,6 +121,21 @@ public class ForgotPassword {
 	public void clickReset()
 		{
 			btnReset.click();
+		}
+
+		//Test whether validation message pops up when invalid email is entered
+		public boolean isInvalidEmail()
+		{
+			boolean isInvalidEmail = func.verifyElementDisplayedWithText(invalidEmailValidation, "The Email field is not a valid e-mail address."); //check if validation message is displayed
+			return isInvalidEmail;
+		}
+
+
+		//Test validation message pops up if email entered has yet to be registered
+		public boolean isEmailNotExist()
+		{
+			boolean isEmailNotExist = func.verifyElementDisplayedWithText(emailNotExistValidation, "No account was found with that email address. Verify your email address or click the Register link to create an account");
+			return isEmailNotExist;
 		}
 	
 	public boolean locateCancelBtn()

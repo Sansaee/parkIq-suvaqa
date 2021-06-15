@@ -39,6 +39,7 @@ public class BaseClass {
 	public String email=readConfig.getEmail();
 	public String password =readConfig.getPassword();
 	String invalidemail = readConfig.getInvalidEmail();
+	String unregisteredEmail = readConfig.getUnregisteredEmail();
 	String invalidpassword = readConfig.getInvalidPassword();
 	public String geckodriverPath =readConfig.getFirefoxPath();
 	public String chromedriverPath =readConfig.getChromePath();
@@ -52,8 +53,8 @@ public class BaseClass {
 	public String validPhone = "1111111111";
 	public String invalidPhone = "123";
 	public String wrongEmail = "sdigniowej@gmail.com";
-	public String name = "Sarah";
-	public String lname = "Hulio";
+	public String name = "Black";
+	public String lname = "Jack";
 	
 	
 	@Parameters("browser")
@@ -66,34 +67,30 @@ public class BaseClass {
 		
 		if (brwsr.equals("chrome"))
 				{
-					System.setProperty("webdriver.chrome.driver",readConfig.getChromePath());
+					System.setProperty("webdriver.chrome.driver",chromedriverPath);
 					driver=new ChromeDriver();
-					driver.manage().timeouts().implicitlyWait(15, TimeUnit.SECONDS);
-					
 				}
 		
 		else if(brwsr.equals("firefox"))
 				{
-					System.setProperty("webdriver.gecko.driver",readConfig.getFirefoxPath());
+					System.setProperty("webdriver.gecko.driver",geckodriverPath);
 					driver=new FirefoxDriver();
-					driver.manage().timeouts().implicitlyWait(15, TimeUnit.SECONDS);
 				}
 				
 		else if(brwsr.equals("microsoft_edge"))
 				{
-					System.setProperty("webdriver.edge.driver",readConfig.getMsEdgePath());
+					System.setProperty("webdriver.edge.driver",msedgedriverPath);
 					driver=new EdgeDriver();
-					driver.manage().timeouts().implicitlyWait(15, TimeUnit.SECONDS);
 				}
 		
 		else if(brwsr.equals("opera"))
 		{
 			System.setProperty("webdriver.opera.driver",readConfig.getOperaPath());
 			driver=new OperaDriver();
-			driver.manage().timeouts().implicitlyWait(15, TimeUnit.SECONDS);
 		}
-		
-		driver.get(baseURL);	
+		driver.manage().window().maximize();
+		driver.get(baseURL);
+		driver.manage().timeouts().implicitlyWait(15, TimeUnit.SECONDS);
 	}
 	
 	//testcases

@@ -2,6 +2,7 @@ package parkIQ.pageObjects;
 
 //import org.openqa.selenium.By;
 import java.util.List;
+import java.util.concurrent.TimeUnit;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
@@ -36,17 +37,13 @@ public class SuperUserPortalPage {
 
 
 	//Notification
-	@FindBy(xpath="//body/notifier-container[1]/ul[1]/li[1]/notifier-notification[1]")
+	@FindBy(xpath="//div[@class='overlay ng-tns-c88-0 ng-trigger ng-trigger-fadeIn ng-star-inserted ng-animating']")
 	@CacheLookup
-	WebElement notification;
+	WebElement overlay;
+
 
 	WebElementFunctions func = new WebElementFunctions();
 
-	//Implicit Waut
-	public void load()
-	{
-		func.pageLoad(ldriver);
-	}
 
 	//action methods
 	
@@ -56,14 +53,20 @@ public class SuperUserPortalPage {
 		return func.verifyElementDisplayedWithText(pageTitle, "Create Customer Service User");
 	}
 
-	
 
+	public boolean createUserLinkClickable()
+	{
+		return func.verifyElementIsClickable(linkCreateNewUser, ldriver);
+	}
+
+	public boolean overlayIsDisplayed()
+	{
+		return overlay.isDisplayed();
+	}
 	public void clickCreateUserLink()
 	{
-		boolean isClickable = func.verifyElementIsClickable(linkCreateNewUser, ldriver);
-		{
-			linkCreateNewUser.click();
-		}
+		func.waitLoaderDisappear(overlay, ldriver);
+		linkCreateNewUser.click();
 	}
 
 	

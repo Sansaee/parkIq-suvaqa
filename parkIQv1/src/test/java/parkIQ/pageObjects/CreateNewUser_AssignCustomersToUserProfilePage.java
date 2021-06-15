@@ -60,12 +60,6 @@ public class CreateNewUser_AssignCustomersToUserProfilePage {
 
 			WebElementFunctions func = new WebElementFunctions();
 
-			//Wait
-			public void load()
-			{
-				func.pageLoad(ldriver);
-			}
-
 
 
 			//Confirm Form Title "User Information"
