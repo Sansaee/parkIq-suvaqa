@@ -21,9 +21,41 @@ public class CreateNewUser_AssignCustomersToUserProfilePage {
 		}
 
 			//User Information Form Title
-			@FindBy(xpath="//div[contains(text(),'Assign Customers to User Profile')]")
+			@FindBy(xpath="//div[@class='mx-3 tab-panel-title']")
 			@CacheLookup
 			WebElement formTitle ;
+			
+			@FindBy(xpath="//div[@class='mx-3 my-2']")
+			@CacheLookup
+			WebElement formDescription;
+			
+			@FindBy(xpath="//div[@class='mx-3']")
+			@CacheLookup
+			WebElement formColumn1;
+			
+			@FindBy(xpath="//div[@class='mx-5']")
+			@CacheLookup
+			WebElement formColumn2;
+			
+			@FindBy(xpath="//mat-checkbox[@id='mat-checkbox-1']//label[@class='mat-checkbox-layout']//div[@class='mat-checkbox-inner-container mat-checkbox-inner-container-no-side-margin']")
+			@CacheLookup
+			WebElement custNameCheckbox;
+			
+			@FindBy(xpath="//body[@class='mat-typography']/app-root[@ng-version='9.1.3']/body/div[@class='content']/app-create-user[@class='ng-star-inserted']/div[@class='d-flex flex-row justify-content-center']/mat-card[@class='mat-card mat-focus-indicator add-location-card ng-star-inserted']/div[@class='d-flex flex-row mx-3 justify-content-between']/div[1]/input[1]")
+			@CacheLookup
+			WebElement btnBack;
+			
+			@FindBy(xpath="//body[@class='mat-typography']/app-root[@ng-version='9.1.3']/body/div[@class='content']/app-create-user[@class='ng-star-inserted']/div[@class='d-flex flex-row justify-content-center']/mat-card[@class='mat-card mat-focus-indicator add-location-card ng-star-inserted']/div[@class='d-flex flex-row mx-3 justify-content-between']/div[2]/input[1]")
+			@CacheLookup
+			WebElement btnCancel;
+			
+			@FindBy(xpath="//body[@class='mat-typography']/app-root[@ng-version='9.1.3']/body/div[@class='content']/app-create-user[@class='ng-star-inserted']/div[@class='d-flex flex-row justify-content-center']/mat-card[@class='mat-card mat-focus-indicator add-location-card ng-star-inserted']/div[@class='d-flex flex-row mx-3 justify-content-between']/div/input[2]")
+			@CacheLookup
+			WebElement btnContinue;
+			
+			
+			
+			
 
 
 			WebElementFunctions func = new WebElementFunctions();

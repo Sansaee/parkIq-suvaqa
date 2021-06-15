@@ -13,6 +13,7 @@ public class TC_LoginTest_001 extends BaseClass {
 	public void loginTest() throws IOException
 	{
 		
+		logger.info("LOG IN TEST CASES");
 		
 		logger.info("URL is opened");
 		

@@ -1,4 +1,5 @@
 package parkIQ.pageObjects;
+import parkIQ.common.WebElementFunctions;
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
@@ -49,7 +50,13 @@ public class ForgotPassword {
 		
 		@FindBy(xpath="//a[contains(text(),'Sign Up Here')]")
 		@CacheLookup
-		WebElement txtSignUp;	
+		WebElement txtSignUp;
+		
+		@FindBy(xpath="/html[1]/body[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/form[1]/section[1]/div[1]/div[1]/div[1]/span[1]")
+		@CacheLookup
+		WebElement emailValidation;
+		
+		WebElementFunctions func = new WebElementFunctions();
 	
 	//action methods		
 	public void clickFrgtPaswrd()
@@ -59,55 +66,37 @@ public class ForgotPassword {
 	
 	public boolean locateTitle()
 		{
-			if(titleForgotPswrd.isDisplayed() && titleForgotPswrd.getText().equals("Forgot Password"))
-			{
-				return true;
-			}
-			else
-			{
-				return false;
-			}
+			return func.verifyElementDisplayedWithText(titleForgotPswrd, "Forgot Password");
 		}
 		
 	public boolean locateEmailLabel()
 		{
-			if( emailLabel.isDisplayed() && emailLabel.getText().equals("Email"))
-			{
-				return true;
-			}
-			else
-			{
-				return false;
-			}
+			return func.verifyElementDisplayedWithText(emailLabel, "Email");
+		
 		}
 	
 	public boolean locateEmailField()
 		{
-			if( enterEmail.isDisplayed() )
-			{
-				return true;
-			}
-			else
-			{
-				return false;
-			}
+			return enterEmail.isDisplayed();
+			
 		}
+	public void inputEmail(String email1)
+	{
+		enterEmail.sendKeys(email1);
+	}
+
+	public boolean setEmail(String email)
+	{
+		enterEmail.clear();
+		enterEmail.sendKeys(email);
+		boolean validation = func.verifyElementDisplayedWithText(emailValidation, "Not a valid email"); //check if validation message is displayed
+		return validation;
+	}
 	
-	public void setEmail(String email )
-		{
-			enterEmail.sendKeys(email);
-		
-		}
 		public boolean locateResetBtn()
 		{
-			if(btnReset.isDisplayed() && btnReset.getText().equals("RESET"))
-			{
-				return true;
-			}
-			else
-			{
-				return false;
-			}
+			return func.verifyElementDisplayedWithText(btnReset, "RESET");
+		
 		}
 	
 	public String resetBtnColor()
@@ -129,14 +118,7 @@ public class ForgotPassword {
 	
 	public boolean locateCancelBtn()
 		{
-			if(btnCancel.isDisplayed() && btnCancel.getText().equals("CANCEL"))
-			{
-				return true;
-			}
-			else
-			{
-				return false;
-			}
+			return func.verifyElementDisplayedWithText(btnCancel, "CANCEL");
 		}
 	
 	public String cancelBtnColor()
@@ -158,26 +140,12 @@ public class ForgotPassword {
 	
 	public boolean locateBecomeMembrText()
 		{
-			if(txtBecomeMember.isDisplayed() && txtBecomeMember.getText().equals("Become a Member?"))
-			{
-				return true;
-			}
-			else
-			{
-				return false;
-			}
+			return func.verifyElementDisplayedWithText(txtBecomeMember, "Become a Member?");
 		}
 	
 	public boolean locateSignUpText()
 		{
-			if(txtSignUp.isDisplayed() && txtSignUp.getText().equals("Sign Up Here"))
-			{
-				return true;
-			}
-			else
-			{
-				return false;
-			}
+		return func.verifyElementDisplayedWithText(txtSignUp, "Sign Up Here");
 		}
 	
 	public String signUpDecoratorBefore()
@@ -197,14 +165,4 @@ public class ForgotPassword {
 		{
 			txtSignUp.click();
 		}
-
-	public String errorValidation() 
-		{
-			String message = enterEmail.getText();
-			return message;
-		}
-
-
-		
-	
 }

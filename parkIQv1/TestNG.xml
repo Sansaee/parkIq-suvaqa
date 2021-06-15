@@ -10,10 +10,10 @@
 	<test name="Park IQ System Test">
 		<parameter name="browser" value="chrome" />
 		<classes>
-			<!-- <class name="parkIQ.testCases.TC_LoginTest_001" /> -->
-			<!-- <class name="parkIQ.testCases.TC_ForgotPswrd_001" /> -->
-			 <class name="parkIQ.testCases.TC_SuperUser_001"/> 
-		<!--	<class name="parkIQ.testCases.TC_SuperUser_002" /> -->
+		<!--<class name="parkIQ.testCases.TC_LoginTest_001" />	-->	
+		 <!-- <class name="parkIQ.testCases.TC_ForgotPswrd_001" /> -->
+			 <class name="parkIQ.testCases.TC_SuperUser_001"/> 	
+		<!-- <class name="parkIQ.testCases.TC_SuperUser_002" /> -->	
 		</classes>
 	
 	</test>

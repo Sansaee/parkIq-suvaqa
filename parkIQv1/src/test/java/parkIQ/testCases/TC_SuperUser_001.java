@@ -1,41 +1,37 @@
 package parkIQ.testCases;
 
-import java.awt.List;
-
-import org.openqa.selenium.WebElement;
-import org.openqa.selenium.support.ui.Select;
 import org.testng.Assert;
 import org.testng.annotations.Test;
-import parkIQ.pageObjects.SuperUserRole;
+import parkIQ.pageObjects.CreateCustomerServiceUser;
 import parkIQ.pageObjects.LoginPage;
+import parkIQ.pageObjects.OperationModePrompt;
 
 public class TC_SuperUser_001 extends BaseClass {
 	//contains test cases from "create customer service user"
-	
-	//checkLogo (if displayed correctly)
-	//checkTitle
-	//checkSectionHeader
-	//checkCreateNewUserLink (visible/color/underline)
-	//checkSearchBar
-		//-check the list of results
-	//checkSortByDroppDown (displayed/clickable)
-		//- also check the fields and columns
-		//- check the osrting by selecting email and validate the relevant results
-	
+
 	@Test (priority=0)
 	public void  setupSuperUserRole() throws InterruptedException 
 	{
-		SuperUserRole sp = new SuperUserRole(driver);
+		OperationModePrompt omp = new OperationModePrompt(driver);
 		LoginPage lp= new LoginPage(driver);
+		
+		
+		logger.info("SUPER USER ROLE TEST CASES - CREATE CUSTOMER SERVICE USER");
 		
 		lp.logIn(email, password);
 		logger.info("Successfully logged in");
-		sp.showDropdown();
-		logger.info("Expanded drop down");
-		sp.clickRole();
-		logger.info("Clicked super user role");
-		sp.clickSelect();
-		logger.info("Clicked select button");
+	
+		omp.selectModeOption();
+		logger.info("Operation Mode Selection Mode Displayed");
+
+		omp.selectSuperUser();
+		logger.info("Super User Portal Option Selected");
+
+		omp.clickSelect();
+		logger.info("Select Button Clicked");
+
+		logger.info("Entered Super User Portal Page");
+
 
 		if(driver.getTitle().equals("Park IQ Admin"))
 		{
@@ -51,14 +47,15 @@ public class TC_SuperUser_001 extends BaseClass {
 		Thread.sleep(3000);
 
 	}
+	
 	@Test (priority=1)
 	public void  checkLogo() throws Exception 
 	{
 		//confirm that logo is displayed
 		//confirm that title beneath logo is displayed - title is part of the logo
 		
-		SuperUserRole sp = new SuperUserRole(driver);
-		boolean logo = sp.locateLogo();
+		CreateCustomerServiceUser cs = new CreateCustomerServiceUser(driver);
+		boolean logo = cs.locateLogo();
 
 		if(logo == true)
 		{
@@ -78,8 +75,8 @@ public class TC_SuperUser_001 extends BaseClass {
 		//"Users" should be displayed 
 		//Create new user link is displayed & Underlined & position is correct
 		
-		SuperUserRole sp = new SuperUserRole(driver);
-		boolean title = sp.locateTitle();
+		CreateCustomerServiceUser cs = new CreateCustomerServiceUser(driver);
+		boolean title = cs.locateTitle();
 
 		if(title == true)
 		{
@@ -95,8 +92,8 @@ public class TC_SuperUser_001 extends BaseClass {
 	@Test(priority=3)
 	public void  checkSectionHeader() {
 		
-		SuperUserRole sp = new SuperUserRole(driver);
-		boolean sectionHeader = sp.locateSectionHeader();
+		CreateCustomerServiceUser cs = new CreateCustomerServiceUser(driver);
+		boolean sectionHeader = cs.locateSectionHeader();
 
 		if(sectionHeader == true)
 		{
@@ -113,12 +110,12 @@ public class TC_SuperUser_001 extends BaseClass {
 	{
 		//also need to validate color and underline
 		//insert assert function
-		SuperUserRole sp = new SuperUserRole(driver);
-		boolean createNewUserLink = sp.locateCreateNewUserLink();
+		CreateCustomerServiceUser cs = new CreateCustomerServiceUser(driver);
+		boolean createNewUserLink = cs.locateCreateUserLink();
 
 		if(createNewUserLink == true)
 		{
-			logger.info("Create New User link is displayed correctly.Text underlined: " + sp.createNewUserDecoratorBefore()+ "Text color:"+ sp. createNewUserColor());
+			logger.info("Create New User link is displayed correctly.Text underlined: " + cs.createUserDecoratorBefore()+ "Text color:"+ cs.createUserColor());
 		}
 		else
 		{
@@ -131,8 +128,8 @@ public class TC_SuperUser_001 extends BaseClass {
 	public void searchFunctionality()
 	{
 		
-		SuperUserRole sp = new SuperUserRole(driver);
-		boolean searchBar = sp.locateSearchBar();
+		CreateCustomerServiceUser cs = new CreateCustomerServiceUser(driver);
+		boolean searchBar = cs.locateSearchBar();
 
 		if(searchBar == true)
 		{
@@ -142,28 +139,43 @@ public class TC_SuperUser_001 extends BaseClass {
 		{
 			logger.info("Search bar is missing");
 		}
-//		
-//		sp.searchName(inputname);
-//		logger.info("Entered name to verify search functionality");
+		
+		//left to validate searchh result
+
 	}
 	
 	@Test (priority=6)
 	public void sortByDropDown()
 	{
-		SuperUserRole sp = new SuperUserRole(driver);
-		boolean sortByDropDown = sp.locateSortByDropDown();
+		CreateCustomerServiceUser cs = new CreateCustomerServiceUser(driver);
+		boolean sortByDropDown = cs.displaySortByDD();
 
 		if(sortByDropDown == true)
 		{
-			logger.info("Sort By drop down is displayed correctly");
+			logger.info("Sort By drop down is displayed correctly with all necessary fields");
 		}
 		else
 		{
 			logger.info("Sort By drop down is missing");
 		}
 		
-		
-		//sp.validateValueDropDown();
+		//left to test sort by field test
+	}
+	
+	@Test (priority=7)
+	public void testColumns()
+	{
+		CreateCustomerServiceUser cs = new CreateCustomerServiceUser(driver);
+		boolean sortByDropDown = cs.locateColumnHeaders();
+
+		if(sortByDropDown == true)
+		{
+			logger.info("Displays column headers correctly");
+		}
+		else
+		{
+			logger.info("Column headers are not displayed correctly");
+		}
 		
 	}
 
