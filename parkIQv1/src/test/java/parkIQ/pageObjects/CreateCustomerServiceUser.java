@@ -1,8 +1,5 @@
 package parkIQ.pageObjects;
 
-import java.util.List;
-
-import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.CacheLookup;
@@ -143,15 +140,7 @@ public class CreateCustomerServiceUser {
 		String colour = Color.fromString(linkCreateNewUser.getCssValue("color")).asHex();
 		return colour;
 	}
-
-
-//		public String createUserDecorator()
-//		{
-//			Actions builder = new Actions(ldriver);
-//			builder.moveToElement(linkCreateNewUser).perform();
-//			String decorator = linkCreateNewUser.getCssValue("text-decoration");
-//			return decorator;
-//		}
+	
 	public String createUserDecoratorBefore()
 	{
 		String decorator = linkCreateNewUser.getCssValue("text-decoration");

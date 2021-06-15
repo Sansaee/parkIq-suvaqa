@@ -2,12 +2,12 @@
 <testng-results ignored="0" total="8" passed="8" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2021-06-15T01:13:38Z" name="ParkIQv1" finished-at="2021-06-15T01:14:27Z" duration-ms="48853">
+  <suite started-at="2021-06-15T01:39:52Z" name="ParkIQv1" finished-at="2021-06-15T01:41:13Z" duration-ms="81313">
     <groups>
     </groups>
-    <test started-at="2021-06-15T01:13:38Z" name="Park IQ System Test" finished-at="2021-06-15T01:14:27Z" duration-ms="48853">
-      <class name="parkIQ.testCases.TC_SuperUser_001">
-        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:parkIQ.testCases.TC_SuperUser_001@5c90e579]" started-at="2021-06-15T01:13:39Z" name="setup" finished-at="2021-06-15T01:13:52Z" duration-ms="13072" status="PASS">
+    <test started-at="2021-06-15T01:39:52Z" name="Park IQ System Test" finished-at="2021-06-15T01:41:13Z" duration-ms="81313">
+      <class name="parkIQ.testCases.TC_LoginTest_001">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:parkIQ.testCases.TC_LoginTest_001@5c90e579]" started-at="2021-06-15T01:39:52Z" name="setup" finished-at="2021-06-15T01:40:20Z" duration-ms="27248" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -18,43 +18,43 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="setupSuperUserRole()[pri:0, instance:parkIQ.testCases.TC_SuperUser_001@5c90e579]" started-at="2021-06-15T01:13:52Z" name="setupSuperUserRole" finished-at="2021-06-15T01:14:25Z" duration-ms="33773" status="PASS">
+        <test-method signature="validationTest1()[pri:0, instance:parkIQ.testCases.TC_LoginTest_001@5c90e579]" started-at="2021-06-15T01:40:20Z" name="validationTest1" finished-at="2021-06-15T01:40:59Z" duration-ms="38961" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- setupSuperUserRole -->
-        <test-method signature="checkLogo()[pri:1, instance:parkIQ.testCases.TC_SuperUser_001@5c90e579]" started-at="2021-06-15T01:14:25Z" name="checkLogo" finished-at="2021-06-15T01:14:25Z" duration-ms="48" status="PASS">
+        </test-method> <!-- validationTest1 -->
+        <test-method signature="validationTest2()[pri:1, instance:parkIQ.testCases.TC_LoginTest_001@5c90e579]" started-at="2021-06-15T01:40:59Z" name="validationTest2" finished-at="2021-06-15T01:41:04Z" duration-ms="5359" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- checkLogo -->
-        <test-method signature="checkTitles()[pri:2, instance:parkIQ.testCases.TC_SuperUser_001@5c90e579]" started-at="2021-06-15T01:14:25Z" name="checkTitles" finished-at="2021-06-15T01:14:26Z" duration-ms="62" status="PASS">
+        </test-method> <!-- validationTest2 -->
+        <test-method signature="validationTest3()[pri:2, instance:parkIQ.testCases.TC_LoginTest_001@5c90e579]" started-at="2021-06-15T01:41:04Z" name="validationTest3" finished-at="2021-06-15T01:41:07Z" duration-ms="2904" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- checkTitles -->
-        <test-method signature="checkSectionHeader()[pri:3, instance:parkIQ.testCases.TC_SuperUser_001@5c90e579]" started-at="2021-06-15T01:14:26Z" name="checkSectionHeader" finished-at="2021-06-15T01:14:26Z" duration-ms="60" status="PASS">
+        </test-method> <!-- validationTest3 -->
+        <test-method signature="loginDetailsTest1()[pri:3, instance:parkIQ.testCases.TC_LoginTest_001@5c90e579]" started-at="2021-06-15T01:41:07Z" name="loginDetailsTest1" finished-at="2021-06-15T01:41:10Z" duration-ms="2661" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- checkSectionHeader -->
-        <test-method signature="checkCreateNewUserLink()[pri:4, instance:parkIQ.testCases.TC_SuperUser_001@5c90e579]" started-at="2021-06-15T01:14:26Z" name="checkCreateNewUserLink" finished-at="2021-06-15T01:14:26Z" duration-ms="81" status="PASS">
+        </test-method> <!-- loginDetailsTest1 -->
+        <test-method signature="loginDetailsTest2()[pri:4, instance:parkIQ.testCases.TC_LoginTest_001@5c90e579]" started-at="2021-06-15T01:41:10Z" name="loginDetailsTest2" finished-at="2021-06-15T01:41:10Z" duration-ms="81" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- checkCreateNewUserLink -->
-        <test-method signature="searchFunctionality()[pri:5, instance:parkIQ.testCases.TC_SuperUser_001@5c90e579]" started-at="2021-06-15T01:14:26Z" name="searchFunctionality" finished-at="2021-06-15T01:14:26Z" duration-ms="39" status="PASS">
+        </test-method> <!-- loginDetailsTest2 -->
+        <test-method signature="loginDetailsTest3()[pri:5, instance:parkIQ.testCases.TC_LoginTest_001@5c90e579]" started-at="2021-06-15T01:41:10Z" name="loginDetailsTest3" finished-at="2021-06-15T01:41:10Z" duration-ms="32" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- searchFunctionality -->
-        <test-method signature="sortByDropDown()[pri:6, instance:parkIQ.testCases.TC_SuperUser_001@5c90e579]" started-at="2021-06-15T01:14:26Z" name="sortByDropDown" finished-at="2021-06-15T01:14:26Z" duration-ms="294" status="PASS">
+        </test-method> <!-- loginDetailsTest3 -->
+        <test-method signature="loginDetailsTest4()[pri:6, instance:parkIQ.testCases.TC_LoginTest_001@5c90e579]" started-at="2021-06-15T01:41:10Z" name="loginDetailsTest4" finished-at="2021-06-15T01:41:10Z" duration-ms="630" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- sortByDropDown -->
-        <test-method signature="testColumns()[pri:7, instance:parkIQ.testCases.TC_SuperUser_001@5c90e579]" started-at="2021-06-15T01:14:26Z" name="testColumns" finished-at="2021-06-15T01:14:26Z" duration-ms="199" status="PASS">
+        </test-method> <!-- loginDetailsTest4 -->
+        <test-method signature="loginTest()[pri:7, instance:parkIQ.testCases.TC_LoginTest_001@5c90e579]" started-at="2021-06-15T01:41:10Z" name="loginTest" finished-at="2021-06-15T01:41:12Z" duration-ms="2130" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testColumns -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:parkIQ.testCases.TC_SuperUser_001@5c90e579]" started-at="2021-06-15T01:14:26Z" name="tearDown" finished-at="2021-06-15T01:14:27Z" duration-ms="845" status="PASS">
+        </test-method> <!-- loginTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:parkIQ.testCases.TC_LoginTest_001@5c90e579]" started-at="2021-06-15T01:41:12Z" name="tearDown" finished-at="2021-06-15T01:41:13Z" duration-ms="897" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- parkIQ.testCases.TC_SuperUser_001 -->
+      </class> <!-- parkIQ.testCases.TC_LoginTest_001 -->
     </test> <!-- Park IQ System Test -->
   </suite> <!-- ParkIQv1 -->
 </testng-results>

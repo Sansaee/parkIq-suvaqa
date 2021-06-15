@@ -166,9 +166,9 @@ public class TC_SuperUser_001 extends BaseClass {
 	public void testColumns()
 	{
 		CreateCustomerServiceUser cs = new CreateCustomerServiceUser(driver);
-		boolean sortByDropDown = cs.locateColumnHeaders();
+		boolean column = cs.locateColumnHeaders();
 
-		if(sortByDropDown == true)
+		if(column == true)
 		{
 			logger.info("Displays column headers correctly");
 		}

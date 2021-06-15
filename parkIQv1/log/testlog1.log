@@ -863,3 +863,22 @@
 2021-06-15 13:14:26,236 [main] INFO parkIQ - Search bar is displayed correctly
 2021-06-15 13:14:26,533 [main] INFO parkIQ - Sort By drop down is displayed correctly with all necessary fields
 2021-06-15 13:14:26,734 [main] INFO parkIQ - Displays column headers correctly
+2021-06-15 13:40:20,186 [main] INFO parkIQ - BaseUrl is opened
+2021-06-15 13:40:57,894 [main] INFO parkIQ - Invalid Email is entered
+2021-06-15 13:40:58,040 [main] INFO parkIQ - Invalid Password is entered
+2021-06-15 13:40:58,831 [main] INFO parkIQ - Login button is clicked
+2021-06-15 13:41:04,155 [main] INFO parkIQ - Invalid Email is entered
+2021-06-15 13:41:04,391 [main] INFO parkIQ - Login button is clicked
+2021-06-15 13:41:07,315 [main] INFO parkIQ - Login button is clicked
+2021-06-15 13:41:10,091 [main] INFO parkIQ - Login is displayed
+2021-06-15 13:41:10,175 [main] INFO parkIQ - Login Color is displayed
+2021-06-15 13:41:10,210 [main] INFO parkIQ - Login Background Color is displayed
+2021-06-15 13:41:10,254 [main] INFO parkIQ - Park IQ and Park Industries Business Intelligence is displayed
+2021-06-15 13:41:10,484 [main] INFO parkIQ - Sign In confirmed
+2021-06-15 13:41:10,781 [main] INFO parkIQ - Email text is displayed
+2021-06-15 13:41:10,842 [main] INFO parkIQ - Email textbox is clickable
+2021-06-15 13:41:10,988 [main] INFO parkIQ - Email is entered
+2021-06-15 13:41:11,050 [main] INFO parkIQ - Password text is displayed
+2021-06-15 13:41:11,084 [main] INFO parkIQ - Password text is clickable
+2021-06-15 13:41:11,211 [main] INFO parkIQ - Password is entered
+2021-06-15 13:41:12,973 [main] INFO parkIQ - Login button is clicked
