@@ -2,7 +2,6 @@ package parkIQ.testCases;
 
 import java.io.IOException;
 
-import org.testng.Assert;
 import org.testng.annotations.Test;
 import parkIQ.pageObjects.LoginPage;
 
@@ -74,46 +73,7 @@ public class TC_LoginTest_001 extends BaseClass {
 		  logger.info("Login is displayed");
 		  
 	  }
-		
-<<<<<<< HEAD
-		logger.info("LOG IN TEST CASES");
-		
-		logger.info("URL is opened");
-		
-		LoginPage lp= new LoginPage(driver);
-		
-		lp.confirmParkIQ();
-		logger.info("Park IQ and Park Industries Business Intelligence is displayed");
-		captureScreen(driver, "ParkIQ");
-		
-		lp.confirmSignIn();
-		logger.info("Sign In confirmed");
-		captureScreen(driver, "SignIn");
-		
-		lp.setEmail(email);
-		logger.info("Entered Email");
-		
-		lp.setPassword(password);
-		logger.info("Entered Password");
-		
-		lp.clickSubmit();
-		logger.info("Login button is clicked");
-		
-		lp.showRoles();
-		logger.info("Drop down button is clicked");
-		
-		lp.selectRole();
-		logger.info("Role is clicked");
-		
-		lp.clickSelect();
-		//driver.manage().timeouts().implicitlyWait(10,TimeUnit.SECONDS);
-		logger.info("Select button is clicked");
-		
-		if(driver.getTitle().equals("Park IQ Admin"))
-		{
-			Assert.assertTrue(true);
-			logger.info("Login test passed");
-=======
+
 	  //Login Details Test 2
 	  @Test(priority = 4)
 	  public void loginDetailsTest2() throws IOException 
@@ -121,7 +81,7 @@ public class TC_LoginTest_001 extends BaseClass {
 		  LoginPage lf = new LoginPage(driver);
 		  System.out.print(lf.txtLoginColor() + "\n");
 		  logger.info("Login Color is displayed");
->>>>>>> branch 'development' of https://github.com/Sansaee/parkIq-suvaqa.git
+
 			
 	  }
 		
