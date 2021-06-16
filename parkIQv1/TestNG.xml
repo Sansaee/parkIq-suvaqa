@@ -7,7 +7,7 @@
 		<listener class-name="parkIQ.utilities.Reporting"/>
 	</listeners>
 	
-	<test name="Park IQ System Test">
+	<test name="Park IQ System - Chrome Test">
 		<parameter name="browser" value="chrome" />
 		<classes>
 		 <class name="parkIQ.testCases.TC_LoginTest_001" />
@@ -17,5 +17,38 @@
 		</classes>
 	
 	</test>
+
+<!--	<test name="Park IQ System - Firefox Test">-->
+<!--		<parameter name="browser" value="firefox" />-->
+<!--		<classes>-->
+<!--			<class name="parkIQ.testCases.TC_LoginTest_001" />-->
+<!--			<class name="parkIQ.testCases.TC_ForgotPswrd_001" />-->
+<!--			<class name="parkIQ.testCases.TC_SuperUser_001"/>-->
+<!--			<class name="parkIQ.testCases.TC_SuperUser_002" />-->
+<!--		</classes>-->
+
+<!--	</test>-->
+
+<!--	<test name="Park IQ System - Microsoft Edge Test">-->
+<!--		<parameter name="browser" value="microsoft_edge" />-->
+<!--		<classes>-->
+<!--			<class name="parkIQ.testCases.TC_LoginTest_001" />-->
+<!--			<class name="parkIQ.testCases.TC_ForgotPswrd_001" />-->
+<!--			<class name="parkIQ.testCases.TC_SuperUser_001"/>-->
+<!--			<class name="parkIQ.testCases.TC_SuperUser_002" />-->
+<!--		</classes>-->
+
+<!--	</test>-->
+
+<!--	<test name="Park IQ System - Opera Test">-->
+<!--		<parameter name="browser" value="opera" />-->
+<!--		<classes>-->
+<!--			<class name="parkIQ.testCases.TC_LoginTest_001" />-->
+<!--			<class name="parkIQ.testCases.TC_ForgotPswrd_001" />-->
+<!--			<class name="parkIQ.testCases.TC_SuperUser_001"/>-->
+<!--			<class name="parkIQ.testCases.TC_SuperUser_002" />-->
+<!--		</classes>-->
+
+<!--	</test>-->
 
 </suite>
