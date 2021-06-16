@@ -1,6 +1,8 @@
 package parkIQ.pageObjects;
 
 //import org.openqa.selenium.By;
+import java.util.List;
+import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.CacheLookup;
@@ -20,59 +22,149 @@ public class CreateNewUser_AssignCustomersToUserProfilePage {
 			PageFactory.initElements(rdriver, this);
 		}
 
-			//User Information Form Title
-			@FindBy(xpath="//div[@class='mx-3 tab-panel-title']")
+			//Form Title: Assign Customers to User Profile
+			@FindBy(xpath="//div[contains(text(),'Assign Customers to User Profile')]")
 			@CacheLookup
 			WebElement formTitle ;
-			
-			@FindBy(xpath="//div[@class='mx-3 my-2']")
+
+			//Form Description: Selecting a customer ...
+			@FindBy(xpath="//div[contains(text(),'Selecting a customer determines what machine data ')]")
 			@CacheLookup
 			WebElement formDescription;
 			
-			@FindBy(xpath="//div[@class='mx-3']")
+			@FindBy(xpath="//div[contains(text(),'Customer Name')]")
 			@CacheLookup
-			WebElement formColumn1;
+			WebElement colCustomerName;
 			
-			@FindBy(xpath="//div[@class='mx-5']")
+			@FindBy(xpath="//div[contains(text(),'Machine Access')]")
 			@CacheLookup
-			WebElement formColumn2;
+			WebElement colMachineAccess;
 			
-			@FindBy(xpath="//mat-checkbox[@id='mat-checkbox-1']//label[@class='mat-checkbox-layout']//div[@class='mat-checkbox-inner-container mat-checkbox-inner-container-no-side-margin']")
+			@FindBy(xpath="//body/div[1]/app-create-user[1]/div[3]/mat-card[1]/div[3]/mat-checkbox[1]/label[1]/div[1]")
 			@CacheLookup
-			WebElement custNameCheckbox;
+			WebElement checkboxCusName;
 			
-			@FindBy(xpath="//body[@class='mat-typography']/app-root[@ng-version='9.1.3']/body/div[@class='content']/app-create-user[@class='ng-star-inserted']/div[@class='d-flex flex-row justify-content-center']/mat-card[@class='mat-card mat-focus-indicator add-location-card ng-star-inserted']/div[@class='d-flex flex-row mx-3 justify-content-between']/div[1]/input[1]")
+			@FindBy(xpath="//body/div[1]/app-create-user[1]/div[3]/mat-card[1]/div[6]/div[1]/input[1]")
 			@CacheLookup
 			WebElement btnBack;
 			
-			@FindBy(xpath="//body[@class='mat-typography']/app-root[@ng-version='9.1.3']/body/div[@class='content']/app-create-user[@class='ng-star-inserted']/div[@class='d-flex flex-row justify-content-center']/mat-card[@class='mat-card mat-focus-indicator add-location-card ng-star-inserted']/div[@class='d-flex flex-row mx-3 justify-content-between']/div[2]/input[1]")
+			@FindBy(xpath="//body/div[1]/app-create-user[1]/div[3]/mat-card[1]/div[6]/div[2]/input[1]")
 			@CacheLookup
 			WebElement btnCancel;
 			
-			@FindBy(xpath="//body[@class='mat-typography']/app-root[@ng-version='9.1.3']/body/div[@class='content']/app-create-user[@class='ng-star-inserted']/div[@class='d-flex flex-row justify-content-center']/mat-card[@class='mat-card mat-focus-indicator add-location-card ng-star-inserted']/div[@class='d-flex flex-row mx-3 justify-content-between']/div/input[2]")
+			@FindBy(xpath="//body/div[1]/app-create-user[1]/div[3]/mat-card[1]/div[6]/div[2]/input[2]")
 			@CacheLookup
 			WebElement btnContinue;
-			
-			
-			
-			
+
+//	@FindBy(xpath="//body/div[1]/app-create-user[1]/div[3]/mat-card[1]/div[5]/div[2]/div[1]/mat-checkbox[1]/label[1]/div[1]")
+//	@CacheLookup
+//	WebElement chkBoxComp;
+//
+//	@FindBy(xpath="//body/div[1]/app-create-user[1]/div[3]/mat-card[1]/div[5]/div[5]/div[1]/mat-checkbox[1]/label[1]/div[1]")
+//	@CacheLookup
+//	WebElement chkABC;
 
 
+		
 			WebElementFunctions func = new WebElementFunctions();
 
-			//Wait
-			public void load()
-			{
-				func.pageLoad(ldriver);
-			}
-
-
-
-			//Confirm Form Title "User Information"
+			//Verify "Form Title" is Displayed
 			public boolean verifyFormTitle()
 			{
 				return func.verifyElementDisplayedWithText(formTitle, "Assign Customers to User Profile");
 			}
 
+			//Verify "Form Description" is Displayed
+			public boolean verifyFormDescription()
+			{
+				return func.verifyElementDisplayedWithText(formDescription, "Selecting a customer determines what machine data this user will have visibility to. All machines that belong to a customer are selected by default. You can expand the Customer name to select specific machines.");
+			}
 
+			//Verify Column Headers: "Customer Name" & "Machine Access" is displayed
+			public boolean locateColumnHeaders()
+			{
+				if(colCustomerName.isDisplayed() && colMachineAccess.isDisplayed())
+				{
+					return true;
+				}
+				else
+				{
+					return false;
+				}
+
+			}
+
+			//Verify Checkbox "Customer Name" is displayed
+			public boolean locateCheckBox()
+			{
+				return checkboxCusName.isDisplayed();
+			}
+
+			//Click Checkbox
+			public void clickCheckBox()
+			{
+				 checkboxCusName.click();
+			}
+
+			public int isChecked()
+			{
+				int checkedCount = 0;
+				List<WebElement> elements = ldriver.findElements(By.xpath("//input[@type='checkbox']"));
+				for(int i = 0; i < elements.size(); i++)
+				{
+					if(elements.get(i).isSelected())
+					{
+						checkedCount++;
+					}
+				}
+				return checkedCount;
+			}
+
+			//Verify Back Button is Displayed and Clickable
+			public boolean btnBackClickableDisplayed()
+			{
+				return func.verifyElementIsClickable(btnBack, ldriver);
+			}
+
+			//Click Back Button
+			public void clickBackBtn()
+			{
+				 btnBack.click();
+			}
+
+			//Verify Cancel Button is Displayed and Clickable
+			public boolean btnCancelClickableDisplayed()
+			{
+				return func.verifyElementIsClickable(btnCancel, ldriver);
+			}
+
+			//Click Cancel Button
+			public void clickCancelBtn()
+			{
+				btnCancel.click();
+			}
+
+			//Continue Button is Clickable
+			public boolean btnContClickableDisplayed()
+			{
+				return func.verifyElementIsClickable(btnContinue, ldriver);
+			}
+
+			//Continue Button is Displayed
+			public boolean btnContDisplayed()
+			{
+				return btnContinue.isDisplayed();
+			}
+
+			public void clickContinueBtn()
+	{
+		btnContinue.click();
+	}
+
+			public String btnContinueBgColour()
+			{
+				String bgColour = Color.fromString(btnContinue.getCssValue("background-color")).asHex();
+				return bgColour;
+			}
+			
 }

@@ -1,15 +1,12 @@
 package parkIQ.pageObjects;
 import parkIQ.common.WebElementFunctions;
 
-import java.util.concurrent.TimeUnit;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.CacheLookup;
 import org.openqa.selenium.support.Color;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
-import org.openqa.selenium.support.ui.ExpectedConditions;
-import org.openqa.selenium.support.ui.WebDriverWait;
 
 public class CreateNewUser_UserInformationPage {
 	 WebDriver ldriver;
@@ -37,12 +34,12 @@ public class CreateNewUser_UserInformationPage {
 			WebElement formTitle ;
 
 			//First Name Text Field
-			@FindBy(xpath="//body/div[1]/app-create-user[1]/div[3]/mat-card[1]/form[1]/div[2]/input[1]")
+			@FindBy(xpath="//body/div[1]/app-create-user[1]/div[3]/mat-card[1]/form[1]/div[2]/div[1]/input[1]")
 			@CacheLookup
 			WebElement txtFirstName;
 
 			//Last Name Text Field
-			@FindBy(xpath="//body/div[1]/app-create-user[1]/div[3]/mat-card[1]/form[1]/div[2]/input[2]")
+			@FindBy(xpath="//body/div[1]/app-create-user[1]/div[3]/mat-card[1]/form[1]/div[2]/div[2]/input[1]")
 			@CacheLookup
 			WebElement txtLastName;
 
@@ -67,12 +64,12 @@ public class CreateNewUser_UserInformationPage {
 			WebElement phoneValidation;
 
 			//Cancel Button
-			@FindBy(xpath="//body/div[1]/app-create-user[1]/div[3]/mat-card[1]/form[1]/div[6]/input[1]")
+			@FindBy(xpath="//body/div[1]/app-create-user[1]/div[3]/mat-card[1]/form[1]/div[7]/input[1]")
 			@CacheLookup
 			WebElement btnCancel;
 
 			//Continue Button
-			@FindBy(xpath="//body/div[1]/app-create-user[1]/div[3]/mat-card[1]/form[1]/div[6]/input[2]")
+			@FindBy(xpath="//body/div[1]/app-create-user[1]/div[3]/mat-card[1]/form[1]/div[7]/input[2]")
 			@CacheLookup
 			WebElement btnContinue;
 
@@ -80,8 +77,7 @@ public class CreateNewUser_UserInformationPage {
 
 
 
-			//Wait
-			public void load() { func.pageLoad(ldriver); }
+
 
 			//Confirm Header "User Information"
 			public boolean verifyHeader()

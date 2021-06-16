@@ -42,6 +42,12 @@ public class ReadConfig {
 		String invalidemail=pro.getProperty("invalidemail");
 		return invalidemail;
 	}
+
+	public String getUnregisteredEmail()
+	{
+		String invalidemail=pro.getProperty("unregisteredemail");
+		return invalidemail;
+	}
 	
 	public String getPassword()
 	{

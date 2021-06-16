@@ -13,6 +13,7 @@ public class TC_ForgotPswrd_001 extends BaseClass {
 		public void checkTitle()
 		{
 			ForgotPassword fp = new ForgotPassword(driver);
+
 			
 			logger.info("FORGOT PASSWORD TEST CASES");
 			
@@ -56,7 +57,7 @@ public class TC_ForgotPswrd_001 extends BaseClass {
 		{
 			ForgotPassword fp = new ForgotPassword(driver);
 			
-			fp.inputEmail(email);
+			fp.setEmail(email);
 			logger.info("Entered Email for reset");
 			boolean resetBtn = fp.locateResetBtn(); 
 			if(resetBtn == true)
@@ -92,7 +93,7 @@ public class TC_ForgotPswrd_001 extends BaseClass {
 			
 			fp.clickFrgtPaswrd();
 			logger.info("Clicked Forgot Password");
-			fp.inputEmail(email);
+			fp.setEmail(email);
 			logger.info("Entered Email");
 			
 			driver.manage().timeouts().implicitlyWait(10,TimeUnit.SECONDS);
@@ -124,7 +125,6 @@ public class TC_ForgotPswrd_001 extends BaseClass {
 		@Test  (priority=3)
 		public void validateTexts()
 		{
-			driver.get(baseURL);
 			ForgotPassword fp = new ForgotPassword(driver);
 			
 			fp.clickFrgtPaswrd();
@@ -152,32 +152,7 @@ public class TC_ForgotPswrd_001 extends BaseClass {
 		}
 
 		
-		@Test (priority=4)
-		public void testValidEmail()
-		{
-			ForgotPassword fp = new ForgotPassword(driver);
-			driver.get(baseURL);
-			fp.clickFrgtPaswrd();
-			logger.info("Clicked Forgot Password");
-			
-		//	driver.manage().timeouts().implicitlyWait(10,TimeUnit.SECONDS);
-			boolean validationMessage = fp.setEmail(email);
-			logger.info("Entered vaild email: '" + email + "'");
-			
-
-			if(!validationMessage)
-			{
-				Assert.assertTrue(true);
-				logger.info("Email '" + email + "' is accepted as a valid email");
-			}
-			else
-			{
-				Assert.assertTrue(false);
-				logger.info("Email validation is faulty");
-			}
-		}
-		
-		@Test (priority = 5)
+		@Test (priority = 4)
 		public void testInvalidEmail()
 		{
 			ForgotPassword fp = new ForgotPassword(driver);
@@ -186,11 +161,16 @@ public class TC_ForgotPswrd_001 extends BaseClass {
 			logger.info("Clicked Forgot Password");
 			
 			//driver.manage().timeouts().implicitlyWait(10,TimeUnit.SECONDS);
-			boolean isValidationMessage = fp.setEmail(invalidEmail);
-			System.out.print("Validation Message: " + isValidationMessage);
-			logger.info("Entered invalid email: '" + invalidEmail + "'");
+			fp.setEmail(invalidEmail);
+			logger.info("Entered invalid email: " + invalidEmail);
 
-			if(isValidationMessage)
+			fp.clickReset();
+			logger.info("Clicked Reset Button");
+
+			boolean isInvalidEmailMessageVal = fp.isInvalidEmail();
+
+
+			if(isInvalidEmailMessageVal)
 			{
 				Assert.assertTrue(true);
 				logger.info("Email '" + invalidEmail + "' is an invalid email");
@@ -201,6 +181,36 @@ public class TC_ForgotPswrd_001 extends BaseClass {
 				logger.info("Email validation is faulty");
 			}
 		}
+
+	@Test (priority = 5)
+	public void testUregisteredEmail()
+	{
+		ForgotPassword fp = new ForgotPassword(driver);
+		driver.get(baseURL);
+		fp.clickFrgtPaswrd();
+		logger.info("Clicked Forgot Password");
+
+		//driver.manage().timeouts().implicitlyWait(10,TimeUnit.SECONDS);
+		fp.setEmail(unregisteredEmail);
+		logger.info("Entered invalid email: " + unregisteredEmail);
+
+		fp.clickReset();
+		logger.info("Clicked Reset Button");
+
+		boolean isEmailNotExistMessageVal = fp.isEmailNotExist();
+
+
+		if(isEmailNotExistMessageVal)
+		{
+			Assert.assertTrue(true);
+			logger.info("No account was found with email address '" + unregisteredEmail + "'");
+		}
+		else
+		{
+			Assert.assertTrue(false);
+			logger.info("Email validation is faulty");
+		}
+	}
 		
 		//have to test emails stored or not stored in database
 }

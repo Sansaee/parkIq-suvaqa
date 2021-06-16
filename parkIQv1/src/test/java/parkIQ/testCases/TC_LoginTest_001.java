@@ -14,6 +14,7 @@ public class TC_LoginTest_001 extends BaseClass {
 	  {
 		  logger.info("BaseUrl is opened");
 		  LoginPage lp = new LoginPage(driver);
+
 	  
 		  lp.setEmail(invalidemail); 
 		  logger.info("Invalid Email is entered");
@@ -35,7 +36,7 @@ public class TC_LoginTest_001 extends BaseClass {
 		  driver.get(baseURL); 
 		  LoginPage lp = new LoginPage(driver);
 	  
-		  lp.setEmail(invalidemail); 
+		  lp.setEmail(unregisteredEmail);
 		  logger.info("Invalid Email is entered");
 	  
 		  lp.clickSubmit(); 

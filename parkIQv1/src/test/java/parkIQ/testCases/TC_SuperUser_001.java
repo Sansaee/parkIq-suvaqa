@@ -5,6 +5,7 @@ import org.testng.annotations.Test;
 import parkIQ.pageObjects.CreateCustomerServiceUser;
 import parkIQ.pageObjects.LoginPage;
 import parkIQ.pageObjects.OperationModePrompt;
+import parkIQ.pageObjects.SuperUserPortalPage;
 
 public class TC_SuperUser_001 extends BaseClass {
 	//contains test cases from "create customer service user"
@@ -13,6 +14,7 @@ public class TC_SuperUser_001 extends BaseClass {
 	public void  setupSuperUserRole() throws InterruptedException 
 	{
 		OperationModePrompt omp = new OperationModePrompt(driver);
+		SuperUserPortalPage sup = new SuperUserPortalPage(driver);
 		LoginPage lp= new LoginPage(driver);
 		
 		
@@ -31,6 +33,8 @@ public class TC_SuperUser_001 extends BaseClass {
 		logger.info("Select Button Clicked");
 
 		logger.info("Entered Super User Portal Page");
+
+
 
 
 		if(driver.getTitle().equals("Park IQ Admin"))
@@ -166,9 +170,9 @@ public class TC_SuperUser_001 extends BaseClass {
 	public void testColumns()
 	{
 		CreateCustomerServiceUser cs = new CreateCustomerServiceUser(driver);
-		boolean sortByDropDown = cs.locateColumnHeaders();
+		boolean column = cs.locateColumnHeaders();
 
-		if(sortByDropDown == true)
+		if(column == true)
 		{
 			logger.info("Displays column headers correctly");
 		}

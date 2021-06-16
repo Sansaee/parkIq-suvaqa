@@ -55,18 +55,26 @@ function toggleAllBoxes() {
 <body>
 <h2 align='center'>Park IQ System Test</h2><table border='1' align="center">
 <tr>
-<td>Tests passed/Failed/Skipped:</td><td>8/0/0</td>
+<td>Tests passed/Failed/Skipped:</td><td>1/5/0</td>
 </tr><tr>
+<<<<<<< HEAD
 <<<<<<< HEAD
 <td>Started on:</td><td>Tue Jun 15 10:17:56 FJT 2021</td>
 =======
 <td>Started on:</td><td>Tue Jun 15 13:13:38 FJT 2021</td>
 >>>>>>> branch 'development' of https://github.com/Sansaee/parkIq-suvaqa.git
+=======
+<td>Started on:</td><td>Wed Jun 16 12:58:57 FJT 2021</td>
+>>>>>>> branch 'development' of https://github.com/Sansaee/parkIq-suvaqa.git
 </tr>
+<<<<<<< HEAD
 <<<<<<< HEAD
 <tr><td>Total time:</td><td>50 seconds (50123 ms)</td>
 =======
 <tr><td>Total time:</td><td>48 seconds (48853 ms)</td>
+>>>>>>> branch 'development' of https://github.com/Sansaee/parkIq-suvaqa.git
+=======
+<tr><td>Total time:</td><td>225 seconds (225016 ms)</td>
 >>>>>>> branch 'development' of https://github.com/Sansaee/parkIq-suvaqa.git
 </tr><tr>
 <td>Included groups:</td><td></td>
@@ -75,6 +83,299 @@ function toggleAllBoxes() {
 </tr>
 </table><p/>
 <small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-failed'>
+<tr><td colspan='4' align='center'><b>FAILED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='parkIQ.testCases.TC_SuperUser_003.testBackButton()'><b>testBackButton</b><br>Test class: parkIQ.testCases.TC_SuperUser_003</td>
+<td><div><pre>java.lang.AssertionError: expected [true] but found [false]
+	at parkIQ.testCases.TC_SuperUser_003.testBackButton(TC_SuperUser_003.java:125)
+... Removed 29 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace918307166", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace918307166'><pre>java.lang.AssertionError: expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:96)
+	at org.testng.Assert.failNotEquals(Assert.java:776)
+	at org.testng.Assert.assertTrue(Assert.java:44)
+	at org.testng.Assert.assertTrue(Assert.java:54)
+	at parkIQ.testCases.TC_SuperUser_003.testBackButton(TC_SuperUser_003.java:125)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:648)
+	at org.testng.TestRunner.run(TestRunner.java:505)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+	at org.testng.TestNG.runSuites(TestNG.java:1049)
+	at org.testng.TestNG.run(TestNG.java:1017)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>30</td>
+<td>parkIQ.testCases.TC_SuperUser_003@6ab778a</td></tr>
+<tr>
+<td title='parkIQ.testCases.TC_SuperUser_003.testCancelButton()'><b>testCancelButton</b><br>Test class: parkIQ.testCases.TC_SuperUser_003</td>
+<td><div><pre>java.lang.AssertionError: expected [true] but found [false]
+	at parkIQ.testCases.TC_SuperUser_003.testCancelButton(TC_SuperUser_003.java:156)
+... Removed 29 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1534655921", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1534655921'><pre>java.lang.AssertionError: expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:96)
+	at org.testng.Assert.failNotEquals(Assert.java:776)
+	at org.testng.Assert.assertTrue(Assert.java:44)
+	at org.testng.Assert.assertTrue(Assert.java:54)
+	at parkIQ.testCases.TC_SuperUser_003.testCancelButton(TC_SuperUser_003.java:156)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:648)
+	at org.testng.TestRunner.run(TestRunner.java:505)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+	at org.testng.TestNG.runSuites(TestNG.java:1049)
+	at org.testng.TestNG.run(TestNG.java:1017)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>30</td>
+<td>parkIQ.testCases.TC_SuperUser_003@6ab778a</td></tr>
+<tr>
+<td title='parkIQ.testCases.TC_SuperUser_003.testColumns()'><b>testColumns</b><br>Test class: parkIQ.testCases.TC_SuperUser_003</td>
+<td><div><pre>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;/html[1]/body[1]/div[1]/app-create-user[1]/div[3]/mat-card[1]/div[3]/div[1]&quot;}
+  (Session info: chrome=91.0.4472.106)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;DESKTOP-C9T0B5A&apos;, ip: &apos;192.168.155.21&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;15.0.2&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 91.0.4472.106, chrome: {chromedriverVersion: 90.0.4430.24 (4c6d850f087da..., userDataDir: C:\Users\user\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:58542}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: a2a73fff0c3c89b778617f78d7496005
+*** Element info: {Using=xpath, value=/html[1]/body[1]/div[1]/app-create-user[1]/div[3]/mat-card[1]/div[3]/div[1]}
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy15.isDisplayed(Unknown Source)
+	at parkIQ.pageObjects.CreateNewUser_AssignCustomersToUserProfilePage.locateColumnHeaders(CreateNewUser_AssignCustomersToUserProfilePage.java:97)
+	at parkIQ.testCases.TC_SuperUser_003.testColumns(TC_SuperUser_003.java:100)
+... Removed 30 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1031775150", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1031775150'><pre>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;/html[1]/body[1]/div[1]/app-create-user[1]/div[3]/mat-card[1]/div[3]/div[1]&quot;}
+  (Session info: chrome=91.0.4472.106)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;DESKTOP-C9T0B5A&apos;, ip: &apos;192.168.155.21&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;15.0.2&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 91.0.4472.106, chrome: {chromedriverVersion: 90.0.4430.24 (4c6d850f087da..., userDataDir: C:\Users\user\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:58542}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: a2a73fff0c3c89b778617f78d7496005
+*** Element info: {Using=xpath, value=/html[1]/body[1]/div[1]/app-create-user[1]/div[3]/mat-card[1]/div[3]/div[1]}
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:64)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy15.isDisplayed(Unknown Source)
+	at parkIQ.pageObjects.CreateNewUser_AssignCustomersToUserProfilePage.locateColumnHeaders(CreateNewUser_AssignCustomersToUserProfilePage.java:97)
+	at parkIQ.testCases.TC_SuperUser_003.testColumns(TC_SuperUser_003.java:100)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:648)
+	at org.testng.TestRunner.run(TestRunner.java:505)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+	at org.testng.TestNG.runSuites(TestNG.java:1049)
+	at org.testng.TestNG.run(TestNG.java:1017)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>15</td>
+<td>parkIQ.testCases.TC_SuperUser_003@6ab778a</td></tr>
+<tr>
+<td title='parkIQ.testCases.TC_SuperUser_003.testContButton()'><b>testContButton</b><br>Test class: parkIQ.testCases.TC_SuperUser_003</td>
+<td><div><pre>java.lang.AssertionError: expected [true] but found [false]
+	at parkIQ.testCases.TC_SuperUser_003.testContButton(TC_SuperUser_003.java:187)
+... Removed 29 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace886004375", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace886004375'><pre>java.lang.AssertionError: expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:96)
+	at org.testng.Assert.failNotEquals(Assert.java:776)
+	at org.testng.Assert.assertTrue(Assert.java:44)
+	at org.testng.Assert.assertTrue(Assert.java:54)
+	at parkIQ.testCases.TC_SuperUser_003.testContButton(TC_SuperUser_003.java:187)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:648)
+	at org.testng.TestRunner.run(TestRunner.java:505)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+	at org.testng.TestNG.runSuites(TestNG.java:1049)
+	at org.testng.TestNG.run(TestNG.java:1017)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>30</td>
+<td>parkIQ.testCases.TC_SuperUser_003@6ab778a</td></tr>
+<tr>
+<td title='parkIQ.testCases.TC_SuperUser_003.validateTitle_content()'><b>validateTitle_content</b><br>Test class: parkIQ.testCases.TC_SuperUser_003</td>
+<td><div><pre>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//body/div[1]/app-create-user[1]/div[3]/mat-card[1]/form[1]/div[2]/input[1]&quot;}
+  (Session info: chrome=91.0.4472.106)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;DESKTOP-C9T0B5A&apos;, ip: &apos;192.168.155.21&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;15.0.2&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 91.0.4472.106, chrome: {chromedriverVersion: 90.0.4430.24 (4c6d850f087da..., userDataDir: C:\Users\user\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:58542}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: a2a73fff0c3c89b778617f78d7496005
+*** Element info: {Using=xpath, value=//body/div[1]/app-create-user[1]/div[3]/mat-card[1]/form[1]/div[2]/input[1]}
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy15.clear(Unknown Source)
+	at parkIQ.pageObjects.CreateNewUser_AssignCustomersToUserProfilePage.setFirstName(CreateNewUser_AssignCustomersToUserProfilePage.java:157)
+	at parkIQ.testCases.TC_SuperUser_003.validateTitle_content(TC_SuperUser_003.java:58)
+... Removed 30 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace10885570", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace10885570'><pre>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//body/div[1]/app-create-user[1]/div[3]/mat-card[1]/form[1]/div[2]/input[1]&quot;}
+  (Session info: chrome=91.0.4472.106)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;DESKTOP-C9T0B5A&apos;, ip: &apos;192.168.155.21&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;15.0.2&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 91.0.4472.106, chrome: {chromedriverVersion: 90.0.4430.24 (4c6d850f087da..., userDataDir: C:\Users\user\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:58542}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: a2a73fff0c3c89b778617f78d7496005
+*** Element info: {Using=xpath, value=//body/div[1]/app-create-user[1]/div[3]/mat-card[1]/form[1]/div[2]/input[1]}
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:64)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy15.clear(Unknown Source)
+	at parkIQ.pageObjects.CreateNewUser_AssignCustomersToUserProfilePage.setFirstName(CreateNewUser_AssignCustomersToUserProfilePage.java:157)
+	at parkIQ.testCases.TC_SuperUser_003.validateTitle_content(TC_SuperUser_003.java:58)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:648)
+	at org.testng.TestRunner.run(TestRunner.java:505)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+	at org.testng.TestNG.runSuites(TestNG.java:1049)
+	at org.testng.TestNG.run(TestNG.java:1017)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>45</td>
+<td>parkIQ.testCases.TC_SuperUser_003@6ab778a</td></tr>
+</table><p>
 <table width='100%' border='1' class='invocation-passed'>
 <tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
 <tr><td><b>Test method</b></td>
@@ -83,6 +384,7 @@ function toggleAllBoxes() {
 <td><b>Instance</b></td>
 </tr>
 <tr>
+<<<<<<< HEAD
 <td title='parkIQ.testCases.TC_LoginTest_001.loginDetailsTest1()'><b>loginDetailsTest1</b><br>Test class: parkIQ.testCases.TC_LoginTest_001</td>
 <td></td>
 <td>2</td>
@@ -94,7 +396,11 @@ function toggleAllBoxes() {
 <td>parkIQ.testCases.TC_LoginTest_001@243c4f91</td></tr>
 <tr>
 <td title='parkIQ.testCases.TC_LoginTest_001.loginDetailsTest2()'><b>loginDetailsTest2</b><br>Test class: parkIQ.testCases.TC_LoginTest_001</td>
+=======
+<td title='parkIQ.testCases.TC_SuperUser_003.setupSuperUserRole()'><b>setupSuperUserRole</b><br>Test class: parkIQ.testCases.TC_SuperUser_003</td>
+>>>>>>> branch 'development' of https://github.com/Sansaee/parkIq-suvaqa.git
 <td></td>
+<<<<<<< HEAD
 <td>0</td>
 <<<<<<< HEAD
 <td>parkIQ.testCases.TC_LoginTest_001@243c4f91</td></tr>
@@ -158,6 +464,10 @@ function toggleAllBoxes() {
 <td></td>
 <td>0</td>
 <td>parkIQ.testCases.TC_SuperUser_001@5c90e579</td></tr>
+>>>>>>> branch 'development' of https://github.com/Sansaee/parkIq-suvaqa.git
+=======
+<td>56</td>
+<td>parkIQ.testCases.TC_SuperUser_003@6ab778a</td></tr>
 >>>>>>> branch 'development' of https://github.com/Sansaee/parkIq-suvaqa.git
 </table><p>
 </body>

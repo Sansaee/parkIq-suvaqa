@@ -2,6 +2,7 @@ package parkIQ.common;
 
 import java.util.concurrent.TimeUnit;
 
+import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.ui.ExpectedConditions;
@@ -11,11 +12,7 @@ public class WebElementFunctions {
 	
 	public WebElementFunctions() {
 	  }
-	  //Implicit Wait Function
-	  public void pageLoad(WebDriver ldriver)
-	  {
-	    ldriver.manage().timeouts().implicitlyWait(15, TimeUnit.SECONDS);
-	  }
+
 
 	  //Verify if Element is Clickable
 	  public boolean verifyElementIsClickable(WebElement element, WebDriver ldriver)
@@ -31,6 +28,35 @@ public class WebElementFunctions {
 	      return false;
 	    }
 	  }
+
+	//Verify if Element is Clickable
+	public void pageLoad(WebElement element, WebDriver ldriver)
+	{
+		//wait till element is clickable and displayed
+		try {
+			WebDriverWait wait = new WebDriverWait(ldriver, 120);
+			wait.until(ExpectedConditions.visibilityOf(element));
+		}
+		catch (Exception ex)
+		{
+			ex.printStackTrace();
+		}
+	}
+
+	//Verify if Element is Clickable
+	public void waitLoaderDisappear(WebElement element, WebDriver ldriver)
+	{
+		//wait till element is clickable and displayed
+		try {
+			WebDriverWait wait = new WebDriverWait(ldriver, 3);
+			wait.until(ExpectedConditions.visibilityOf(element));
+			wait.until(ExpectedConditions.invisibilityOf(element));
+		}
+		catch (Exception ex)
+		{
+			ex.printStackTrace();
+		}
+	}
 
 	  //Verify if Element is Displayed and Contains Text
 	  public boolean verifyElementDisplayedWithText(WebElement webElement, String text)

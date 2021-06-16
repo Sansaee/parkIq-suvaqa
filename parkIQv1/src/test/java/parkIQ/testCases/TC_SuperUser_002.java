@@ -33,6 +33,7 @@ public class TC_SuperUser_002 extends BaseClass {
 			logger.info("Super User Portal Option Selected");
 
 			omp.clickSelect();
+
 			logger.info("Select Button Clicked");
 
 			logger.info("Entered Super User Portal Page");
@@ -112,28 +113,6 @@ public class TC_SuperUser_002 extends BaseClass {
 				logger.info("First Name Text Field doesn't exist");
 			}
 		}
-
-		//Tests if First Name Field is Displayed and Clickable
-//		@Test (priority = 4)
-//		public void firstNameField_b()
-//		{
-//			CreateNewUser_UserInformationPage uip = new CreateNewUser_UserInformationPage(driver);
-//			String validationMessage = uip.setFirstName("");
-//			System.out.print("Error message: " + validationMessage + "\n");
-	//
-	//
-////			if(fnClickable)
-////			{
-////				Assert.assertTrue(true);
-////				logger.info("First Name Text Field is Displayed and is Clickable");
-////			}
-////			else
-////			{
-////				Assert.assertTrue(false);
-////				logger.info("First Name Text Field doesn't exist");
-////			}
-//		}
-
 
 
 		//Tests if Last Name Field is Displayed and Clickable
@@ -342,7 +321,7 @@ public class TC_SuperUser_002 extends BaseClass {
 			uip.clickCancel();
 			logger.info("Cancel Button Clicked");
 
-			uip.load(); //implicit wait
+
 			boolean isUserFormTitle = sup.locateTitle();
 
 			if(isUserFormTitle)
@@ -365,9 +344,10 @@ public class TC_SuperUser_002 extends BaseClass {
 			SuperUserPortalPage sup = new SuperUserPortalPage(driver);
 
 			sup.clickCreateUserLink();
+
+
 			logger.info("Create New User link clicked, redirecting to User Information Page");
 
-			sup.load();
 
 			uip.setFirstName(name);
 			logger.info("Entered First Name: '" + name + "'");
@@ -406,13 +386,12 @@ public class TC_SuperUser_002 extends BaseClass {
 
 			uip.clickContinue();
 			logger.info("Continue Button clicked");
-			assignCus.load();
 
 			boolean isFormTitle = assignCus.verifyFormTitle();
 			if(isFormTitle)
 			{
 				Assert.assertTrue(true);
-				logger.info("Continue Button Functions as Expected... redirects back to 'Users Form'");
+				logger.info("Continue Button Functions as Expected... redirects to 'Assign Customers To User Profile Form'");
 			}
 			else
 			{

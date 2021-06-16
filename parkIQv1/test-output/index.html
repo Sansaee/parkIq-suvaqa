@@ -24,7 +24,7 @@
     <div class="top-banner-root">
       <span class="top-banner-title-font">Test results</span>
       <br/>
-      <span class="top-banner-font-1">1 suite</span>
+      <span class="top-banner-font-1">1 suite, 5 failed tests</span>
     </div> <!-- top-banner-root -->
     <div class="navigator-root">
       <div class="navigator-suite-header">
@@ -38,7 +38,7 @@
         <div class="rounded-window">
           <div class="suite-header light-rounded-window-top">
             <a href="#" panel-name="suite-ParkIQv1" class="navigator-link">
-              <span class="suite-name border-passed">ParkIQv1</span>
+              <span class="suite-name border-failed">ParkIQv1</span>
             </a> <!-- navigator-link -->
           </div> <!-- suite-header light-rounded-window-top -->
           <div class="navigator-suite-content">
@@ -91,7 +91,41 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">8 methods,   8 passed</span>
+                    <span class="method-stats">6 methods, 5 failed,   1 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-ParkIQv1" class="hide-methods failed suite-ParkIQv1"> (hide)</a> <!-- hide-methods failed suite-ParkIQv1 -->
+                      <a href="#" panel-name="suite-ParkIQv1" class="show-methods failed suite-ParkIQv1"> (show)</a> <!-- show-methods failed suite-ParkIQv1 -->
+                    </span>
+                    <div class="method-list-content failed suite-ParkIQv1">
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-ParkIQv1" title="parkIQ.testCases.TC_SuperUser_003" class="method navigator-link" hash-for-method="testBackButton">testBackButton</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-ParkIQv1" title="parkIQ.testCases.TC_SuperUser_003" class="method navigator-link" hash-for-method="testCancelButton">testCancelButton</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-ParkIQv1" title="parkIQ.testCases.TC_SuperUser_003" class="method navigator-link" hash-for-method="testColumns">testColumns</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-ParkIQv1" title="parkIQ.testCases.TC_SuperUser_003" class="method navigator-link" hash-for-method="testContButton">testContButton</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-ParkIQv1" title="parkIQ.testCases.TC_SuperUser_003" class="method navigator-link" hash-for-method="validateTitle_content">validateTitle_content</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-ParkIQv1 -->
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
@@ -102,42 +136,7 @@
                     <div class="method-list-content passed suite-ParkIQv1">
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-ParkIQv1" title="parkIQ.testCases.TC_SuperUser_001" class="method navigator-link" hash-for-method="checkCreateNewUserLink">checkCreateNewUserLink</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-ParkIQv1" title="parkIQ.testCases.TC_SuperUser_001" class="method navigator-link" hash-for-method="checkLogo">checkLogo</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-ParkIQv1" title="parkIQ.testCases.TC_SuperUser_001" class="method navigator-link" hash-for-method="checkSectionHeader">checkSectionHeader</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-ParkIQv1" title="parkIQ.testCases.TC_SuperUser_001" class="method navigator-link" hash-for-method="checkTitles">checkTitles</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-ParkIQv1" title="parkIQ.testCases.TC_SuperUser_001" class="method navigator-link" hash-for-method="searchFunctionality">searchFunctionality</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-ParkIQv1" title="parkIQ.testCases.TC_SuperUser_001" class="method navigator-link" hash-for-method="setupSuperUserRole">setupSuperUserRole</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-ParkIQv1" title="parkIQ.testCases.TC_SuperUser_001" class="method navigator-link" hash-for-method="sortByDropDown">sortByDropDown</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-ParkIQv1" title="parkIQ.testCases.TC_SuperUser_001" class="method navigator-link" hash-for-method="testColumns">testColumns</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-ParkIQv1" title="parkIQ.testCases.TC_SuperUser_003" class="method navigator-link" hash-for-method="setupSuperUserRole">setupSuperUserRole</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content passed suite-ParkIQv1 -->
@@ -152,59 +151,32 @@
     <div class="wrapper">
       <div class="main-panel-root">
         <div panel-name="suite-ParkIQv1" class="panel ParkIQv1">
-          <div class="suite-ParkIQv1-class-passed">
+          <div class="suite-ParkIQv1-class-failed">
             <div class="main-panel-header rounded-window-top">
-              <img src="passed.png"/>
-              <span class="class-name">parkIQ.testCases.TC_SuperUser_001</span>
+              <img src="failed.png"/>
+              <span class="class-name">parkIQ.testCases.TC_SuperUser_003</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="checkCreateNewUserLink">
-                  </a> <!-- checkCreateNewUserLink -->
-                  <span class="method-name">checkCreateNewUserLink</span>
+                  <a name="testBackButton">
+                  </a> <!-- testBackButton -->
+                  <span class="method-name">testBackButton</span>
+                  <div class="stack-trace">java.lang.AssertionError: expected [true] but found [false]
+	at parkIQ.testCases.TC_SuperUser_003.testBackButton(TC_SuperUser_003.java:125)
+... Removed 29 stack frames
+</div> <!-- stack-trace -->
                 </div> <!-- method-content -->
               </div> <!-- method -->
               <div class="method">
                 <div class="method-content">
-                  <a name="checkLogo">
-                  </a> <!-- checkLogo -->
-                  <span class="method-name">checkLogo</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="checkSectionHeader">
-                  </a> <!-- checkSectionHeader -->
-                  <span class="method-name">checkSectionHeader</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="checkTitles">
-                  </a> <!-- checkTitles -->
-                  <span class="method-name">checkTitles</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="searchFunctionality">
-                  </a> <!-- searchFunctionality -->
-                  <span class="method-name">searchFunctionality</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="setupSuperUserRole">
-                  </a> <!-- setupSuperUserRole -->
-                  <span class="method-name">setupSuperUserRole</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="sortByDropDown">
-                  </a> <!-- sortByDropDown -->
-                  <span class="method-name">sortByDropDown</span>
+                  <a name="testCancelButton">
+                  </a> <!-- testCancelButton -->
+                  <span class="method-name">testCancelButton</span>
+                  <div class="stack-trace">java.lang.AssertionError: expected [true] but found [false]
+	at parkIQ.testCases.TC_SuperUser_003.testCancelButton(TC_SuperUser_003.java:156)
+... Removed 29 stack frames
+</div> <!-- stack-trace -->
                 </div> <!-- method-content -->
               </div> <!-- method -->
               <div class="method">
@@ -212,6 +184,91 @@
                   <a name="testColumns">
                   </a> <!-- testColumns -->
                   <span class="method-name">testColumns</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;/html[1]/body[1]/div[1]/app-create-user[1]/div[3]/mat-card[1]/div[3]/div[1]&quot;}
+  (Session info: chrome=91.0.4472.106)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;DESKTOP-C9T0B5A&apos;, ip: &apos;192.168.155.21&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;15.0.2&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 91.0.4472.106, chrome: {chromedriverVersion: 90.0.4430.24 (4c6d850f087da..., userDataDir: C:\Users\user\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:58542}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: a2a73fff0c3c89b778617f78d7496005
+*** Element info: {Using=xpath, value=/html[1]/body[1]/div[1]/app-create-user[1]/div[3]/mat-card[1]/div[3]/div[1]}
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy15.isDisplayed(Unknown Source)
+	at parkIQ.pageObjects.CreateNewUser_AssignCustomersToUserProfilePage.locateColumnHeaders(CreateNewUser_AssignCustomersToUserProfilePage.java:97)
+	at parkIQ.testCases.TC_SuperUser_003.testColumns(TC_SuperUser_003.java:100)
+... Removed 30 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testContButton">
+                  </a> <!-- testContButton -->
+                  <span class="method-name">testContButton</span>
+                  <div class="stack-trace">java.lang.AssertionError: expected [true] but found [false]
+	at parkIQ.testCases.TC_SuperUser_003.testContButton(TC_SuperUser_003.java:187)
+... Removed 29 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="validateTitle_content">
+                  </a> <!-- validateTitle_content -->
+                  <span class="method-name">validateTitle_content</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//body/div[1]/app-create-user[1]/div[3]/mat-card[1]/form[1]/div[2]/input[1]&quot;}
+  (Session info: chrome=91.0.4472.106)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;DESKTOP-C9T0B5A&apos;, ip: &apos;192.168.155.21&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;15.0.2&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 91.0.4472.106, chrome: {chromedriverVersion: 90.0.4430.24 (4c6d850f087da..., userDataDir: C:\Users\user\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:58542}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: a2a73fff0c3c89b778617f78d7496005
+*** Element info: {Using=xpath, value=//body/div[1]/app-create-user[1]/div[3]/mat-card[1]/form[1]/div[2]/input[1]}
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy15.clear(Unknown Source)
+	at parkIQ.pageObjects.CreateNewUser_AssignCustomersToUserProfilePage.setFirstName(CreateNewUser_AssignCustomersToUserProfilePage.java:157)
+	at parkIQ.testCases.TC_SuperUser_003.validateTitle_content(TC_SuperUser_003.java:58)
+... Removed 30 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-ParkIQv1-class-failed -->
+          <div class="suite-ParkIQv1-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">parkIQ.testCases.TC_SuperUser_003</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="setupSuperUserRole">
+                  </a> <!-- setupSuperUserRole -->
+                  <span class="method-name">setupSuperUserRole</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -232,7 +289,7 @@
   &lt;test thread-count=&quot;5&quot; name=&quot;Park IQ System Test&quot;&gt;
     &lt;parameter name=&quot;browser&quot; value=&quot;chrome&quot;/&gt;
     &lt;classes&gt;
-      &lt;class name=&quot;parkIQ.testCases.TC_SuperUser_001&quot;/&gt;
+      &lt;class name=&quot;parkIQ.testCases.TC_SuperUser_003&quot;/&gt;
     &lt;/classes&gt;
   &lt;/test&gt; &lt;!-- Park IQ System Test --&gt;
 &lt;/suite&gt; &lt;!-- ParkIQv1 --&gt;
@@ -272,44 +329,36 @@ data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(8);
+data.addRows(6);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'setupSuperUserRole')
-data.setCell(0, 2, 'parkIQ.testCases.TC_SuperUser_001')
-data.setCell(0, 3, 33773);
+data.setCell(0, 2, 'parkIQ.testCases.TC_SuperUser_003')
+data.setCell(0, 3, 56132);
 data.setCell(1, 0, 1)
-data.setCell(1, 1, 'sortByDropDown')
-data.setCell(1, 2, 'parkIQ.testCases.TC_SuperUser_001')
-data.setCell(1, 3, 294);
+data.setCell(1, 1, 'validateTitle_content')
+data.setCell(1, 2, 'parkIQ.testCases.TC_SuperUser_003')
+data.setCell(1, 3, 45346);
 data.setCell(2, 0, 2)
-data.setCell(2, 1, 'testColumns')
-data.setCell(2, 2, 'parkIQ.testCases.TC_SuperUser_001')
-data.setCell(2, 3, 199);
+data.setCell(2, 1, 'testCancelButton')
+data.setCell(2, 2, 'parkIQ.testCases.TC_SuperUser_003')
+data.setCell(2, 3, 30118);
 data.setCell(3, 0, 3)
-data.setCell(3, 1, 'checkCreateNewUserLink')
-data.setCell(3, 2, 'parkIQ.testCases.TC_SuperUser_001')
-data.setCell(3, 3, 81);
+data.setCell(3, 1, 'testBackButton')
+data.setCell(3, 2, 'parkIQ.testCases.TC_SuperUser_003')
+data.setCell(3, 3, 30098);
 data.setCell(4, 0, 4)
-data.setCell(4, 1, 'checkTitles')
-data.setCell(4, 2, 'parkIQ.testCases.TC_SuperUser_001')
-data.setCell(4, 3, 62);
+data.setCell(4, 1, 'testContButton')
+data.setCell(4, 2, 'parkIQ.testCases.TC_SuperUser_003')
+data.setCell(4, 3, 30083);
 data.setCell(5, 0, 5)
-data.setCell(5, 1, 'checkSectionHeader')
-data.setCell(5, 2, 'parkIQ.testCases.TC_SuperUser_001')
-data.setCell(5, 3, 60);
-data.setCell(6, 0, 6)
-data.setCell(6, 1, 'checkLogo')
-data.setCell(6, 2, 'parkIQ.testCases.TC_SuperUser_001')
-data.setCell(6, 3, 48);
-data.setCell(7, 0, 7)
-data.setCell(7, 1, 'searchFunctionality')
-data.setCell(7, 2, 'parkIQ.testCases.TC_SuperUser_001')
-data.setCell(7, 3, 39);
+data.setCell(5, 1, 'testColumns')
+data.setCell(5, 2, 'parkIQ.testCases.TC_SuperUser_003')
+data.setCell(5, 3, 15052);
 window.suiteTableData['ParkIQv1']= { tableData: data, tableDiv: 'times-div-ParkIQv1'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 34 seconds</span>
+              <span class="suite-total-time">Total running time: 3 minutes</span>
               <div id="times-div-ParkIQv1">
               </div> <!-- times-div-ParkIQv1 -->
             </div> <!-- times-div -->
@@ -335,46 +384,48 @@ return data;
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="chronological-class">
-              <div class="chronological-class-name">parkIQ.testCases.TC_SuperUser_001</div> <!-- chronological-class-name -->
+              <div class="chronological-class-name">parkIQ.testCases.TC_SuperUser_003</div> <!-- chronological-class-name -->
               <div class="configuration-class before">
                 <span class="method-name">setup(chrome)</span>
                 <span class="method-start">0 ms</span>
               </div> <!-- configuration-class before -->
               <div class="test-method">
                 <span class="method-name">setupSuperUserRole</span>
-                <span class="method-start">13079 ms</span>
+                <span class="method-start">16709 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
-                <span class="method-name">checkLogo</span>
-                <span class="method-start">46870 ms</span>
+                <img src="failed.png">
+                </img>
+                <span class="method-name">validateTitle_content</span>
+                <span class="method-start">72860 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
-                <span class="method-name">checkTitles</span>
-                <span class="method-start">46921 ms</span>
-              </div> <!-- test-method -->
-              <div class="test-method">
-                <span class="method-name">checkSectionHeader</span>
-                <span class="method-start">46985 ms</span>
-              </div> <!-- test-method -->
-              <div class="test-method">
-                <span class="method-name">checkCreateNewUserLink</span>
-                <span class="method-start">47049 ms</span>
-              </div> <!-- test-method -->
-              <div class="test-method">
-                <span class="method-name">searchFunctionality</span>
-                <span class="method-start">47132 ms</span>
-              </div> <!-- test-method -->
-              <div class="test-method">
-                <span class="method-name">sortByDropDown</span>
-                <span class="method-start">47174 ms</span>
-              </div> <!-- test-method -->
-              <div class="test-method">
+                <img src="failed.png">
+                </img>
                 <span class="method-name">testColumns</span>
-                <span class="method-start">47471 ms</span>
+                <span class="method-start">118210 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">testBackButton</span>
+                <span class="method-start">133267 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">testCancelButton</span>
+                <span class="method-start">163368 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">testContButton</span>
+                <span class="method-start">193489 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-class after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">47674 ms</span>
+                <span class="method-start">223574 ms</span>
               </div> <!-- configuration-class after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

@@ -7,13 +7,17 @@
   <test thread-count="5" name="Park IQ System Test(failed)">
     <parameter name="browser" value="chrome"/>
     <classes>
-      <class name="parkIQ.testCases.TC_ForgotPswrd_001">
+      <class name="parkIQ.testCases.TC_SuperUser_003">
         <methods>
+          <include name="validateTitle_content"/>
+          <include name="testContButton"/>
+          <include name="testCancelButton"/>
           <include name="setup"/>
+          <include name="testBackButton"/>
           <include name="tearDown"/>
-          <include name="testInvalidEmail"/>
+          <include name="testColumns"/>
         </methods>
-      </class> <!-- parkIQ.testCases.TC_ForgotPswrd_001 -->
+      </class> <!-- parkIQ.testCases.TC_SuperUser_003 -->
     </classes>
   </test> <!-- Park IQ System Test(failed) -->
 </suite> <!-- Failed suite [ParkIQv1] -->
