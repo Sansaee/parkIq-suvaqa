@@ -882,3 +882,35 @@
 2021-06-15 13:41:11,084 - parkIQ -INFO - Password text is clickable
 2021-06-15 13:41:11,211 - parkIQ -INFO - Password is entered
 2021-06-15 13:41:12,973 - parkIQ -INFO - Login button is clicked
+2021-06-16 10:42:38,158 - parkIQ -INFO - SUPER USER ROLE TEST CASES - CREATE CUSTOMER SERVICE USER
+2021-06-16 10:43:13,568 - parkIQ -INFO - Successfully logged in
+2021-06-16 10:43:20,031 - parkIQ -INFO - Operation Mode Selection Mode Displayed
+2021-06-16 10:43:20,115 - parkIQ -INFO - Super User Portal Option Selected
+2021-06-16 10:43:20,233 - parkIQ -INFO - Select Button Clicked
+2021-06-16 10:43:20,234 - parkIQ -INFO - Entered Super User Portal Page
+2021-06-16 10:43:20,247 - parkIQ -INFO - User navigated to super user role form
+
+2021-06-16 10:44:11,979 - parkIQ -INFO - SUPER USER ROLE TEST CASES - ASSIGN CUSTOMERS TO USERS
+2021-06-16 10:44:27,940 - parkIQ -INFO - Successfully logged in
+2021-06-16 10:44:33,532 - parkIQ -INFO - Operation Mode Selection Mode Displayed
+2021-06-16 10:44:33,612 - parkIQ -INFO - Super User Portal Option Selected
+2021-06-16 10:44:33,707 - parkIQ -INFO - Select Button Clicked
+2021-06-16 10:44:33,708 - parkIQ -INFO - Entered Super User Portal Page
+2021-06-16 10:44:33,720 - parkIQ -INFO - User navigated to super user role form
+
+2021-06-16 12:54:53,257 - parkIQ -INFO - SUPER USER ROLE TEST CASES - ASSIGN CUSTOMERS TO USERS
+2021-06-16 12:55:24,394 - parkIQ -INFO - Successfully logged in
+2021-06-16 12:55:32,665 - parkIQ -INFO - Operation Mode Selection Mode Displayed
+2021-06-16 12:55:32,731 - parkIQ -INFO - Super User Portal Option Selected
+2021-06-16 12:55:32,858 - parkIQ -INFO - Select Button Clicked
+2021-06-16 12:55:32,859 - parkIQ -INFO - Entered Super User Portal Page
+2021-06-16 12:55:32,869 - parkIQ -INFO - User navigated to super user role form
+
+2021-06-16 12:59:15,012 - parkIQ -INFO - SUPER USER ROLE TEST CASES - ASSIGN CUSTOMERS TO USERS
+2021-06-16 13:00:00,945 - parkIQ -INFO - Successfully logged in
+2021-06-16 13:00:07,833 - parkIQ -INFO - Operation Mode Selection Mode Displayed
+2021-06-16 13:00:07,952 - parkIQ -INFO - Super User Portal Option Selected
+2021-06-16 13:00:08,073 - parkIQ -INFO - Select Button Clicked
+2021-06-16 13:00:08,073 - parkIQ -INFO - Entered Super User Portal Page
+2021-06-16 13:00:08,087 - parkIQ -INFO - User navigated to super user role form
+

@@ -29,7 +29,7 @@ public class CreateNewUser_AssignCustomersToUserProfilePage {
 			@CacheLookup
 			WebElement formDescription;
 			
-			@FindBy(xpath="//div[@class='mx-3']")
+			@FindBy(xpath="/html[1]/body[1]/div[1]/app-create-user[1]/div[3]/mat-card[1]/div[3]/div[1]")
 			@CacheLookup
 			WebElement formColumn1;
 			
@@ -108,6 +108,11 @@ public class CreateNewUser_AssignCustomersToUserProfilePage {
 			public boolean locateCheckBox()
 			{
 				return checkbox.isDisplayed();
+			}
+			
+			public void clickCheckBox()
+			{
+				 checkbox.click();
 			}
 			
 			public boolean btnBackClickableDisplayed()

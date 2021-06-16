@@ -4,12 +4,9 @@ package parkIQ.testCases;
 import java.io.File;
 import java.io.IOException;
 import java.util.concurrent.TimeUnit;
-import java.util.jar.Attributes.Name;
-
 import org.apache.commons.io.FileUtils;
 import org.apache.log4j.Logger;
 import org.apache.log4j.PropertyConfigurator;
-import org.apache.poi.ss.formula.EvaluationWorkbook.ExternalName;
 import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
@@ -18,10 +15,7 @@ import org.openqa.selenium.edge.EdgeDriver;
 import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Parameters;
-
-import freemarker.template.Template.WrongEncodingException;
 import parkIQ.utilities.ReadConfig;
-
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.opera.OperaDriver;
 
@@ -92,11 +86,6 @@ public class BaseClass {
 		driver.get(baseURL);
 		driver.manage().timeouts().implicitlyWait(15, TimeUnit.SECONDS);
 	}
-	
-	//testcases
-	//click forgot your password and validate title
-	//click don't have an account and validate title, to member sign up form
-	//email and password empty
 	
 	
 	@AfterClass

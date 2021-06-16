@@ -30,7 +30,7 @@ public class SuperUserPortalPage {
 
 
 	//create new user link
-	@FindBy(xpath="//span[contains(text(),'Create New User')]")
+	@FindBy(xpath="//span[@class='card-item-link']")
 	@CacheLookup
 	WebElement linkCreateNewUser;
 	
