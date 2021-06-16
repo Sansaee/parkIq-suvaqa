@@ -30,6 +30,20 @@ public class WebElementFunctions {
 	  }
 
 	//Verify if Element is Clickable
+	public void pageLoad(WebElement element, WebDriver ldriver)
+	{
+		//wait till element is clickable and displayed
+		try {
+			WebDriverWait wait = new WebDriverWait(ldriver, 120);
+			wait.until(ExpectedConditions.visibilityOf(element));
+		}
+		catch (Exception ex)
+		{
+			ex.printStackTrace();
+		}
+	}
+
+	//Verify if Element is Clickable
 	public void waitLoaderDisappear(WebElement element, WebDriver ldriver)
 	{
 		//wait till element is clickable and displayed

@@ -15,6 +15,7 @@ import org.openqa.selenium.edge.EdgeDriver;
 import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Parameters;
+import parkIQ.pageObjects.LoginPage;
 import parkIQ.utilities.ReadConfig;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.opera.OperaDriver;
@@ -82,9 +83,11 @@ public class BaseClass {
 			System.setProperty("webdriver.opera.driver",readConfig.getOperaPath());
 			driver=new OperaDriver();
 		}
+
 		driver.manage().window().maximize();
 		driver.get(baseURL);
 		driver.manage().timeouts().implicitlyWait(15, TimeUnit.SECONDS);
+
 	}
 	
 	

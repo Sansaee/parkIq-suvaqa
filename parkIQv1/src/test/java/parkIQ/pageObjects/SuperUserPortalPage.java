@@ -59,10 +59,6 @@ public class SuperUserPortalPage {
 		return func.verifyElementIsClickable(linkCreateNewUser, ldriver);
 	}
 
-	public boolean overlayIsDisplayed()
-	{
-		return overlay.isDisplayed();
-	}
 	public void clickCreateUserLink()
 	{
 		func.waitLoaderDisappear(overlay, ldriver);

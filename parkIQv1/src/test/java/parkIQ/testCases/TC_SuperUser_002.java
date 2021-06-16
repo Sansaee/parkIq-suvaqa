@@ -33,18 +33,10 @@ public class TC_SuperUser_002 extends BaseClass {
 			logger.info("Super User Portal Option Selected");
 
 			omp.clickSelect();
-			System.out.print("Overlay is displayed: " + sup.overlayIsDisplayed() + "'\n");
+
 			logger.info("Select Button Clicked");
 
 			logger.info("Entered Super User Portal Page");
-
-
-//			boolean isClickable = false;
-//			while(!isClickable)
-//			{
-//				isClickable = sup.createUserLinkClickable();
-//				System.out.print("Is clickable: '" + isClickable + "'");
-//			}
 
 			sup.clickCreateUserLink();
 
@@ -329,7 +321,6 @@ public class TC_SuperUser_002 extends BaseClass {
 			uip.clickCancel();
 			logger.info("Cancel Button Clicked");
 
-			System.out.print("Overlay is displayed: " + sup.overlayIsDisplayed() + "'\n");
 
 			boolean isUserFormTitle = sup.locateTitle();
 
@@ -351,8 +342,6 @@ public class TC_SuperUser_002 extends BaseClass {
 		{
 			CreateNewUser_UserInformationPage uip = new CreateNewUser_UserInformationPage(driver);
 			SuperUserPortalPage sup = new SuperUserPortalPage(driver);
-
-
 
 			sup.clickCreateUserLink();
 
@@ -402,7 +391,7 @@ public class TC_SuperUser_002 extends BaseClass {
 			if(isFormTitle)
 			{
 				Assert.assertTrue(true);
-				logger.info("Continue Button Functions as Expected... redirects back to 'Users Form'");
+				logger.info("Continue Button Functions as Expected... redirects to 'Assign Customers To User Profile Form'");
 			}
 			else
 			{

@@ -13,6 +13,7 @@ public class TC_ForgotPswrd_001 extends BaseClass {
 		public void checkTitle()
 		{
 			ForgotPassword fp = new ForgotPassword(driver);
+
 			
 			logger.info("FORGOT PASSWORD TEST CASES");
 			

@@ -1522,3 +1522,622 @@
 2021-06-16 12:42:48,244 [main] INFO parkIQ - Continue Button clicked
 2021-06-16 12:42:48,284 [main] INFO parkIQ - Continue Button Functions as Expected... redirects back to 'Users Form'
 >>>>>>> branch 'development' of https://github.com/Sansaee/parkIq-suvaqa.git
+2021-06-16 14:07:42,305 [main] INFO parkIQ - SUPER USER ROLE TEST CASES - ASSIGN CUSTOMERS TO USERS
+2021-06-16 14:07:55,627 [main] INFO parkIQ - Successfully logged in
+2021-06-16 14:08:04,053 [main] INFO parkIQ - Operation Mode Selection Mode Displayed
+2021-06-16 14:08:04,100 [main] INFO parkIQ - Super User Portal Option Selected
+2021-06-16 14:08:04,153 [main] INFO parkIQ - Select Button Clicked
+2021-06-16 14:08:04,154 [main] INFO parkIQ - Entered Super User Portal Page
+2021-06-16 14:08:04,163 [main] INFO parkIQ - User navigated to super user role form
+
+2021-06-16 14:12:19,105 [main] INFO parkIQ - SUPER USER ROLE TEST CASES - ASSIGN CUSTOMERS TO USERS
+2021-06-16 14:12:35,776 [main] INFO parkIQ - Successfully logged in
+2021-06-16 14:12:42,484 [main] INFO parkIQ - Operation Mode Selection Mode Displayed
+2021-06-16 14:12:42,538 [main] INFO parkIQ - Super User Portal Option Selected
+2021-06-16 14:12:42,594 [main] INFO parkIQ - Select Button Clicked
+2021-06-16 14:12:42,595 [main] INFO parkIQ - Entered Super User Portal Page
+2021-06-16 14:12:42,602 [main] INFO parkIQ - User navigated to super user role form
+
+2021-06-16 14:17:17,141 [main] INFO parkIQ - SUPER USER ROLE TEST CASES - ASSIGN CUSTOMERS TO USERS
+2021-06-16 14:17:41,747 [main] INFO parkIQ - Successfully logged in
+2021-06-16 14:17:47,642 [main] INFO parkIQ - Operation Mode Selection Mode Displayed
+2021-06-16 14:17:47,686 [main] INFO parkIQ - Super User Portal Option Selected
+2021-06-16 14:17:47,743 [main] INFO parkIQ - Select Button Clicked
+2021-06-16 14:17:47,743 [main] INFO parkIQ - Entered Super User Portal Page
+2021-06-16 14:17:47,749 [main] INFO parkIQ - User navigated to super user role form
+
+2021-06-16 14:26:06,732 [main] INFO parkIQ - SUPER USER ROLE TEST CASES - ASSIGN CUSTOMERS TO USERS
+2021-06-16 14:26:21,591 [main] INFO parkIQ - Successfully logged in
+2021-06-16 14:26:28,033 [main] INFO parkIQ - Operation Mode Selection Mode Displayed
+2021-06-16 14:26:28,078 [main] INFO parkIQ - Super User Portal Option Selected
+2021-06-16 14:26:28,132 [main] INFO parkIQ - Select Button Clicked
+2021-06-16 14:26:28,133 [main] INFO parkIQ - Entered Super User Portal Page
+2021-06-16 14:26:28,138 [main] INFO parkIQ - User navigated to super user role form
+
+2021-06-16 14:26:31,601 [main] INFO parkIQ - User navigated to assigning customers form
+
+2021-06-16 14:26:31,636 [main] INFO parkIQ - Assign Customers to User Profile title is missing
+2021-06-16 14:27:48,918 [main] INFO parkIQ - SUPER USER ROLE TEST CASES - ASSIGN CUSTOMERS TO USERS
+2021-06-16 14:28:00,873 [main] INFO parkIQ - Successfully logged in
+2021-06-16 14:28:08,157 [main] INFO parkIQ - Operation Mode Selection Mode Displayed
+2021-06-16 14:28:08,205 [main] INFO parkIQ - Super User Portal Option Selected
+2021-06-16 14:28:08,255 [main] INFO parkIQ - Select Button Clicked
+2021-06-16 14:28:08,255 [main] INFO parkIQ - Entered Super User Portal Page
+2021-06-16 14:28:08,262 [main] INFO parkIQ - User navigated to super user role form
+
+2021-06-16 14:28:11,868 [main] INFO parkIQ - User navigated to assigning customers form
+
+2021-06-16 14:28:11,906 [main] INFO parkIQ - Assign Customers to User Profile title is displayed correctly
+2021-06-16 14:28:11,940 [main] INFO parkIQ - Form Description displayed correctly
+2021-06-16 14:28:27,045 [main] INFO parkIQ - Back button is displayed and clickable
+2021-06-16 14:28:27,105 [main] INFO parkIQ - Back button clicked
+2021-06-16 14:28:27,112 [main] INFO parkIQ - User navigated back to user information form
+
+2021-06-16 16:15:11,234 [main] INFO parkIQ - SUPER USER ROLE TEST CASES - ASSIGN CUSTOMERS TO USERS
+2021-06-16 16:15:27,393 [main] INFO parkIQ - Successfully logged in
+2021-06-16 16:15:34,524 [main] INFO parkIQ - Operation Mode Selection Mode Displayed
+2021-06-16 16:15:34,581 [main] INFO parkIQ - Super User Portal Option Selected
+2021-06-16 16:15:34,686 [main] INFO parkIQ - Select Button Clicked
+2021-06-16 16:15:34,687 [main] INFO parkIQ - Entered Super User Portal Page
+2021-06-16 16:15:34,703 [main] INFO parkIQ - User navigated to super user role form
+
+2021-06-16 16:15:37,625 [main] INFO parkIQ - User navigated to assigning customers form
+
+2021-06-16 16:15:37,626 [main] INFO parkIQ - Assign Customers to User Profile title is displayed correctly
+2021-06-16 16:15:37,626 [main] INFO parkIQ - Form Description displayed correctly
+2021-06-16 16:15:37,733 [main] INFO parkIQ - Displays column headers correctly
+2021-06-16 16:15:37,811 [main] INFO parkIQ - Back button is displayed and clickable
+2021-06-16 16:15:37,919 [main] INFO parkIQ - Back button clicked
+2021-06-16 16:15:37,994 [main] INFO parkIQ - User navigated back to user information form
+
+2021-06-16 16:19:30,551 [main] INFO parkIQ - SUPER USER ROLE TEST CASES - ASSIGN CUSTOMERS TO USERS
+2021-06-16 16:19:44,561 [main] INFO parkIQ - Successfully logged in
+2021-06-16 16:19:52,565 [main] INFO parkIQ - Operation Mode Selection Mode Displayed
+2021-06-16 16:19:52,617 [main] INFO parkIQ - Super User Portal Option Selected
+2021-06-16 16:19:52,690 [main] INFO parkIQ - Select Button Clicked
+2021-06-16 16:19:52,690 [main] INFO parkIQ - Entered Super User Portal Page
+2021-06-16 16:19:52,700 [main] INFO parkIQ - User navigated to super user role form
+
+2021-06-16 16:19:56,247 [main] INFO parkIQ - User navigated to assigning customers form
+
+2021-06-16 16:19:56,247 [main] INFO parkIQ - Assign Customers to User Profile title is displayed correctly
+2021-06-16 16:19:56,248 [main] INFO parkIQ - Form Description displayed correctly
+2021-06-16 16:19:56,387 [main] INFO parkIQ - Displays column headers correctly
+2021-06-16 16:19:56,459 [main] INFO parkIQ - Back button is displayed and clickable
+2021-06-16 16:19:56,544 [main] INFO parkIQ - Back button clicked
+2021-06-16 16:19:56,606 [main] INFO parkIQ - User navigated back to user information form
+
+2021-06-16 16:22:35,082 [main] INFO parkIQ - SUPER USER ROLE TEST CASES - ASSIGN CUSTOMERS TO USERS
+2021-06-16 16:24:11,886 [main] INFO parkIQ - Successfully logged in
+2021-06-16 16:26:24,098 [main] INFO parkIQ - SUPER USER ROLE TEST CASES - ASSIGN CUSTOMERS TO USERS
+2021-06-16 16:28:55,403 [main] INFO parkIQ - SUPER USER ROLE TEST CASES - ASSIGN CUSTOMERS TO USERS
+2021-06-16 16:29:16,172 [main] INFO parkIQ - Successfully logged in
+2021-06-16 16:34:17,019 [main] INFO parkIQ - SUPER USER ROLE TEST CASES - ASSIGN CUSTOMERS TO USERS
+2021-06-16 16:39:14,008 [main] INFO parkIQ - SUPER USER ROLE TEST CASES - ASSIGN CUSTOMERS TO USERS
+2021-06-16 16:39:30,141 [main] INFO parkIQ - Successfully logged in
+2021-06-16 16:39:40,592 [main] INFO parkIQ - Operation Mode Selection Mode Displayed
+2021-06-16 16:39:40,845 [main] INFO parkIQ - Super User Portal Option Selected
+2021-06-16 16:39:41,137 [main] INFO parkIQ - Select Button Clicked
+2021-06-16 16:39:41,138 [main] INFO parkIQ - Entered Super User Portal Page
+2021-06-16 16:39:41,153 [main] INFO parkIQ - User navigated to super user role form
+
+2021-06-16 16:39:43,819 [main] INFO parkIQ - User navigated to assigning customers form
+
+2021-06-16 16:39:43,820 [main] INFO parkIQ - Assign Customers to User Profile title is displayed correctly
+2021-06-16 16:39:43,821 [main] INFO parkIQ - Form Description displayed correctly
+2021-06-16 16:39:43,918 [main] INFO parkIQ - Displays column headers correctly
+2021-06-16 16:39:43,970 [main] INFO parkIQ - Back button is displayed and clickable
+2021-06-16 16:39:44,219 [main] INFO parkIQ - Back button clicked
+2021-06-16 16:39:44,265 [main] INFO parkIQ - User navigated back to user information form
+
+2021-06-16 16:39:44,546 [main] INFO parkIQ - Cancel button is displayed and clickable
+2021-06-16 17:00:09,393 [main] INFO parkIQ - SUPER USER ROLE TEST CASES - ASSIGN CUSTOMERS TO USERS
+2021-06-16 17:00:24,036 [main] INFO parkIQ - Successfully logged in
+2021-06-16 17:00:34,367 [main] INFO parkIQ - Operation Mode Selection Mode Displayed
+2021-06-16 17:00:34,619 [main] INFO parkIQ - Super User Portal Option Selected
+2021-06-16 17:00:34,881 [main] INFO parkIQ - Select Button Clicked
+2021-06-16 17:00:34,883 [main] INFO parkIQ - Entered Super User Portal Page
+2021-06-16 17:00:34,893 [main] INFO parkIQ - User navigated to super user role form
+
+2021-06-16 17:00:38,345 [main] INFO parkIQ - User navigated to assigning customers form
+
+2021-06-16 17:00:38,345 [main] INFO parkIQ - Assign Customers to User Profile title is displayed correctly
+2021-06-16 17:00:38,346 [main] INFO parkIQ - Form Description displayed correctly
+2021-06-16 17:00:38,441 [main] INFO parkIQ - Displays column headers correctly
+2021-06-16 17:00:38,465 [main] INFO parkIQ - Back button is displayed and clickable
+2021-06-16 17:00:38,696 [main] INFO parkIQ - Back button clicked
+2021-06-16 17:00:38,732 [main] INFO parkIQ - User navigated back to user information form
+
+2021-06-16 17:00:39,006 [main] INFO parkIQ - Cancel button is displayed and clickable
+2021-06-16 17:04:09,484 [main] INFO parkIQ - SUPER USER ROLE TEST CASES - ASSIGN CUSTOMERS TO USERS
+2021-06-16 17:04:36,995 [main] INFO parkIQ - Successfully logged in
+2021-06-16 17:05:13,213 [main] INFO parkIQ - Operation Mode Selection Mode Displayed
+2021-06-16 17:05:13,446 [main] INFO parkIQ - Super User Portal Option Selected
+2021-06-16 17:05:13,686 [main] INFO parkIQ - Select Button Clicked
+2021-06-16 17:05:13,687 [main] INFO parkIQ - Entered Super User Portal Page
+2021-06-16 17:05:13,693 [main] INFO parkIQ - User navigated to super user role form
+
+2021-06-16 17:33:32,724 [main] INFO parkIQ - SUPER USER ROLE TEST CASES - ASSIGN CUSTOMERS TO USERS
+2021-06-16 17:36:45,641 [main] INFO parkIQ - BaseUrl is opened
+2021-06-16 17:37:47,201 [main] INFO parkIQ - Invalid Email is entered
+2021-06-16 17:37:47,264 [main] INFO parkIQ - Invalid Password is entered
+2021-06-16 17:37:47,374 [main] INFO parkIQ - Login button is clicked
+2021-06-16 17:37:50,302 [main] INFO parkIQ - Invalid Email is entered
+2021-06-16 17:37:50,439 [main] INFO parkIQ - Login button is clicked
+2021-06-16 17:37:52,909 [main] INFO parkIQ - Login button is clicked
+2021-06-16 17:37:56,199 [main] INFO parkIQ - Login is displayed
+2021-06-16 17:37:56,227 [main] INFO parkIQ - Login Color is displayed
+2021-06-16 17:37:56,244 [main] INFO parkIQ - Login Background Color is displayed
+2021-06-16 17:37:56,276 [main] INFO parkIQ - Park IQ and Park Industries Business Intelligence is displayed
+2021-06-16 17:37:56,653 [main] INFO parkIQ - Sign In confirmed
+2021-06-16 17:37:57,145 [main] INFO parkIQ - Email text is displayed
+2021-06-16 17:37:57,186 [main] INFO parkIQ - Email textbox is clickable
+2021-06-16 17:37:57,267 [main] INFO parkIQ - Email is entered
+2021-06-16 17:37:57,312 [main] INFO parkIQ - Password text is displayed
+2021-06-16 17:37:57,336 [main] INFO parkIQ - Password text is clickable
+2021-06-16 17:37:57,406 [main] INFO parkIQ - Password is entered
+2021-06-16 17:37:58,840 [main] INFO parkIQ - Login button is clicked
+2021-06-16 17:38:40,801 [main] INFO parkIQ - SUPER USER ROLE TEST CASES - ASSIGN CUSTOMERS TO USERS
+2021-06-16 17:38:52,878 [main] INFO parkIQ - Successfully logged in
+2021-06-16 17:38:59,851 [main] INFO parkIQ - Operation Mode Selection Mode Displayed
+2021-06-16 17:38:59,902 [main] INFO parkIQ - Super User Portal Option Selected
+2021-06-16 17:38:59,958 [main] INFO parkIQ - Select Button Clicked
+2021-06-16 17:38:59,959 [main] INFO parkIQ - Entered Super User Portal Page
+2021-06-16 17:38:59,967 [main] INFO parkIQ - User navigated to super user role form
+
+2021-06-16 17:39:02,016 [main] INFO parkIQ - User navigated to assigning customers form
+
+2021-06-16 17:39:02,016 [main] INFO parkIQ - Assign Customers to User Profile title is displayed correctly
+2021-06-16 17:39:02,016 [main] INFO parkIQ - Form Description displayed correctly
+2021-06-16 17:39:02,067 [main] INFO parkIQ - Displays column headers correctly
+2021-06-16 17:39:02,100 [main] INFO parkIQ - Back button is displayed and clickable
+2021-06-16 17:39:02,160 [main] INFO parkIQ - Back button clicked
+2021-06-16 17:39:02,202 [main] INFO parkIQ - User navigated back to user information form
+
+2021-06-16 17:39:02,277 [main] INFO parkIQ - Cancel button is displayed and clickable
+2021-06-16 17:44:50,108 [main] INFO parkIQ - SUPER USER ROLE TEST CASES - ASSIGN CUSTOMERS TO USERS
+2021-06-16 17:45:25,568 [main] INFO parkIQ - Successfully logged in
+2021-06-16 17:45:32,941 [main] INFO parkIQ - Operation Mode Selection Mode Displayed
+2021-06-16 17:45:32,990 [main] INFO parkIQ - Super User Portal Option Selected
+2021-06-16 17:45:33,044 [main] INFO parkIQ - Select Button Clicked
+2021-06-16 17:45:33,044 [main] INFO parkIQ - Entered Super User Portal Page
+2021-06-16 17:45:33,050 [main] INFO parkIQ - User navigated to super user role form
+
+2021-06-16 17:45:35,242 [main] INFO parkIQ - User navigated to assigning customers form
+
+2021-06-16 17:45:35,242 [main] INFO parkIQ - Assign Customers to User Profile title is displayed correctly
+2021-06-16 17:45:35,243 [main] INFO parkIQ - Form Description displayed correctly
+2021-06-16 17:45:35,296 [main] INFO parkIQ - Displays column headers correctly
+2021-06-16 17:45:35,329 [main] INFO parkIQ - Back button is displayed and clickable
+2021-06-16 17:45:35,385 [main] INFO parkIQ - Back button clicked
+2021-06-16 17:45:35,428 [main] INFO parkIQ - User navigated back to user information form
+
+2021-06-16 17:45:35,527 [main] INFO parkIQ - Cancel button is displayed and clickable
+2021-06-16 17:48:16,904 [main] INFO parkIQ - SUPER USER ROLE TEST CASES - ASSIGN CUSTOMERS TO USERS
+2021-06-16 17:48:33,606 [main] INFO parkIQ - Successfully logged in
+2021-06-16 17:48:41,118 [main] INFO parkIQ - Operation Mode Selection Mode Displayed
+2021-06-16 17:48:41,166 [main] INFO parkIQ - Super User Portal Option Selected
+2021-06-16 17:48:41,218 [main] INFO parkIQ - Select Button Clicked
+2021-06-16 17:48:41,218 [main] INFO parkIQ - Entered Super User Portal Page
+2021-06-16 17:48:41,224 [main] INFO parkIQ - User navigated to super user role form
+
+2021-06-16 17:48:43,735 [main] INFO parkIQ - User navigated to assigning customers form
+
+2021-06-16 17:48:43,735 [main] INFO parkIQ - Assign Customers to User Profile title is displayed correctly
+2021-06-16 17:48:43,736 [main] INFO parkIQ - Form Description displayed correctly
+2021-06-16 17:48:43,788 [main] INFO parkIQ - Displays column headers correctly
+2021-06-16 17:48:43,820 [main] INFO parkIQ - Back button is displayed and clickable
+2021-06-16 17:48:43,866 [main] INFO parkIQ - Back button clicked
+2021-06-16 17:48:43,906 [main] INFO parkIQ - User navigated back to user information form
+
+2021-06-16 17:48:43,994 [main] INFO parkIQ - Cancel button is displayed and clickable
+2021-06-16 17:50:54,545 [main] INFO parkIQ - SUPER USER ROLE TEST CASES - ASSIGN CUSTOMERS TO USERS
+2021-06-16 17:51:23,663 [main] INFO parkIQ - Successfully logged in
+2021-06-16 17:51:32,123 [main] INFO parkIQ - Operation Mode Selection Mode Displayed
+2021-06-16 17:51:32,182 [main] INFO parkIQ - Super User Portal Option Selected
+2021-06-16 17:51:32,250 [main] INFO parkIQ - Select Button Clicked
+2021-06-16 17:51:32,251 [main] INFO parkIQ - Entered Super User Portal Page
+2021-06-16 17:51:32,259 [main] INFO parkIQ - User navigated to super user role form
+
+2021-06-16 17:51:35,529 [main] INFO parkIQ - User navigated to assigning customers form
+
+2021-06-16 17:51:35,530 [main] INFO parkIQ - Assign Customers to User Profile title is displayed correctly
+2021-06-16 17:51:35,530 [main] INFO parkIQ - Form Description displayed correctly
+2021-06-16 17:51:35,631 [main] INFO parkIQ - Displays column headers correctly
+2021-06-16 17:51:35,700 [main] INFO parkIQ - Back button is displayed and clickable
+2021-06-16 17:51:35,775 [main] INFO parkIQ - Back button clicked
+2021-06-16 17:51:35,828 [main] INFO parkIQ - User navigated back to user information form
+
+2021-06-16 17:51:35,982 [main] INFO parkIQ - Cancel button is displayed and clickable
+2021-06-16 21:02:35,072 [main] INFO parkIQ - SUPER USER ROLE TEST CASES - ASSIGN CUSTOMERS TO USERS
+2021-06-16 21:03:28,888 [main] INFO parkIQ - Successfully logged in
+2021-06-16 21:03:45,737 [main] INFO parkIQ - Operation Mode Selection Mode Displayed
+2021-06-16 21:03:45,822 [main] INFO parkIQ - Super User Portal Option Selected
+2021-06-16 21:03:45,961 [main] INFO parkIQ - Select Button Clicked
+2021-06-16 21:03:45,962 [main] INFO parkIQ - Entered Super User Portal Page
+2021-06-16 21:03:45,986 [main] INFO parkIQ - User navigated to super user role form
+
+2021-06-16 21:03:52,089 [main] INFO parkIQ - User navigated to assigning customers form
+
+2021-06-16 21:03:52,090 [main] INFO parkIQ - Assign Customers to User Profile title is displayed correctly
+2021-06-16 21:03:52,091 [main] INFO parkIQ - Form Description displayed correctly
+2021-06-16 21:03:52,233 [main] INFO parkIQ - Displays column headers correctly
+2021-06-16 21:03:52,309 [main] INFO parkIQ - Back button is displayed and clickable
+2021-06-16 21:03:52,460 [main] INFO parkIQ - Back button clicked
+2021-06-16 21:03:52,530 [main] INFO parkIQ - User navigated back to user information form
+
+2021-06-16 21:03:52,735 [main] INFO parkIQ - Cancel button is displayed and clickable
+2021-06-16 21:03:52,866 [main] INFO parkIQ - Cancel button clicked
+2021-06-16 21:03:52,952 [main] INFO parkIQ - User navigated back to super user portal page
+
+2021-06-16 21:03:56,378 [main] INFO parkIQ - Create User Link Clicked
+2021-06-16 21:03:56,379 [main] INFO parkIQ - User Information Form Displayed
+2021-06-16 21:03:56,722 [main] INFO parkIQ - First Name Entered
+2021-06-16 21:03:56,852 [main] INFO parkIQ - Last Name Entered
+2021-06-16 21:03:57,064 [main] INFO parkIQ - Email Entered
+2021-06-16 21:03:57,346 [main] INFO parkIQ - Phone Number Entered
+2021-06-16 21:03:57,445 [main] INFO parkIQ - Continue Button Clicked
+2021-06-16 21:04:01,662 [main] INFO parkIQ - Continue Button is Displayed but is not clickable. Please Select a Checkbox
+2021-06-16 21:04:02,434 [main] INFO parkIQ - Continue Button is Enabled
+2021-06-16 21:04:03,055 [main] INFO parkIQ - Clicked Continue Button
+2021-06-16 21:04:03,114 [main] INFO parkIQ - Continue Button Functions as Expected... redirects to 'Roles and Permissions Form'
+2021-06-16 21:11:12,166 [main] INFO parkIQ - BaseUrl is opened
+2021-06-16 21:33:39,910 [main] INFO parkIQ - BaseUrl is opened
+2021-06-16 21:36:20,989 [main] INFO parkIQ - BaseUrl is opened
+2021-06-16 21:41:22,499 [main] INFO parkIQ - BaseUrl is opened
+2021-06-16 21:53:57,023 [main] INFO parkIQ - BaseUrl is opened
+2021-06-16 21:54:07,601 [main] INFO parkIQ - Invalid Email is entered
+2021-06-16 21:54:07,668 [main] INFO parkIQ - Invalid Password is entered
+2021-06-16 21:54:07,777 [main] INFO parkIQ - Login button is clicked
+2021-06-16 21:54:10,337 [main] INFO parkIQ - Invalid Email is entered
+2021-06-16 21:54:10,470 [main] INFO parkIQ - Login button is clicked
+2021-06-16 21:54:13,003 [main] INFO parkIQ - Login button is clicked
+2021-06-16 21:54:15,626 [main] INFO parkIQ - Login is displayed
+2021-06-16 21:54:15,651 [main] INFO parkIQ - Login Color is displayed
+2021-06-16 21:54:15,669 [main] INFO parkIQ - Login Background Color is displayed
+2021-06-16 21:54:15,704 [main] INFO parkIQ - Park IQ and Park Industries Business Intelligence is displayed
+2021-06-16 21:54:16,128 [main] INFO parkIQ - Sign In confirmed
+2021-06-16 21:54:16,608 [main] INFO parkIQ - Email text is displayed
+2021-06-16 21:54:16,652 [main] INFO parkIQ - Email textbox is clickable
+2021-06-16 21:54:16,728 [main] INFO parkIQ - Email is entered
+2021-06-16 21:54:16,768 [main] INFO parkIQ - Password text is displayed
+2021-06-16 21:54:16,792 [main] INFO parkIQ - Password text is clickable
+2021-06-16 21:54:16,860 [main] INFO parkIQ - Password is entered
+2021-06-16 21:54:18,260 [main] INFO parkIQ - Login button is clicked
+2021-06-16 21:54:23,972 [main] INFO parkIQ - FORGOT PASSWORD TEST CASES
+2021-06-16 21:54:40,674 [main] INFO parkIQ - Clicked Forgot Password link and form opens
+2021-06-16 21:54:40,719 [main] INFO parkIQ - Forgot Password Title is displayed correctly
+2021-06-16 21:54:40,757 [main] INFO parkIQ - Email text is missing
+2021-06-16 21:54:40,781 [main] INFO parkIQ - Email field is displayed correctly
+
+2021-06-16 21:54:40,877 [main] INFO parkIQ - Entered Email for reset
+2021-06-16 21:54:40,924 [main] INFO parkIQ - Reset text is displayed correctly. Text Colour: #ffffff  Background Color:#000000
+2021-06-16 21:54:45,310 [main] INFO parkIQ - Reset password test passed
+
+2021-06-16 21:54:47,635 [main] INFO parkIQ - Clicked Forgot Password
+2021-06-16 21:54:47,773 [main] INFO parkIQ - Entered Email
+2021-06-16 21:54:47,832 [main] INFO parkIQ - Cancel text is displayed correctly. Text color:#ffffff  Background Color:#000000
+2021-06-16 21:54:48,153 [main] INFO parkIQ - Cancelled password reset
+2021-06-16 21:54:48,158 [main] INFO parkIQ - Password reset cancellation passed: User is navigated to sign-in form
+
+2021-06-16 21:54:48,506 [main] INFO parkIQ - Clicked Forgot Password
+2021-06-16 21:54:48,551 [main] INFO parkIQ - Become Member text is displayed correctly
+2021-06-16 21:54:48,604 [main] INFO parkIQ - Sign Up text is displayed correctly. Text underlined: underline solid rgb(60, 114, 175)Text color:#3c72af
+
+2021-06-16 21:54:51,092 [main] INFO parkIQ - Clicked Forgot Password
+2021-06-16 21:54:51,216 [main] INFO parkIQ - Entered invalid email: asfhwohb
+2021-06-16 21:54:51,574 [main] INFO parkIQ - Clicked Reset Button
+2021-06-16 21:54:51,622 [main] INFO parkIQ - Email 'asfhwohb' is an invalid email
+2021-06-16 21:54:54,247 [main] INFO parkIQ - Clicked Forgot Password
+2021-06-16 21:54:54,377 [main] INFO parkIQ - Entered invalid email: abc@parkindustries.com
+2021-06-16 21:54:54,729 [main] INFO parkIQ - Clicked Reset Button
+2021-06-16 21:54:54,773 [main] INFO parkIQ - No account was found with email address 'abc@parkindustries.com'
+2021-06-16 21:55:03,222 [main] INFO parkIQ - SUPER USER ROLE TEST CASES - CREATE CUSTOMER SERVICE USER
+2021-06-16 21:55:31,794 [main] INFO parkIQ - Successfully logged in
+2021-06-16 21:55:39,403 [main] INFO parkIQ - Operation Mode Selection Mode Displayed
+2021-06-16 21:55:39,448 [main] INFO parkIQ - Super User Portal Option Selected
+2021-06-16 21:55:39,500 [main] INFO parkIQ - Select Button Clicked
+2021-06-16 21:55:39,501 [main] INFO parkIQ - Entered Super User Portal Page
+2021-06-16 21:55:39,505 [main] INFO parkIQ - User navigated to super user role form
+
+2021-06-16 21:55:42,545 [main] INFO parkIQ - Logo is displayed correctly
+2021-06-16 21:55:42,577 [main] INFO parkIQ - Create Customer Service User title is displayed correctly
+2021-06-16 21:55:42,607 [main] INFO parkIQ - Users section header is displayed correctly
+2021-06-16 21:55:42,651 [main] INFO parkIQ - Create New User link is displayed correctly.Text underlined: none solid rgb(38, 82, 175)Text color:#2652af
+2021-06-16 21:55:42,673 [main] INFO parkIQ - Search bar is displayed correctly
+2021-06-16 21:55:42,846 [main] INFO parkIQ - Sort By drop down is displayed correctly with all necessary fields
+2021-06-16 21:55:42,972 [main] INFO parkIQ - Displays column headers correctly
+2021-06-16 21:55:50,572 [main] INFO parkIQ - SUPER USER ROLE TEST CASES - CREATE NEW USERS
+2021-06-16 21:56:04,793 [main] INFO parkIQ - Logged in Successfully as Super User
+2021-06-16 21:56:11,625 [main] INFO parkIQ - Operation Mode Selection Mode Displayed
+2021-06-16 21:56:11,663 [main] INFO parkIQ - Super User Portal Option Selected
+2021-06-16 21:56:11,719 [main] INFO parkIQ - Select Button Clicked
+2021-06-16 21:56:11,719 [main] INFO parkIQ - Entered Super User Portal Page
+2021-06-16 21:56:14,074 [main] INFO parkIQ - Create New User link clicked, redirecting to User Information Page
+2021-06-16 21:56:14,107 [main] INFO parkIQ - Create New User Form is Open
+2021-06-16 21:56:14,107 [main] INFO parkIQ - Page Header 'User Information' is displayed
+2021-06-16 21:56:14,139 [main] INFO parkIQ - Page Title 'Create New User' is displayed correctly
+2021-06-16 21:56:14,172 [main] INFO parkIQ - Form Title 'User Information' is displayed
+2021-06-16 21:56:14,209 [main] INFO parkIQ - First Name Text Field is Displayed and is Clickable
+2021-06-16 21:56:14,239 [main] INFO parkIQ - Last Name Text Field is Displayed and is Clickable
+2021-06-16 21:56:14,269 [main] INFO parkIQ - Email Text Field is Displayed and is Clickable
+2021-06-16 21:56:14,398 [main] INFO parkIQ - Entered vaild email: 'sposterick@parkindustries.com'
+2021-06-16 21:56:14,399 [main] INFO parkIQ - Email 'sposterick@parkindustries.com' is accepted as a valid email
+2021-06-16 21:56:14,488 [main] INFO parkIQ - Entered invalid email: 'asfhwohb'
+2021-06-16 21:56:14,489 [main] INFO parkIQ - Email 'asfhwohb' is an invalid email
+2021-06-16 21:56:14,522 [main] INFO parkIQ - Phone Number  is Displayed and is Clickable
+2021-06-16 21:56:14,625 [main] INFO parkIQ - Entered Valid Phone Number: '1111111111'
+2021-06-16 21:56:14,625 [main] INFO parkIQ - Phone number '1111111111' is a valid number
+2021-06-16 21:56:14,707 [main] INFO parkIQ - Entered Invalid Phone Number: '123'
+2021-06-16 21:56:14,708 [main] INFO parkIQ - Phone number '123' is an invalid number
+2021-06-16 21:56:14,738 [main] INFO parkIQ - Cancel Button is Displayed and is Clickable
+2021-06-16 21:56:17,953 [main] INFO parkIQ - Continue Button is Displayed but is Disabled. Please Fill in Fields
+2021-06-16 21:56:17,967 [main] INFO parkIQ - Continue Button Background Colour is: '#686868'
+2021-06-16 21:56:18,013 [main] INFO parkIQ - Cancel Button Clicked
+2021-06-16 21:56:18,051 [main] INFO parkIQ - Cancel Button Functions as Expected... redirects back to 'Users Form'
+2021-06-16 21:56:20,117 [main] INFO parkIQ - Create New User link clicked, redirecting to User Information Page
+2021-06-16 21:56:20,195 [main] INFO parkIQ - Entered First Name: 'Black'
+2021-06-16 21:56:20,265 [main] INFO parkIQ - Entered Last Name: 'Jack'
+2021-06-16 21:56:20,378 [main] INFO parkIQ - Entered Email: 'sposterick@parkindustries.com'
+2021-06-16 21:56:20,482 [main] INFO parkIQ - Entered Phone Number: '1111111111'
+2021-06-16 21:56:20,511 [main] INFO parkIQ - Continue Button is enabled and is clickable
+2021-06-16 21:56:20,569 [main] INFO parkIQ - Continue Button clicked
+2021-06-16 21:56:20,606 [main] INFO parkIQ - Continue Button Functions as Expected... redirects to 'Assign Customers To User Profile Form'
+2021-06-16 21:56:27,748 [main] INFO parkIQ - SUPER USER ROLE TEST CASES - ASSIGN CUSTOMERS TO USERS
+2021-06-16 21:56:41,510 [main] INFO parkIQ - Successfully logged in
+2021-06-16 21:56:48,290 [main] INFO parkIQ - Operation Mode Selection Mode Displayed
+2021-06-16 21:56:48,332 [main] INFO parkIQ - Super User Portal Option Selected
+2021-06-16 21:56:48,387 [main] INFO parkIQ - Select Button Clicked
+2021-06-16 21:56:48,387 [main] INFO parkIQ - Entered Super User Portal Page
+2021-06-16 21:56:48,390 [main] INFO parkIQ - User navigated to super user role form
+
+2021-06-16 21:56:50,575 [main] INFO parkIQ - User navigated to assigning customers form
+
+2021-06-16 21:56:50,575 [main] INFO parkIQ - Assign Customers to User Profile title is displayed correctly
+2021-06-16 21:56:50,575 [main] INFO parkIQ - Form Description displayed correctly
+2021-06-16 21:56:50,615 [main] INFO parkIQ - Displays column headers correctly
+2021-06-16 21:56:50,646 [main] INFO parkIQ - Back button is displayed and clickable
+2021-06-16 21:56:50,688 [main] INFO parkIQ - Back button clicked
+2021-06-16 21:56:50,736 [main] INFO parkIQ - User navigated back to user information form
+
+2021-06-16 21:56:50,809 [main] INFO parkIQ - Cancel button is displayed and clickable
+2021-06-16 21:56:50,854 [main] INFO parkIQ - Cancel button clicked
+2021-06-16 21:56:50,886 [main] INFO parkIQ - User navigated back to super user portal page
+
+2021-06-16 21:56:53,022 [main] INFO parkIQ - Create User Link Clicked
+2021-06-16 21:56:53,023 [main] INFO parkIQ - User Information Form Displayed
+2021-06-16 21:56:53,103 [main] INFO parkIQ - First Name Entered
+2021-06-16 21:56:53,166 [main] INFO parkIQ - Last Name Entered
+2021-06-16 21:56:53,268 [main] INFO parkIQ - Email Entered
+2021-06-16 21:56:53,370 [main] INFO parkIQ - Phone Number Entered
+2021-06-16 21:56:53,415 [main] INFO parkIQ - Continue Button Clicked
+2021-06-16 21:56:56,939 [main] INFO parkIQ - Continue Button is Displayed but is not clickable. Please Select a Checkbox
+2021-06-16 21:56:57,213 [main] INFO parkIQ - Continue Button is Enabled
+2021-06-16 21:56:57,459 [main] INFO parkIQ - Clicked Continue Button
+2021-06-16 21:56:57,491 [main] INFO parkIQ - Continue Button Functions as Expected... redirects to 'Roles and Permissions Form'
+2021-06-16 22:06:59,090 [main] INFO parkIQ - BaseUrl is opened
+2021-06-16 22:07:35,278 [main] INFO parkIQ - Login is displayed
+2021-06-16 22:07:35,304 [main] INFO parkIQ - Login Color is displayed
+2021-06-16 22:07:35,316 [main] INFO parkIQ - Login Background Color is displayed
+2021-06-16 22:07:35,343 [main] INFO parkIQ - Park IQ and Park Industries Business Intelligence is displayed
+2021-06-16 22:07:35,410 [main] INFO parkIQ - Sign In confirmed
+2021-06-16 22:07:35,545 [main] INFO parkIQ - Email text is displayed
+2021-06-16 22:07:35,578 [main] INFO parkIQ - Email textbox is clickable
+2021-06-16 22:07:35,632 [main] INFO parkIQ - Email is entered
+2021-06-16 22:07:35,660 [main] INFO parkIQ - Password text is displayed
+2021-06-16 22:07:35,679 [main] INFO parkIQ - Password text is clickable
+2021-06-16 22:07:35,706 [main] INFO parkIQ - Password is entered
+2021-06-16 22:07:36,879 [main] INFO parkIQ - Login button is clicked
+2021-06-16 22:07:52,888 [main] INFO parkIQ - FORGOT PASSWORD TEST CASES
+2021-06-16 22:08:01,549 [main] INFO parkIQ - Clicked Forgot Password link and form opens
+2021-06-16 22:08:01,587 [main] INFO parkIQ - Forgot Password Title is displayed correctly
+2021-06-16 22:08:01,616 [main] INFO parkIQ - Email text is missing
+2021-06-16 22:08:01,635 [main] INFO parkIQ - Email field is displayed correctly
+
+2021-06-16 22:08:01,673 [main] INFO parkIQ - Entered Email for reset
+2021-06-16 22:08:01,707 [main] INFO parkIQ - Reset text is displayed correctly. Text Colour: #ffffff  Background Color:#000000
+2021-06-16 22:08:03,744 [main] INFO parkIQ - Reset password test passed
+
+2021-06-16 22:08:06,494 [main] INFO parkIQ - Clicked Forgot Password
+2021-06-16 22:08:06,551 [main] INFO parkIQ - Entered Email
+2021-06-16 22:08:06,605 [main] INFO parkIQ - Cancel text is displayed correctly. Text color:#ffffff  Background Color:#000000
+2021-06-16 22:08:07,274 [main] INFO parkIQ - Cancelled password reset
+2021-06-16 22:08:07,278 [main] INFO parkIQ - Password reset cancellation passed: User is navigated to sign-in form
+
+2021-06-16 22:08:07,634 [main] INFO parkIQ - Clicked Forgot Password
+2021-06-16 22:08:07,671 [main] INFO parkIQ - Become Member text is displayed correctly
+2021-06-16 22:08:07,702 [main] INFO parkIQ - Sign Up text is displayed correctly. Text underlined: underline rgb(60, 114, 175)Text color:#3c72af
+
+2021-06-16 22:08:09,897 [main] INFO parkIQ - Clicked Forgot Password
+2021-06-16 22:08:09,924 [main] INFO parkIQ - Entered invalid email: asfhwohb
+2021-06-16 22:08:10,271 [main] INFO parkIQ - Clicked Reset Button
+2021-06-16 22:08:10,304 [main] INFO parkIQ - Email 'asfhwohb' is an invalid email
+2021-06-16 22:08:13,599 [main] INFO parkIQ - Clicked Forgot Password
+2021-06-16 22:08:13,630 [main] INFO parkIQ - Entered invalid email: abc@parkindustries.com
+2021-06-16 22:08:13,970 [main] INFO parkIQ - Clicked Reset Button
+2021-06-16 22:08:14,000 [main] INFO parkIQ - No account was found with email address 'abc@parkindustries.com'
+2021-06-16 22:08:24,050 [main] INFO parkIQ - SUPER USER ROLE TEST CASES - CREATE CUSTOMER SERVICE USER
+2021-06-16 22:08:31,285 [main] INFO parkIQ - Successfully logged in
+2021-06-16 22:08:38,667 [main] INFO parkIQ - Operation Mode Selection Mode Displayed
+2021-06-16 22:08:38,889 [main] INFO parkIQ - Super User Portal Option Selected
+2021-06-16 22:08:39,127 [main] INFO parkIQ - Select Button Clicked
+2021-06-16 22:08:39,127 [main] INFO parkIQ - Entered Super User Portal Page
+2021-06-16 22:08:39,131 [main] INFO parkIQ - User navigated to super user role form
+
+2021-06-16 22:08:42,157 [main] INFO parkIQ - Logo is displayed correctly
+2021-06-16 22:08:42,187 [main] INFO parkIQ - Create Customer Service User title is displayed correctly
+2021-06-16 22:08:42,213 [main] INFO parkIQ - Users section header is displayed correctly
+2021-06-16 22:08:42,239 [main] INFO parkIQ - Create New User link is displayed correctly.Text underlined: rgb(38, 82, 175)Text color:#2652af
+2021-06-16 22:08:42,260 [main] INFO parkIQ - Search bar is displayed correctly
+2021-06-16 22:08:42,595 [main] INFO parkIQ - Sort By drop down is displayed correctly with all necessary fields
+2021-06-16 22:08:42,685 [main] INFO parkIQ - Displays column headers correctly
+2021-06-16 22:09:06,066 [main] INFO parkIQ - SUPER USER ROLE TEST CASES - CREATE NEW USERS
+2021-06-16 22:09:12,877 [main] INFO parkIQ - Logged in Successfully as Super User
+2021-06-16 22:09:18,356 [main] INFO parkIQ - Operation Mode Selection Mode Displayed
+2021-06-16 22:09:18,579 [main] INFO parkIQ - Super User Portal Option Selected
+2021-06-16 22:09:18,805 [main] INFO parkIQ - Select Button Clicked
+2021-06-16 22:09:18,805 [main] INFO parkIQ - Entered Super User Portal Page
+2021-06-16 22:09:20,309 [main] INFO parkIQ - Create New User link clicked, redirecting to User Information Page
+2021-06-16 22:09:20,337 [main] INFO parkIQ - Create New User Form is Open
+2021-06-16 22:09:20,338 [main] INFO parkIQ - Page Header 'User Information' is displayed
+2021-06-16 22:09:20,363 [main] INFO parkIQ - Page Title 'Create New User' is displayed correctly
+2021-06-16 22:09:20,385 [main] INFO parkIQ - Form Title 'User Information' is displayed
+2021-06-16 22:09:20,409 [main] INFO parkIQ - First Name Text Field is Displayed and is Clickable
+2021-06-16 22:09:20,430 [main] INFO parkIQ - Last Name Text Field is Displayed and is Clickable
+2021-06-16 22:09:20,451 [main] INFO parkIQ - Email Text Field is Displayed and is Clickable
+2021-06-16 22:09:20,514 [main] INFO parkIQ - Entered vaild email: 'sposterick@parkindustries.com'
+2021-06-16 22:09:20,514 [main] INFO parkIQ - Email 'sposterick@parkindustries.com' is accepted as a valid email
+2021-06-16 22:09:20,559 [main] INFO parkIQ - Entered invalid email: 'asfhwohb'
+2021-06-16 22:09:20,560 [main] INFO parkIQ - Email 'asfhwohb' is an invalid email
+2021-06-16 22:09:20,585 [main] INFO parkIQ - Phone Number  is Displayed and is Clickable
+2021-06-16 22:09:20,642 [main] INFO parkIQ - Entered Valid Phone Number: '1111111111'
+2021-06-16 22:09:20,642 [main] INFO parkIQ - Phone number '1111111111' is a valid number
+2021-06-16 22:09:20,688 [main] INFO parkIQ - Entered Invalid Phone Number: '123'
+2021-06-16 22:09:20,688 [main] INFO parkIQ - Phone number '123' is an invalid number
+2021-06-16 22:09:20,713 [main] INFO parkIQ - Cancel Button is Displayed and is Clickable
+2021-06-16 22:09:23,922 [main] INFO parkIQ - Continue Button is Displayed but is Disabled. Please Fill in Fields
+2021-06-16 22:09:23,929 [main] INFO parkIQ - Continue Button Background Colour is: '#686868'
+2021-06-16 22:09:24,156 [main] INFO parkIQ - Cancel Button Clicked
+2021-06-16 22:09:24,186 [main] INFO parkIQ - Cancel Button Functions as Expected... redirects back to 'Users Form'
+2021-06-16 22:09:25,584 [main] INFO parkIQ - Create New User link clicked, redirecting to User Information Page
+2021-06-16 22:09:25,602 [main] INFO parkIQ - Entered First Name: 'Black'
+2021-06-16 22:09:25,625 [main] INFO parkIQ - Entered Last Name: 'Jack'
+2021-06-16 22:09:25,678 [main] INFO parkIQ - Entered Email: 'sposterick@parkindustries.com'
+2021-06-16 22:09:25,725 [main] INFO parkIQ - Entered Phone Number: '1111111111'
+2021-06-16 22:09:25,745 [main] INFO parkIQ - Continue Button is enabled and is clickable
+2021-06-16 22:09:25,974 [main] INFO parkIQ - Continue Button clicked
+2021-06-16 22:09:26,004 [main] INFO parkIQ - Continue Button Functions as Expected... redirects to 'Assign Customers To User Profile Form'
+2021-06-16 22:09:38,549 [main] INFO parkIQ - SUPER USER ROLE TEST CASES - ASSIGN CUSTOMERS TO USERS
+2021-06-16 22:09:45,158 [main] INFO parkIQ - Successfully logged in
+2021-06-16 22:09:51,666 [main] INFO parkIQ - Operation Mode Selection Mode Displayed
+2021-06-16 22:09:51,888 [main] INFO parkIQ - Super User Portal Option Selected
+2021-06-16 22:09:52,145 [main] INFO parkIQ - Select Button Clicked
+2021-06-16 22:09:52,145 [main] INFO parkIQ - Entered Super User Portal Page
+2021-06-16 22:09:52,148 [main] INFO parkIQ - User navigated to super user role form
+
+2021-06-16 22:09:54,036 [main] INFO parkIQ - User navigated to assigning customers form
+
+2021-06-16 22:09:54,036 [main] INFO parkIQ - Assign Customers to User Profile title is displayed correctly
+2021-06-16 22:09:54,036 [main] INFO parkIQ - Form Description displayed correctly
+2021-06-16 22:09:54,068 [main] INFO parkIQ - Displays column headers correctly
+2021-06-16 22:09:54,088 [main] INFO parkIQ - Back button is displayed and clickable
+2021-06-16 22:09:54,306 [main] INFO parkIQ - Back button clicked
+2021-06-16 22:09:54,324 [main] INFO parkIQ - User navigated back to user information form
+
+2021-06-16 22:09:54,572 [main] INFO parkIQ - Cancel button is displayed and clickable
+2021-06-16 22:09:54,794 [main] INFO parkIQ - Cancel button clicked
+2021-06-16 22:09:54,830 [main] INFO parkIQ - User navigated back to super user portal page
+
+2021-06-16 22:09:56,924 [main] INFO parkIQ - Create User Link Clicked
+2021-06-16 22:09:56,924 [main] INFO parkIQ - User Information Form Displayed
+2021-06-16 22:09:56,948 [main] INFO parkIQ - First Name Entered
+2021-06-16 22:09:56,984 [main] INFO parkIQ - Last Name Entered
+2021-06-16 22:09:57,040 [main] INFO parkIQ - Email Entered
+2021-06-16 22:09:57,091 [main] INFO parkIQ - Phone Number Entered
+2021-06-16 22:09:57,314 [main] INFO parkIQ - Continue Button Clicked
+2021-06-16 22:10:00,635 [main] INFO parkIQ - Continue Button is Displayed but is not clickable. Please Select a Checkbox
+2021-06-16 22:10:01,023 [main] INFO parkIQ - Continue Button is Enabled
+2021-06-16 22:10:01,384 [main] INFO parkIQ - Clicked Continue Button
+2021-06-16 22:10:01,415 [main] INFO parkIQ - Continue Button Functions as Expected... redirects to 'Roles and Permissions Form'
+2021-06-16 22:15:45,610 [main] INFO parkIQ - BaseUrl is opened
+2021-06-16 22:15:59,607 [main] INFO parkIQ - Invalid Email is entered
+2021-06-16 22:15:59,635 [main] INFO parkIQ - Invalid Password is entered
+2021-06-16 22:15:59,913 [main] INFO parkIQ - Login button is clicked
+2021-06-16 22:17:25,236 [main] INFO parkIQ - FORGOT PASSWORD TEST CASES
+2021-06-16 22:17:30,469 [main] INFO parkIQ - Clicked Forgot Password link and form opens
+2021-06-16 22:17:30,525 [main] INFO parkIQ - Entered Email for reset
+2021-06-16 22:17:30,556 [main] INFO parkIQ - Reset text is missing
+2021-06-16 22:18:44,479 [main] INFO parkIQ - Clicked Forgot Password
+2021-06-16 22:18:44,515 [main] INFO parkIQ - Entered Email
+2021-06-16 22:18:44,558 [main] INFO parkIQ - Cancel text is displayed correctly. Text color:#ffffff  Background Color:#000000
+2021-06-16 22:18:45,041 [main] INFO parkIQ - Cancelled password reset
+2021-06-16 22:18:45,046 [main] INFO parkIQ - Password reset cancellation passed: User is navigated to sign-in form
+
+2021-06-16 22:18:45,393 [main] INFO parkIQ - Clicked Forgot Password
+2021-06-16 22:18:45,417 [main] INFO parkIQ - Become Member text is displayed correctly
+2021-06-16 22:18:45,447 [main] INFO parkIQ - Sign Up text is displayed correctly. Text underlined: underline rgb(60, 114, 175)Text color:#3c72af
+
+2021-06-16 22:18:47,310 [main] INFO parkIQ - Clicked Forgot Password
+2021-06-16 22:18:47,334 [main] INFO parkIQ - Entered invalid email: asfhwohb
+2021-06-16 22:18:47,673 [main] INFO parkIQ - Clicked Reset Button
+2021-06-16 22:18:47,697 [main] INFO parkIQ - Email 'asfhwohb' is an invalid email
+2021-06-16 22:18:50,693 [main] INFO parkIQ - Clicked Forgot Password
+2021-06-16 22:18:50,722 [main] INFO parkIQ - Entered invalid email: abc@parkindustries.com
+2021-06-16 22:18:51,063 [main] INFO parkIQ - Clicked Reset Button
+2021-06-16 22:18:51,091 [main] INFO parkIQ - No account was found with email address 'abc@parkindustries.com'
+2021-06-16 22:20:25,839 [main] INFO parkIQ - SUPER USER ROLE TEST CASES - CREATE CUSTOMER SERVICE USER
+2021-06-16 22:20:31,161 [main] INFO parkIQ - Successfully logged in
+2021-06-16 22:20:44,369 [main] INFO parkIQ - Operation Mode Selection Mode Displayed
+2021-06-16 22:20:44,594 [main] INFO parkIQ - Super User Portal Option Selected
+2021-06-16 22:20:44,826 [main] INFO parkIQ - Select Button Clicked
+2021-06-16 22:20:44,827 [main] INFO parkIQ - Entered Super User Portal Page
+2021-06-16 22:20:44,829 [main] INFO parkIQ - User navigated to super user role form
+
+2021-06-16 22:20:47,871 [main] INFO parkIQ - Logo is displayed correctly
+2021-06-16 22:20:47,899 [main] INFO parkIQ - Create Customer Service User title is displayed correctly
+2021-06-16 22:20:47,922 [main] INFO parkIQ - Users section header is displayed correctly
+2021-06-16 22:20:47,946 [main] INFO parkIQ - Create New User link is displayed correctly.Text underlined: rgb(38, 82, 175)Text color:#2652af
+2021-06-16 22:20:47,967 [main] INFO parkIQ - Search bar is displayed correctly
+2021-06-16 22:20:48,308 [main] INFO parkIQ - Sort By drop down is displayed correctly with all necessary fields
+2021-06-16 22:20:48,394 [main] INFO parkIQ - Displays column headers correctly
+2021-06-16 22:21:45,514 [main] INFO parkIQ - SUPER USER ROLE TEST CASES - CREATE NEW USERS
+2021-06-16 22:21:50,936 [main] INFO parkIQ - Logged in Successfully as Super User
+2021-06-16 22:32:34,985 [main] INFO parkIQ - BaseUrl is opened
+2021-06-16 22:32:52,444 [main] INFO parkIQ - Invalid Email is entered
+2021-06-16 22:32:52,505 [main] INFO parkIQ - Invalid Password is entered
+2021-06-16 22:32:52,593 [main] INFO parkIQ - Login button is clicked
+2021-06-16 22:33:22,330 [main] INFO parkIQ - FORGOT PASSWORD TEST CASES
+2021-06-16 22:33:22,694 [main] INFO parkIQ - Clicked Forgot Password link and form opens
+2021-06-16 22:33:22,744 [main] INFO parkIQ - Forgot Password Title is displayed correctly
+2021-06-16 22:33:22,782 [main] INFO parkIQ - Email text is missing
+2021-06-16 22:33:22,804 [main] INFO parkIQ - Email field is displayed correctly
+
+2021-06-16 22:33:22,880 [main] INFO parkIQ - Entered Email for reset
+2021-06-16 22:33:22,930 [main] INFO parkIQ - Reset text is displayed correctly. Text Colour: #ffffff  Background Color:#000000
+2021-06-16 22:33:24,191 [main] INFO parkIQ - Reset password test passed
+
+2021-06-16 22:33:27,683 [main] INFO parkIQ - Clicked Forgot Password
+2021-06-16 22:33:27,817 [main] INFO parkIQ - Entered Email
+2021-06-16 22:33:27,878 [main] INFO parkIQ - Cancel text is displayed correctly. Text color:#ffffff  Background Color:#000000
+2021-06-16 22:33:28,210 [main] INFO parkIQ - Cancelled password reset
+2021-06-16 22:33:28,217 [main] INFO parkIQ - Password reset cancellation passed: User is navigated to sign-in form
+
+2021-06-16 22:33:28,566 [main] INFO parkIQ - Clicked Forgot Password
+2021-06-16 22:33:28,611 [main] INFO parkIQ - Become Member text is displayed correctly
+2021-06-16 22:33:28,669 [main] INFO parkIQ - Sign Up text is displayed correctly. Text underlined: underline solid rgb(60, 114, 175)Text color:#3c72af
+
+2021-06-16 22:33:30,946 [main] INFO parkIQ - Clicked Forgot Password
+2021-06-16 22:33:31,073 [main] INFO parkIQ - Entered invalid email: asfhwohb
+2021-06-16 22:33:31,411 [main] INFO parkIQ - Clicked Reset Button
+2021-06-16 22:33:31,457 [main] INFO parkIQ - Email 'asfhwohb' is an invalid email
+2021-06-16 22:33:34,241 [main] INFO parkIQ - Clicked Forgot Password
+2021-06-16 22:33:34,382 [main] INFO parkIQ - Entered invalid email: abc@parkindustries.com
+2021-06-16 22:33:34,748 [main] INFO parkIQ - Clicked Reset Button
+2021-06-16 22:33:34,797 [main] INFO parkIQ - No account was found with email address 'abc@parkindustries.com'
+2021-06-16 22:34:43,392 [main] INFO parkIQ - BaseUrl is opened
+2021-06-16 22:35:08,663 [main] INFO parkIQ - Invalid Email is entered
+2021-06-16 22:35:08,730 [main] INFO parkIQ - Invalid Password is entered
+2021-06-16 22:35:08,827 [main] INFO parkIQ - Login button is clicked
+2021-06-16 22:38:53,152 [main] INFO parkIQ - BaseUrl is opened
+2021-06-16 22:39:20,391 [main] INFO parkIQ - Invalid Email is entered
+2021-06-16 22:39:20,453 [main] INFO parkIQ - Invalid Password is entered
+2021-06-16 22:39:20,554 [main] INFO parkIQ - Login button is clicked
+2021-06-16 22:39:24,002 [main] INFO parkIQ - Invalid Email is entered
+2021-06-16 22:39:24,148 [main] INFO parkIQ - Login button is clicked
+2021-06-16 22:39:30,558 [main] INFO parkIQ - Login button is clicked
+2021-06-16 22:39:34,354 [main] INFO parkIQ - Login is displayed
+2021-06-16 22:39:34,379 [main] INFO parkIQ - Login Color is displayed
+2021-06-16 22:39:34,396 [main] INFO parkIQ - Login Background Color is displayed
+2021-06-16 22:39:34,433 [main] INFO parkIQ - Park IQ and Park Industries Business Intelligence is displayed
+2021-06-16 22:39:34,867 [main] INFO parkIQ - Sign In confirmed
+2021-06-16 22:39:35,381 [main] INFO parkIQ - Email text is displayed
+2021-06-16 22:39:35,423 [main] INFO parkIQ - Email textbox is clickable
+2021-06-16 22:39:35,503 [main] INFO parkIQ - Email is entered
+2021-06-16 22:39:35,549 [main] INFO parkIQ - Password text is displayed
+2021-06-16 22:39:35,573 [main] INFO parkIQ - Password text is clickable
+2021-06-16 22:39:35,644 [main] INFO parkIQ - Password is entered
+2021-06-16 22:39:37,862 [main] INFO parkIQ - Login button is clicked
+2021-06-16 22:40:04,889 [main] INFO parkIQ - FORGOT PASSWORD TEST CASES
+2021-06-16 22:45:30,709 [main] INFO parkIQ - Entered Email for reset
+2021-06-16 22:45:30,742 [main] INFO parkIQ - Reset text is missing
+2021-06-16 22:46:18,676 [main] INFO parkIQ - BaseUrl is opened

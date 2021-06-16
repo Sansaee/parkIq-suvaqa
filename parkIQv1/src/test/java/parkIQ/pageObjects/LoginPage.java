@@ -102,7 +102,10 @@ public class LoginPage {
 		WebElementFunctions func = new WebElementFunctions();
 
 
-		
+		public void load()
+		{
+			func.pageLoad(imgParkIQ, ldriver);
+		}
 		//action methods
 		//Enter valid email
 		public void setEmail(String uname )
