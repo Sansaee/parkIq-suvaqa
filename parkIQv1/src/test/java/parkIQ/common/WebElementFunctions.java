@@ -12,12 +12,7 @@ public class WebElementFunctions {
 	
 	public WebElementFunctions() {
 	  }
-	  //Implicit Wait Function
-	  public void pageLoad(WebDriver ldriver, WebElement webElement)
-	  {
-			WebDriverWait waitElement = new WebDriverWait(ldriver, 20);
-			waitElement.until(ExpectedConditions.visibilityOf(webElement));
-	  }
+
 
 	  //Verify if Element is Clickable
 	  public boolean verifyElementIsClickable(WebElement element, WebDriver ldriver)

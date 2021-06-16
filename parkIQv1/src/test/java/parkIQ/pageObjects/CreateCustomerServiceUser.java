@@ -92,7 +92,8 @@ public class CreateCustomerServiceUser {
 	WebElement headerRole;
 
 	//Last SignIn Header
-	@FindBy(xpath="//th[contains(text(),'Last sing in')]")
+	@FindBy(xpath="//th[contains(text(),'Last sign in')]")
+
 	@CacheLookup
 	WebElement headerLastSignIn;
 

@@ -34,12 +34,12 @@ public class CreateNewUser_UserInformationPage {
 			WebElement formTitle ;
 
 			//First Name Text Field
-			@FindBy(xpath="//body/div[1]/app-create-user[1]/div[3]/mat-card[1]/form[1]/div[2]/input[1]")
+			@FindBy(xpath="//body/div[1]/app-create-user[1]/div[3]/mat-card[1]/form[1]/div[2]/div[1]/input[1]")
 			@CacheLookup
 			WebElement txtFirstName;
 
 			//Last Name Text Field
-			@FindBy(xpath="//body/div[1]/app-create-user[1]/div[3]/mat-card[1]/form[1]/div[2]/input[2]")
+			@FindBy(xpath="//body/div[1]/app-create-user[1]/div[3]/mat-card[1]/form[1]/div[2]/div[2]/input[1]")
 			@CacheLookup
 			WebElement txtLastName;
 
@@ -64,12 +64,12 @@ public class CreateNewUser_UserInformationPage {
 			WebElement phoneValidation;
 
 			//Cancel Button
-			@FindBy(xpath="//body/div[1]/app-create-user[1]/div[3]/mat-card[1]/form[1]/div[6]/input[1]")
+			@FindBy(xpath="//body/div[1]/app-create-user[1]/div[3]/mat-card[1]/form[1]/div[7]/input[1]")
 			@CacheLookup
 			WebElement btnCancel;
 
 			//Continue Button
-			@FindBy(xpath="//body/div[1]/app-create-user[1]/div[3]/mat-card[1]/form[1]/div[6]/input[2]")
+			@FindBy(xpath="//body/div[1]/app-create-user[1]/div[3]/mat-card[1]/form[1]/div[7]/input[2]")
 			@CacheLookup
 			WebElement btnContinue;
 
