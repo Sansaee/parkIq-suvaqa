@@ -61,7 +61,10 @@ public class SuperUserPortalPage {
 
 	public void clickCreateUserLink()
 	{
-		func.waitLoaderDisappear(overlay, ldriver);
+		if(overlay.isDisplayed())
+		{
+			func.waitLoaderDisappear(overlay, ldriver);
+		}
 		linkCreateNewUser.click();
 	}
 
