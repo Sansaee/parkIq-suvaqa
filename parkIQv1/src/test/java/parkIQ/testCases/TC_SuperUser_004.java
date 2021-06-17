@@ -14,6 +14,7 @@ import parkIQ.pageObjects.SuperUserPortalPage;
 public class TC_SuperUser_004 extends BaseClass {
 	//Test case for role & permissions 
 	
+	@Test(priority = 0)
 	public void assignRoleAndPermission() throws InterruptedException
 	{
 		OperationModePrompt omp = new OperationModePrompt(driver);
@@ -46,7 +47,6 @@ public class TC_SuperUser_004 extends BaseClass {
 			logger.info("Super user form test failed" +"\n");
 		}
 		
-		Thread.sleep(3000);
 	}
 	
 	//Tests if form title is displayed
@@ -65,7 +65,7 @@ public class TC_SuperUser_004 extends BaseClass {
 		uip.setEmail(email);
 		uip.setPhoneNumber(validPhone);
 		uip.clickContinue();
-		ac.clickCheckBox();
+		ac.isChecked();
 		ac.clickContinueBtn();
 		
 		boolean title = rpp.verifyFormTitle();
@@ -74,13 +74,13 @@ public class TC_SuperUser_004 extends BaseClass {
 		//Verify if Page Title and Page Desctiption is Displayed
 		if (title && description) {
 			Assert.assertTrue(true);
-			logger.info("User navigated to Roles 7 Permissions form" + "\n");
-			logger.info("Roles & Permissions title is displayed correctly");
+			logger.info("User navigated to Review User form" + "\n");
+			logger.info("Review User title is displayed correctly");
 			logger.info("Form Description displayed correctly");
 		} else {
 			Assert.assertTrue(false);
-			logger.info("Roles & Permission form test failed" + "\n");
-			logger.info("Roles & Permissions title is missing");
+			logger.info("Review User form test failed" + "\n");
+			logger.info("Review User title is missing");
 			logger.info("Form Description is missing");
 		}
 	}

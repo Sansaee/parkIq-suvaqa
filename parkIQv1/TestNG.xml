@@ -13,8 +13,9 @@
 		<!-- <class name="parkIQ.testCases.TC_LoginTest_001" />
 			<class name="parkIQ.testCases.TC_ForgotPswrd_001" />
 			<class name="parkIQ.testCases.TC_SuperUser_001"/>
-			<class name="parkIQ.testCases.TC_SuperUser_002" /> -->
-			<class name="parkIQ.testCases.TC_SuperUser_003" />
+			<class name="parkIQ.testCases.TC_SuperUser_002" /> 
+			<class name="parkIQ.testCases.TC_SuperUser_003" />-->
+			<class name="parkIQ.testCases.TC_SuperUser_004" />
 		</classes>
 	
 	</test>

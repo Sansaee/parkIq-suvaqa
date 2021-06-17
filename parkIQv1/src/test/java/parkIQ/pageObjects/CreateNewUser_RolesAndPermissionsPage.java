@@ -54,15 +54,11 @@ public class CreateNewUser_RolesAndPermissionsPage {
 	@CacheLookup
 	WebElement insCheckboxText;
 	
-	/*@FindBy(xpath="//input[@value='Back']")
+	@FindBy(xpath="//body/div[1]/app-create-user[1]/div[3]/div[1]/div[4]/div[1]/input[1]")
 	@CacheLookup
 	WebElement btnBack;
 	
-	@FindBy(xpath="//body/div[1]/app-create-user[1]/div[3]/div[1]/div[4]/div[1]/input[1]")
-	@CacheLookup
-	WebElement btnBackClicked;*/
-	
-	@FindBy(xpath="//body[@class='mat-typography']/app-root[@ng-version='9.1.3']/body/div[@class='content']/app-create-user[@class='ng-star-inserted']/div[@class='d-flex flex-row justify-content-center']/div[@class='permissions-card ng-star-inserted']/div[@class='d-flex flex-row mx-3 justify-content-between my-3']/div[1]/input[1]")
+	/*@FindBy(xpath="//body[@class='mat-typography']/app-root[@ng-version='9.1.3']/body/div[@class='content']/app-create-user[@class='ng-star-inserted']/div[@class='d-flex flex-row justify-content-center']/div[@class='permissions-card ng-star-inserted']/div[@class='d-flex flex-row mx-3 justify-content-between my-3']/div[1]/input[1]")
 	@CacheLookup
 	WebElement btnBack;
 	
@@ -72,23 +68,23 @@ public class CreateNewUser_RolesAndPermissionsPage {
 		
 	@FindBy(xpath="//body[@class='mat-typography']/app-root[@ng-version='9.1.3']/body/div[@class='content']/app-create-user[@class='ng-star-inserted']/div[@class='d-flex flex-row justify-content-center']/div[@class='permissions-card ng-star-inserted']/div[@class='d-flex flex-row mx-3 justify-content-between my-3']/div[2]/input[2]")
 	@CacheLookup
-	WebElement btnContinue;
+	WebElement btnContinue;*/
 	
-	@FindBy(xpath="//input[@value='Continue' and @disabled]")
+	@FindBy(xpath="//body/div[1]/app-create-user[1]/div[3]/div[1]/div[4]/div[2]/input[1]")
 	@CacheLookup
-	WebElement btnContinueDisabled;
-	
-	@FindBy(xpath="//input[@value='Continue' and not(@disabled)]")
-	@CacheLookup
-	WebElement btnContinueEnabled;
-	
-	/*@FindBy(xpath="//input[contains(@style, 'background-color: #686868')]")
-	@CacheLookup
-	WebElement btnContinueColor;*/
+	WebElement btnCancel;
 	
 	@FindBy(xpath="//body/div[1]/app-create-user[1]/div[3]/div[1]/div[4]/div[2]/input[2]")
 	@CacheLookup
-	WebElement btnContinueClicked;
+	WebElement btnContinue;
+	
+	/*@FindBy(xpath="//input[@value='Continue' and not(@disabled)]")
+	@CacheLookup
+	WebElement btnContinueEnabled;
+	
+	@FindBy(xpath="//body/div[1]/app-create-user[1]/div[3]/div[1]/div[4]/div[2]/input[2]")
+	@CacheLookup
+	WebElement btnContinueClicked;*/
 	
 	WebElementFunctions func = new WebElementFunctions();
 	
@@ -177,7 +173,7 @@ public class CreateNewUser_RolesAndPermissionsPage {
 	
 	public void clickContBtn()
 	{
-		btnContinueClicked.click();
+		btnContinue.click();
 	}
 	
 }
