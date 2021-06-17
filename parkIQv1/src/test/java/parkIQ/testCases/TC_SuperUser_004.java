@@ -4,6 +4,7 @@ import org.testng.Assert;
 import org.testng.annotations.Test;
 
 import parkIQ.pageObjects.CreateNewUser_AssignCustomersToUserProfilePage;
+import parkIQ.pageObjects.CreateNewUser_ReviewUserPage;
 import parkIQ.pageObjects.CreateNewUser_RolesAndPermissionsPage;
 import parkIQ.pageObjects.CreateNewUser_UserInformationPage;
 import parkIQ.pageObjects.LoginPage;
