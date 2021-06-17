@@ -10,20 +10,19 @@ import parkIQ.pageObjects.LoginPage;
 import parkIQ.pageObjects.OperationModePrompt;
 import parkIQ.pageObjects.SuperUserPortalPage;
 
-public class TC_SuperUser_003 extends BaseClass {
-	//Test Case for assigning customer to user profile
-
-	//Test that Setup is Successful
-	@Test(priority = 0)
-	public void setupSuperUserRole() throws InterruptedException {
+public class TC_SuperUser_004 extends BaseClass {
+	//Test case for role & permissions 
+	
+	public void assignRoleAndPermission() throws InterruptedException
+	{
 		OperationModePrompt omp = new OperationModePrompt(driver);
-		LoginPage lp = new LoginPage(driver);
-
-		logger.info("SUPER USER ROLE TEST CASES - ASSIGN CUSTOMERS TO USERS");
-
+		LoginPage lp= new LoginPage(driver);
+		
+		logger.info("SUPER USER ROLE TEST CASES - ROLES & PERMISSIONS");
+		
 		lp.logIn(email, password);
 		logger.info("Successfully logged in");
-
+	
 		omp.selectModeOption();
 		logger.info("Operation Mode Selection Mode Displayed");
 
@@ -34,131 +33,147 @@ public class TC_SuperUser_003 extends BaseClass {
 		logger.info("Select Button Clicked");
 
 		logger.info("Entered Super User Portal Page");
-
-		//verify page is redirected to Super User Form
-		if (driver.getTitle().equals("Park IQ Admin")) {
+		
+		if(driver.getTitle().equals("Park IQ Admin"))
+		{
 			Assert.assertTrue(true);
-			logger.info("User navigated to super user role form" + "\n");
-
-		} else {
-			Assert.assertTrue(false);
-			logger.info("Super user form test failed" + "\n");
+			logger.info("User navigated to super user role form" +"\n");
+			
 		}
+		else {
+			Assert.assertTrue(false);
+			logger.info("Super user form test failed" +"\n");
+		}
+		
+		Thread.sleep(3000);
 	}
-
-	//Test if Form Title and Description is Displayed
-	@Test(priority = 1)
-	public void validateTitle_content() {
+	
+	//Tests if form title is displayed
+	@Test (priority =1)
+	public void testFormTitle()
+	{
 		SuperUserPortalPage sup = new SuperUserPortalPage(driver);
 		CreateNewUser_UserInformationPage uip = new CreateNewUser_UserInformationPage(driver);
 		CreateNewUser_AssignCustomersToUserProfilePage ac = new CreateNewUser_AssignCustomersToUserProfilePage(
 				driver);
+		CreateNewUser_RolesAndPermissionsPage rpp = new CreateNewUser_RolesAndPermissionsPage(driver);
+		
 		sup.clickCreateUserLink();
 		uip.setFirstName(name);
 		uip.setLastName(lname);
 		uip.setEmail(email);
 		uip.setPhoneNumber(validPhone);
 		uip.clickContinue();
-
-		boolean title = ac.verifyFormTitle();
-		boolean description = ac.verifyFormDescription();
-
+		ac.clickCheckBox();
+		ac.clickContinueBtn();
+		
+		boolean title = rpp.verifyFormTitle();
+		boolean description = rpp.verifyFormDescription();
+		
 		//Verify if Page Title and Page Desctiption is Displayed
 		if (title && description) {
 			Assert.assertTrue(true);
-			logger.info("User navigated to assigning customers form" + "\n");
-			logger.info("Assign Customers to User Profile title is displayed correctly");
+			logger.info("User navigated to Roles 7 Permissions form" + "\n");
+			logger.info("Roles & Permissions title is displayed correctly");
 			logger.info("Form Description displayed correctly");
 		} else {
 			Assert.assertTrue(false);
-			logger.info("Assigning customers form test failed" + "\n");
-			logger.info("Assign Customers to User Profile title is missing");
+			logger.info("Roles & Permission form test failed" + "\n");
+			logger.info("Roles & Permissions title is missing");
 			logger.info("Form Description is missing");
 		}
-
 	}
-
-	//Test if columns Customer Name and Machines are displayed
-	@Test(priority = 2)
-	public void testColumns() {
-		CreateNewUser_AssignCustomersToUserProfilePage ac = new CreateNewUser_AssignCustomersToUserProfilePage(
-				driver);
-		boolean column = ac.locateColumnHeaders();
-
-		if (column == true) {
-			logger.info("Displays column headers correctly");
-		} else {
-			logger.info("Column headers are not displayed correctly");
+	
+	//Test if checkboxes are displayed
+	@Test(priority =2)
+	public void testCheckboxes()
+	{
+		CreateNewUser_RolesAndPermissionsPage rpp = new CreateNewUser_RolesAndPermissionsPage(driver);
+		
+		boolean checkbox1 = rpp.locateCSCheckBox();
+		boolean checkbox2 = rpp.locateINSCheckBox();
+		boolean checkbox3 = rpp.locateSUCheckBox();
+		if(checkbox1 && checkbox2 && checkbox3 == true)
+		{
+			logger.info("Displays checkbox correctly");
+		}
+		else
+		{
+			logger.info("Checkbox are not displayed correcly");
 		}
 	}
-
-	//Test if Back Button is Clickable
+	
+	//Test if back button is clickable
 	@Test(priority = 3)
-	public void testBackButtonClickable() {
-		CreateNewUser_AssignCustomersToUserProfilePage ac = new CreateNewUser_AssignCustomersToUserProfilePage(
-				driver);
-		boolean isBtnBackClickable = ac.btnBackClickableDisplayed();
-		if (isBtnBackClickable) {
+	public void testBackButtonClickable() 
+	{
+		CreateNewUser_RolesAndPermissionsPage rpp = new CreateNewUser_RolesAndPermissionsPage(driver);
+		
+		boolean btnBackClickable = rpp.btnBackClickableDisplayed();
+		if (btnBackClickable) 
+		{
 			Assert.assertTrue(true);
 			logger.info("Back button is displayed and clickable");
-		} else {
+		} 
+		else 
+		{
 			Assert.assertTrue(false);
 			logger.info("Back button is missing");
 		}
-
 	}
-
+	
+	//Test if user is returned to “Assign Customers” form when back button is clicked
 	@Test(priority = 4)
-	public void testBackButtonClickFunctionality() {
+	public void testBackButtonClickFunctionality() 
+	{
+		CreateNewUser_RolesAndPermissionsPage rpp = new CreateNewUser_RolesAndPermissionsPage(driver);
 		CreateNewUser_AssignCustomersToUserProfilePage ac = new CreateNewUser_AssignCustomersToUserProfilePage(
 				driver);
-		CreateNewUser_UserInformationPage uip = new CreateNewUser_UserInformationPage(driver);
-		ac.clickBackBtn();
-		logger.info("Back button clicked");
-
-		boolean isTitleDisplayed = uip.verifyPageTitle();
-		//if user information form title is displayed
+		
+		rpp.clickBackBtn();
+		logger.info("Back button is clicked");
+		
+		boolean isTitleDisplayed = ac.verifyFormTitle();
 		if (isTitleDisplayed) {
 			Assert.assertTrue(true);
-			logger.info("User navigated back to user information form" + "\n");
+			logger.info("User navigated back to assign customers form" + "\n");
 
 		} else {
 			Assert.assertTrue(false);
 			logger.info("Back button functionality not working" + "\n");
 		}
-
 	}
-
+	
+	//Test if cancel button is clickable
 	@Test(priority = 5)
-	public void testCancelButtonClickable() {
-		CreateNewUser_AssignCustomersToUserProfilePage ac = new CreateNewUser_AssignCustomersToUserProfilePage(
-				driver);
-		CreateNewUser_UserInformationPage uip = new CreateNewUser_UserInformationPage(driver);
-
-		uip.clickContinue();
-
-		boolean isBtnCancelClickable = ac.btnCancelClickableDisplayed();
-
-		if (isBtnCancelClickable) {
+	public void testCancelButtonClickable()
+	{
+		CreateNewUser_RolesAndPermissionsPage rpp = new CreateNewUser_RolesAndPermissionsPage(driver);
+		
+		boolean btnCancelClickable = rpp.btnCancelClickableDisplayed();
+		if (btnCancelClickable) 
+		{
 			Assert.assertTrue(true);
 			logger.info("Cancel button is displayed and clickable");
-		} else {
+		} 
+		else 
+		{
 			Assert.assertTrue(false);
 			logger.info("Cancel button is missing");
 		}
 	}
-
+	
+	//Test if user is returned to “Users” Form when cancel is clicked
 	@Test(priority=6)
 	public void testCancelButtonClickFunctionality()
 	{
-		CreateNewUser_AssignCustomersToUserProfilePage ac = new CreateNewUser_AssignCustomersToUserProfilePage(driver);
+		CreateNewUser_RolesAndPermissionsPage rpp = new CreateNewUser_RolesAndPermissionsPage(driver);
 		SuperUserPortalPage sup = new SuperUserPortalPage(driver);
-
-		ac.clickCancelBtn();
+		
+		rpp.clickCancelBtn();
 		logger.info("Cancel button clicked");
-
+		
 		boolean isTitleDisplayed = sup.locateTitle();
-		//if Super User Portal Page Title is displayed
 		if(isTitleDisplayed)
 		{
 			Assert.assertTrue(true);
@@ -169,9 +184,9 @@ public class TC_SuperUser_003 extends BaseClass {
 			Assert.assertTrue(false);
 			logger.info("Cancel button functionality not working" +"\n");
 		}
-
 	}
-
+	
+	//Test if continue button is clickable and displayed
 	@Test(priority = 7)
 	public void testContinueButtonClickable() {
 
@@ -179,6 +194,8 @@ public class TC_SuperUser_003 extends BaseClass {
 		CreateNewUser_UserInformationPage uip = new CreateNewUser_UserInformationPage(driver);
 		CreateNewUser_AssignCustomersToUserProfilePage ac = new CreateNewUser_AssignCustomersToUserProfilePage(
 				driver);
+		CreateNewUser_RolesAndPermissionsPage rpp = new CreateNewUser_RolesAndPermissionsPage(driver);
+
 
 		sup.clickCreateUserLink();
 		logger.info("Create User Link Clicked");
@@ -199,10 +216,16 @@ public class TC_SuperUser_003 extends BaseClass {
 
 		uip.clickContinue();
 		logger.info("Continue Button Clicked");
+		
+		ac.clickCheckBox();
+		logger.info("Checkbox is selected");
+		
+		ac.clickContinueBtn();
+		logger.info("Continue Button Clicked");
 
 
-		boolean isBtnContinueClickable = ac.btnContClickableDisplayed();
-		boolean isBtnContinueDisplayed = ac.btnContDisplayed();
+		boolean isBtnContinueClickable = rpp.btnContDisplayed();
+		boolean isBtnContinueDisplayed = rpp.btnContClickableDisplayed();
 
 		if (isBtnContinueDisplayed) {
 			if (isBtnContinueClickable) {
@@ -225,16 +248,17 @@ public class TC_SuperUser_003 extends BaseClass {
 		}
 
 	}
-
+	
+	//Test if continue button is enabled
 	@Test(priority = 8)
 	public void testContinueButtonEnabled() {
 
-		CreateNewUser_AssignCustomersToUserProfilePage ac = new CreateNewUser_AssignCustomersToUserProfilePage(driver);
+		CreateNewUser_RolesAndPermissionsPage rpp = new CreateNewUser_RolesAndPermissionsPage(driver);
 
-		ac.clickCheckBox();
+		rpp.clickCheckBox();
 
-		int isChecked = ac.isChecked();
-		boolean isBtnClickable = ac.btnContClickableDisplayed();
+		int isChecked = rpp.isChecked();
+		boolean isBtnClickable = rpp.btnContClickableDisplayed();
 
 		if(isChecked > 0 && isBtnClickable)
 		{
@@ -247,31 +271,31 @@ public class TC_SuperUser_003 extends BaseClass {
 			logger.info("Continue Button doesn't exist");
 		}
 	}
-
+	
 	@Test(priority = 9)
 	public void testContinueButtonFunctionality() {
 
-		CreateNewUser_AssignCustomersToUserProfilePage ac = new CreateNewUser_AssignCustomersToUserProfilePage(driver);
-		CreateNewUser_RolesAndPermissionsPage rap = new CreateNewUser_RolesAndPermissionsPage(driver);
-
-		int isChecked = ac.isChecked();
+		CreateNewUser_RolesAndPermissionsPage rpp = new CreateNewUser_RolesAndPermissionsPage(driver);
+		CreateNewUser_ReviewUserPage rup = new CreateNewUser_ReviewUserPage(driver);
+		
+		int isChecked = rpp.isChecked();
 
 		//If no checkbox is selected
 		if(isChecked == 0)
 		{
-			ac.clickCheckBox();
-			logger.info("Selected Check Box Customer Name");
+			rpp.clickCheckBox();
+			logger.info("Select roles and permissions");
 		}
 
-		ac.clickContinueBtn();
+		rpp.clickContBtn();
 		logger.info("Clicked Continue Button");
 
-		boolean isTitleDisplayed = rap.verifyFormTitle();
+		boolean isTitleDisplayed = rup.verifyFormTitle();
 
 		if(isTitleDisplayed)
 		{
 			Assert.assertTrue(true);
-			logger.info("Continue Button Functions as Expected... redirects to 'Roles and Permissions Form'");
+			logger.info("Continue Button Functions as Expected... redirects to 'Review User Form'");
 		}
 		else
 		{
@@ -279,4 +303,5 @@ public class TC_SuperUser_003 extends BaseClass {
 			logger.info("Continue Button is Faulty");
 		}
 	}
+
 }
