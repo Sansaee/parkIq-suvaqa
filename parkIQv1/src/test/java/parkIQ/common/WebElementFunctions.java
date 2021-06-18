@@ -1,5 +1,6 @@
 package parkIQ.common;
 
+import java.util.List;
 import java.util.concurrent.TimeUnit;
 
 import org.openqa.selenium.By;
@@ -71,5 +72,38 @@ public class WebElementFunctions {
 	      return false;
 	    }
 	  }
+
+		public int isChecked(WebDriver driver, String path)
+		{
+			int checkedCount = 0;
+			List<WebElement> elements = driver.findElements(By.xpath(path));
+			for(int i = 0; i < elements.size(); i++)
+			{
+				if(elements.get(i).isSelected())
+				{
+					checkedCount++;
+				}
+			}
+			return checkedCount;
+		}
+
+	public void isCheckBoxDisplayed(WebDriver driver, String path)
+	{
+		int checkedBoxCount = 0;
+
+		List<WebElement> elements = driver.findElements(By.xpath(path));
+		WebDriverWait wait = new WebDriverWait(driver, 3);
+
+		for(int i = 0; i < elements.size(); i++) {
+			try {
+				wait.until(ExpectedConditions.elementToBeClickable(elements.get(i)));
+			} catch (Exception ex) {
+				ex.printStackTrace();
+			}
+		}
+
+	}
+
+
 
 }

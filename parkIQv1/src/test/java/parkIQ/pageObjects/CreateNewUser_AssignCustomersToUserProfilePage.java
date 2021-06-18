@@ -56,6 +56,12 @@ public class CreateNewUser_AssignCustomersToUserProfilePage {
 			@CacheLookup
 			WebElement btnContinue;
 
+			@FindBy(xpath="//body/div[1]/app-create-user[1]/div[3]/mat-card[1]/div[5]")
+			@CacheLookup
+			WebElement checkboxContainer;
+
+
+
 //	@FindBy(xpath="//body/div[1]/app-create-user[1]/div[3]/mat-card[1]/div[5]/div[2]/div[1]/mat-checkbox[1]/label[1]/div[1]")
 //	@CacheLookup
 //	WebElement chkBoxComp;
@@ -103,21 +109,13 @@ public class CreateNewUser_AssignCustomersToUserProfilePage {
 			//Click Checkbox
 			public void clickCheckBox()
 			{
+				func.isCheckBoxDisplayed(ldriver, "//body/div[1]/app-create-user[1]/div[3]/mat-card[1]/div[5]/div[2]/div[1]/mat-checkbox[1]");
 				 checkboxCusName.click();
 			}
 
 			public int isChecked()
 			{
-				int checkedCount = 0;
-				List<WebElement> elements = ldriver.findElements(By.xpath("//input[@type='checkbox']"));
-				for(int i = 0; i < elements.size(); i++)
-				{
-					if(elements.get(i).isSelected())
-					{
-						checkedCount++;
-					}
-				}
-				return checkedCount;
+				return func.isChecked(ldriver, "//input[@type='checkbox']");
 			}
 
 			//Verify Back Button is Displayed and Clickable

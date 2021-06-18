@@ -30,7 +30,7 @@ public class CreateNewUser_RolesAndPermissionsPage {
 	@CacheLookup
 	WebElement formDescription;
 	
-	@FindBy(xpath="//input[@id='mat-checkbox-30-input']")
+	@FindBy(xpath="//body/div[1]/app-create-user[1]/div[3]/div[1]/ul[1]/li[1]/div[1]/div[1]/mat-checkbox[1]/label[1]/div[1]")
 	@CacheLookup
 	WebElement csCheckboxes;
 	
@@ -38,7 +38,7 @@ public class CreateNewUser_RolesAndPermissionsPage {
 	@CacheLookup
 	WebElement csCheckboxText;
 	
-	@FindBy(xpath="//input[@id='mat-checkbox-31-input']")
+	@FindBy(xpath="//body/div[1]/app-create-user[1]/div[3]/div[1]/ul[1]/li[2]/div[1]/div[1]/mat-checkbox[1]/label[1]/div[1]")
 	@CacheLookup
 	WebElement suCheckboxes;
 	
@@ -46,7 +46,7 @@ public class CreateNewUser_RolesAndPermissionsPage {
 	@CacheLookup
 	WebElement suCheckboxText;
 	
-	@FindBy(xpath="//input[@id='mat-checkbox-32-input']")
+	@FindBy(xpath="//body/div[1]/app-create-user[1]/div[3]/div[1]/ul[1]/li[3]/div[1]/div[1]/mat-checkbox[1]/label[1]/div[1]")
 	@CacheLookup
 	WebElement insCheckboxes;
 	
@@ -100,18 +100,18 @@ public class CreateNewUser_RolesAndPermissionsPage {
 	
 	public boolean locateCSCheckBox()
 	{
-		return csCheckboxes.isDisplayed();
+		return func.verifyElementIsClickable(csCheckboxes,ldriver);
 	}
 	
 	public boolean locateSUCheckBox()
 	{
-		return suCheckboxes.isDisplayed();
+		return func.verifyElementIsClickable(suCheckboxes, ldriver);
 	}
 	
 	
 	public boolean locateINSCheckBox()
 	{
-		return insCheckboxes.isDisplayed();
+		return func.verifyElementIsClickable(insCheckboxes, ldriver);
 	}
 	
 	public void clickCheckBox()
@@ -123,16 +123,7 @@ public class CreateNewUser_RolesAndPermissionsPage {
 	
 	public int isChecked()
 	{
-		int checkedCount = 0;
-		List<WebElement> elements = ldriver.findElements(By.xpath("//input[@type='checkbox']"));
-		for(int i = 0; i < elements.size(); i++)
-		{
-			if(elements.get(i).isSelected())
-			{
-				checkedCount++;
-			}
-		}
-		return checkedCount;
+		return func.isChecked(ldriver, "//input[@type='checkbox']");
 	}
 	
 	public boolean btnBackClickableDisplayed()

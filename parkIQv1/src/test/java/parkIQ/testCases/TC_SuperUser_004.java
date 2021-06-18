@@ -15,7 +15,7 @@ public class TC_SuperUser_004 extends BaseClass {
 	//Test case for role & permissions 
 	
 	@Test(priority = 0)
-	public void assignRoleAndPermission() throws InterruptedException
+	public void assignRoleAndPermission()
 	{
 		OperationModePrompt omp = new OperationModePrompt(driver);
 		LoginPage lp= new LoginPage(driver);
@@ -60,12 +60,19 @@ public class TC_SuperUser_004 extends BaseClass {
 		CreateNewUser_RolesAndPermissionsPage rpp = new CreateNewUser_RolesAndPermissionsPage(driver);
 		
 		sup.clickCreateUserLink();
+
 		uip.setFirstName(name);
 		uip.setLastName(lname);
 		uip.setEmail(email);
 		uip.setPhoneNumber(validPhone);
 		uip.clickContinue();
-		ac.isChecked();
+
+		int checkedCount = 0;
+		while(checkedCount == 0)
+		{
+			ac.clickCheckBox();
+			checkedCount = ac.isChecked();
+		}
 		ac.clickContinueBtn();
 		
 		boolean title = rpp.verifyFormTitle();
@@ -94,12 +101,14 @@ public class TC_SuperUser_004 extends BaseClass {
 		boolean checkbox1 = rpp.locateCSCheckBox();
 		boolean checkbox2 = rpp.locateINSCheckBox();
 		boolean checkbox3 = rpp.locateSUCheckBox();
-		if(checkbox1 && checkbox2 && checkbox3 == true)
+		if(checkbox1 && checkbox2 && checkbox3)
 		{
+			Assert.assertTrue(true);
 			logger.info("Displays checkbox correctly");
 		}
 		else
 		{
+			Assert.assertTrue(false);
 			logger.info("Checkbox are not displayed correcly");
 		}
 	}
@@ -123,7 +132,7 @@ public class TC_SuperUser_004 extends BaseClass {
 		}
 	}
 	
-	//Test if user is returned to “Assign Customers” form when back button is clicked
+	//Test if user is returned to ï¿½Assign Customersï¿½ form when back button is clicked
 	@Test(priority = 4)
 	public void testBackButtonClickFunctionality() 
 	{
@@ -149,9 +158,14 @@ public class TC_SuperUser_004 extends BaseClass {
 	@Test(priority = 5)
 	public void testCancelButtonClickable()
 	{
+		CreateNewUser_AssignCustomersToUserProfilePage ap = new CreateNewUser_AssignCustomersToUserProfilePage(driver);
 		CreateNewUser_RolesAndPermissionsPage rpp = new CreateNewUser_RolesAndPermissionsPage(driver);
+
+		ap.clickContinueBtn();
+		logger.info("User navigated to Roles and Permission Page" + "\n");
 		
 		boolean btnCancelClickable = rpp.btnCancelClickableDisplayed();
+		System.out.print("Cancel Button isClickable: " + btnCancelClickable + "\n");
 		if (btnCancelClickable) 
 		{
 			Assert.assertTrue(true);
@@ -164,7 +178,7 @@ public class TC_SuperUser_004 extends BaseClass {
 		}
 	}
 	
-	//Test if user is returned to “Users” Form when cancel is clicked
+	//Test if user is returned to ï¿½Usersï¿½ Form when cancel is clicked
 	@Test(priority=6)
 	public void testCancelButtonClickFunctionality()
 	{
@@ -225,8 +239,8 @@ public class TC_SuperUser_004 extends BaseClass {
 		logger.info("Continue Button Clicked");
 
 
-		boolean isBtnContinueClickable = rpp.btnContDisplayed();
-		boolean isBtnContinueDisplayed = rpp.btnContClickableDisplayed();
+		boolean  isBtnContinueDisplayed= rpp.btnContDisplayed();
+		boolean  isBtnContinueClickable= rpp.btnContClickableDisplayed();
 
 		if (isBtnContinueDisplayed) {
 			if (isBtnContinueClickable) {
