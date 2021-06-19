@@ -81,13 +81,13 @@ public class TC_SuperUser_004 extends BaseClass {
 		//Verify if Page Title and Page Desctiption is Displayed
 		if (title && description) {
 			Assert.assertTrue(true);
-			logger.info("User navigated to Review User form" + "\n");
-			logger.info("Review User title is displayed correctly");
+			logger.info("User navigated to roles and permissions form" + "\n");
+			logger.info("Roles and Permissions title is displayed correctly");
 			logger.info("Form Description displayed correctly");
 		} else {
 			Assert.assertTrue(false);
-			logger.info("Review User form test failed" + "\n");
-			logger.info("Review User title is missing");
+			logger.info("Roles and Permissions form test failed" + "\n");
+			logger.info("Roles and Permissions title is missing");
 			logger.info("Form Description is missing");
 		}
 	}
