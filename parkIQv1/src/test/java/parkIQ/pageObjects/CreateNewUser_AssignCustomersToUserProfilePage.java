@@ -3,6 +3,7 @@ package parkIQ.pageObjects;
 //import org.openqa.selenium.By;
 import java.util.List;
 import org.openqa.selenium.By;
+import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.CacheLookup;
@@ -109,13 +110,14 @@ public class CreateNewUser_AssignCustomersToUserProfilePage {
 			//Click Checkbox
 			public void clickCheckBox()
 			{
-				func.isCheckBoxDisplayed(ldriver, "//body/div[1]/app-create-user[1]/div[3]/mat-card[1]/div[5]/div[2]/div[1]/mat-checkbox[1]");
+				func.isCheckBoxClickable(ldriver, "//body/div[1]/app-create-user[1]/div[3]/mat-card[1]/div[5]/div[2]/div[1]/mat-checkbox[1]");
 				 checkboxCusName.click();
 			}
 
+
 			public int isChecked()
 			{
-				return func.isChecked(ldriver, "//input[@type='checkbox']");
+				return func.isChecked(ldriver, "//mat-checkbox//input[@type='checkbox']");
 			}
 
 			//Verify Back Button is Displayed and Clickable
@@ -127,7 +129,8 @@ public class CreateNewUser_AssignCustomersToUserProfilePage {
 			//Click Back Button
 			public void clickBackBtn()
 			{
-				 btnBack.click();
+				JavascriptExecutor js = (JavascriptExecutor)ldriver;
+				js.executeScript("arguments[0].click()", btnBack);;
 			}
 
 			//Verify Cancel Button is Displayed and Clickable
@@ -139,7 +142,8 @@ public class CreateNewUser_AssignCustomersToUserProfilePage {
 			//Click Cancel Button
 			public void clickCancelBtn()
 			{
-				btnCancel.click();
+				JavascriptExecutor js = (JavascriptExecutor)ldriver;
+				js.executeScript("arguments[0].click()", btnCancel);
 			}
 
 			//Continue Button is Clickable
@@ -156,7 +160,8 @@ public class CreateNewUser_AssignCustomersToUserProfilePage {
 
 			public void clickContinueBtn()
 	{
-		btnContinue.click();
+		JavascriptExecutor js = (JavascriptExecutor)ldriver;
+		js.executeScript("arguments[0].click()", btnContinue);
 	}
 
 			public String btnContinueBgColour()

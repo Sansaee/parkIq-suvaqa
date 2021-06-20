@@ -49,13 +49,27 @@ public class WebElementFunctions {
 	{
 		//wait till element is clickable and displayed
 		try {
-			WebDriverWait wait = new WebDriverWait(ldriver, 3);
+			WebDriverWait wait = new WebDriverWait(ldriver, 10);
 			wait.until(ExpectedConditions.visibilityOf(element));
 			wait.until(ExpectedConditions.invisibilityOf(element));
 		}
 		catch (Exception ex)
 		{
 			ex.printStackTrace();
+		}
+	}
+
+	//Returns true if toaster notification is displayed
+	public String visibilityOfToasterNotification(WebElement element, WebDriver ldriver)
+	{
+		try {
+			WebDriverWait wait = new WebDriverWait(ldriver, 10);
+			wait.until(ExpectedConditions.visibilityOf(element));
+			return element.getText();
+		}
+		catch (Exception ex)
+		{
+			return ex.toString();
 		}
 	}
 
@@ -73,6 +87,7 @@ public class WebElementFunctions {
 	    }
 	  }
 
+	  //Return count of checkboxes selected/checked
 		public int isChecked(WebDriver driver, String path)
 		{
 			int checkedCount = 0;
@@ -87,9 +102,9 @@ public class WebElementFunctions {
 			return checkedCount;
 		}
 
-	public void isCheckBoxDisplayed(WebDriver driver, String path)
+	//List of Checkboxes are clickable
+	public void isCheckBoxClickable(WebDriver driver, String path)
 	{
-		int checkedBoxCount = 0;
 
 		List<WebElement> elements = driver.findElements(By.xpath(path));
 		WebDriverWait wait = new WebDriverWait(driver, 3);
@@ -103,6 +118,44 @@ public class WebElementFunctions {
 		}
 
 	}
+
+	//List of Elements is Displayed
+	public boolean isElementsDisplayed(WebDriver driver, String path)
+	{
+		int elementCount = 0;
+
+		List<WebElement> elements = driver.findElements(By.xpath(path));
+		WebDriverWait wait = new WebDriverWait(driver, 3);
+
+		for(int i = 0; i < elements.size(); i++) {
+			try {
+				wait.until(ExpectedConditions.visibilityOf(elements.get(i)));
+				if (elements.get(i).isDisplayed())
+				{
+					elementCount++;
+				}
+			} catch (Exception ex) {
+				ex.printStackTrace();
+			}
+		}
+		if(elementCount == elements.size())
+		{
+			return true;
+		}
+		else { return false;}
+	}
+
+	//Elements Read Only
+	public boolean isReadOnly(WebElement webElement) {
+		try {
+			webElement.sendKeys("Editable");
+			return false;
+		} catch (Exception ex) {
+			return true;
+		}
+	}
+
+
 
 
 

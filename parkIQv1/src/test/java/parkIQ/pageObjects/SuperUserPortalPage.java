@@ -4,6 +4,7 @@ package parkIQ.pageObjects;
 import java.util.List;
 import java.util.concurrent.TimeUnit;
 import org.openqa.selenium.By;
+import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.CacheLookup;
@@ -33,10 +34,8 @@ public class SuperUserPortalPage {
 	@FindBy(xpath="//span[@class='card-item-link']")
 	@CacheLookup
 	WebElement linkCreateNewUser;
-	
 
-
-	//Notification
+	//Loading Screen
 	@FindBy(xpath="//div[@class='overlay ng-tns-c88-0 ng-trigger ng-trigger-fadeIn ng-star-inserted ng-animating']")
 	@CacheLookup
 	WebElement overlay;
@@ -61,11 +60,8 @@ public class SuperUserPortalPage {
 
 	public void clickCreateUserLink()
 	{
-		if(overlay.isDisplayed())
-		{
-			func.waitLoaderDisappear(overlay, ldriver);
-		}
-		linkCreateNewUser.click();
+		JavascriptExecutor js = (JavascriptExecutor)ldriver;
+		js.executeScript("arguments[0].click()", linkCreateNewUser);
 	}
 
 	

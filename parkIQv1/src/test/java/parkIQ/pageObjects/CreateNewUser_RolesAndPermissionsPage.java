@@ -3,6 +3,7 @@ package parkIQ.pageObjects;
 import java.util.List;
 
 import org.openqa.selenium.By;
+import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.CacheLookup;
@@ -133,7 +134,8 @@ public class CreateNewUser_RolesAndPermissionsPage {
 	
 	public void clickBackBtn()
 	{
-		 btnBack.click();
+		JavascriptExecutor js = (JavascriptExecutor)ldriver;
+		js.executeScript("arguments[0].click()", btnBack);
 	}
 	
 	public boolean btnCancelClickableDisplayed()
@@ -143,7 +145,8 @@ public class CreateNewUser_RolesAndPermissionsPage {
 	
 	public void clickCancelBtn()
 	{
-		btnCancel.click();
+		JavascriptExecutor js = (JavascriptExecutor)ldriver;
+		js.executeScript("arguments[0].click()", btnCancel);
 	}
 	
 	public boolean btnContClickableDisplayed()
@@ -164,7 +167,8 @@ public class CreateNewUser_RolesAndPermissionsPage {
 	
 	public void clickContBtn()
 	{
-		btnContinue.click();
+		JavascriptExecutor js = (JavascriptExecutor)ldriver;
+		js.executeScript("arguments[0].click()", btnContinue);
 	}
 	
 }

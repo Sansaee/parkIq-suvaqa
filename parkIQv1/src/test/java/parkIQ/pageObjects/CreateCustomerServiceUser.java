@@ -101,6 +101,11 @@ public class CreateCustomerServiceUser {
 	@FindBy(xpath="//th[contains(text(),'Active User')]")
 	@CacheLookup
 	WebElement headerActiveUser;
+
+	//Loading Screen
+	@FindBy(xpath="//div[@class='overlay ng-tns-c88-0 ng-trigger ng-trigger-fadeIn ng-star-inserted ng-animating']")
+	@CacheLookup
+	WebElement overlay;
 	
 	WebElementFunctions func = new WebElementFunctions();
 	
@@ -112,13 +117,25 @@ public class CreateCustomerServiceUser {
 	//Confirm Title "Create Customer Service User"
 	public boolean locateTitle()
 	{
-		return func.verifyElementDisplayedWithText(pageTitle, "Create Customer Service User");
+		try{
+		return func.verifyElementDisplayedWithText(pageTitle, "Create Customer Service User");}
+		catch (Exception ex){
+			return false;}
 	}
 
 	//Confirm Section Header "Users"
 	public boolean locateSectionHeader()
 	{
-		return func.verifyElementDisplayedWithText(userHeader, "Users");
+		try {
+			if(overlay.isDisplayed())
+			{
+				func.waitLoaderDisappear(overlay, ldriver);
+			}
+			return func.verifyElementDisplayedWithText(userHeader, "Users");
+		}catch (Exception ex)
+		{
+			return false;
+		}
 	}
 
 	//Confirm Create User Link is Displayed and has Background Colour '#2652af'

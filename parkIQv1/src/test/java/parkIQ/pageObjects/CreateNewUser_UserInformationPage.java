@@ -1,4 +1,5 @@
 package parkIQ.pageObjects;
+import org.openqa.selenium.JavascriptExecutor;
 import parkIQ.common.WebElementFunctions;
 
 import org.openqa.selenium.WebDriver;
@@ -180,13 +181,15 @@ public class CreateNewUser_UserInformationPage {
 			//Click Cancel Button
 			public void clickCancel()
 			{
-				btnCancel.click();
+				JavascriptExecutor js = (JavascriptExecutor)ldriver;
+				js.executeScript("arguments[0].click()", btnCancel);
 			}
 
 			//Click Continue Button
 			public void clickContinue()
 			{
-				btnContinue.click();
+				JavascriptExecutor js = (JavascriptExecutor)ldriver;
+				js.executeScript("arguments[0].click()", btnContinue);
 			}
 
 }
