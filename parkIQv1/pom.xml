@@ -88,7 +88,7 @@
 		<version>2.22.0</version>
 		<configuration>
 		<suiteXmlFiles>
-		<suiteXmlFile>${testngFile}</suiteXmlFile>
+		<suiteXmlFile>TestNG.xml</suiteXmlFile>
 		</suiteXmlFiles>
 		</configuration>
 		</plugin>
