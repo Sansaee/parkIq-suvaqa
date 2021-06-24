@@ -3,6 +3,7 @@ package parkIQ.testCases;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
+import parkIQ.common.CommonFunctions;
 import parkIQ.pageObjects.CreateNewUser_AssignCustomersToUserProfilePage;
 import parkIQ.pageObjects.CreateNewUser_ReviewUserPage;
 import parkIQ.pageObjects.CreateNewUser_RolesAndPermissionsPage;
@@ -17,24 +18,10 @@ public class TC_SuperUser_004 extends BaseClass {
 	@Test(priority = 0)
 	public void assignRoleAndPermission()
 	{
-		OperationModePrompt omp = new OperationModePrompt(driver);
-		LoginPage lp= new LoginPage(driver);
-		
-		logger.info("SUPER USER ROLE TEST CASES - ROLES & PERMISSIONS");
-		
-		lp.logIn(email, password);
-		logger.info("Successfully logged in");
-	
-		omp.selectModeOption();
-		logger.info("Operation Mode Selection Mode Displayed");
+		CommonFunctions cf = new CommonFunctions();
 
-		omp.selectSuperUser();
-		logger.info("Super User Portal Option Selected");
-
-		omp.clickSelect();
-		logger.info("Select Button Clicked");
-
-		logger.info("Entered Super User Portal Page");
+		//Login and navigate to Super User Page
+		cf.navigateToSuperUserPage();
 		
 		if(driver.getTitle().equals("Park IQ Admin"))
 		{

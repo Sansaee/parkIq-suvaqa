@@ -15,7 +15,6 @@ import org.openqa.selenium.edge.EdgeDriver;
 import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Parameters;
-import parkIQ.pageObjects.LoginPage;
 import parkIQ.utilities.ReadConfig;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.opera.OperaDriver;
@@ -40,6 +39,7 @@ public class BaseClass {
 	public String chromedriverPath =readConfig.getChromePath();
 	public String msedgedriverPath = readConfig.getMsEdgePath();
 	public String operadriverPath= readConfig.getOperaPath();
+//public String safaridriverPath= readConfig.getOperaPath();
 
 	public String inputname = "Sara";
 	
@@ -79,10 +79,16 @@ public class BaseClass {
 				}
 		
 		else if(brwsr.equals("opera"))
-		{
-			System.setProperty("webdriver.opera.driver",readConfig.getOperaPath());
-			driver=new OperaDriver();
-		}
+				{
+					System.setProperty("webdriver.opera.driver",operadriverPath);
+					driver=new OperaDriver();
+				}
+		
+//		else if(brwsr.equals("safari"))
+//				{
+//					System.setProperty("webdriver.opera.driver",safaridriverPath);
+//					driver=new SafariDriver();
+//				}
 
 		driver.manage().window().maximize();
 		driver.get(baseURL);

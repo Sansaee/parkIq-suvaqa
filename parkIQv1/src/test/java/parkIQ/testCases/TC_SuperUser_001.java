@@ -2,6 +2,7 @@ package parkIQ.testCases;
 
 import org.testng.Assert;
 import org.testng.annotations.Test;
+import parkIQ.common.CommonFunctions;
 import parkIQ.pageObjects.CreateCustomerServiceUser;
 import parkIQ.pageObjects.LoginPage;
 import parkIQ.pageObjects.OperationModePrompt;
@@ -13,29 +14,12 @@ public class TC_SuperUser_001 extends BaseClass {
 	@Test (priority=0)
 	public void  setupSuperUserRole() throws InterruptedException 
 	{
-		OperationModePrompt omp = new OperationModePrompt(driver);
-		SuperUserPortalPage sup = new SuperUserPortalPage(driver);
-		LoginPage lp= new LoginPage(driver);
-		
-		
 		logger.info("SUPER USER ROLE TEST CASES - CREATE CUSTOMER SERVICE USER");
-		
-		lp.logIn(email, password);
-		logger.info("Successfully logged in");
-	
-		omp.selectModeOption();
-		logger.info("Operation Mode Selection Mode Displayed");
 
-		omp.selectSuperUser();
-		logger.info("Super User Portal Option Selected");
+		CommonFunctions cf = new CommonFunctions();
 
-		omp.clickSelect();
-		logger.info("Select Button Clicked");
-
-		logger.info("Entered Super User Portal Page");
-
-
-
+		//Login and navigate to Super User Page
+		cf.navigateToSuperUserPage();
 
 		if(driver.getTitle().equals("Park IQ Admin"))
 		{

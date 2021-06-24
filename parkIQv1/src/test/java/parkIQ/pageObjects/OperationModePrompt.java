@@ -51,6 +51,21 @@ public class OperationModePrompt {
 			@FindBy(xpath="//button[contains(text(),'Select')]")
 			@CacheLookup
 			WebElement btnSelect;
+			
+			//dropdown button in selecting customer for admin portal
+			@FindBy(xpath="//span[@class='ng-arrow-wrapper']")
+			@CacheLookup
+			WebElement dropdownAdmin;
+			
+			//click ABC Company
+			@FindBy(xpath="//div[@id='a6a2f7f68538-1']")
+			@CacheLookup
+			WebElement selectCustomer;
+			
+			//select button for admin customer
+			@FindBy(xpath="//button[contains(text(),'Select')]")
+			@CacheLookup
+			WebElement selectBtnAdmin;
 
 
 			WebElementFunctions func = new WebElementFunctions();
@@ -81,5 +96,20 @@ public class OperationModePrompt {
 			public void clickSelect()
 			{
 				btnSelect.click();
+			}
+			
+			public void clickDropdownAdmin()
+			{
+				dropdownAdmin.click();
+			}
+			
+			public void selectAdminCustomer()
+			{
+				selectCustomer.click();
+			}
+			
+			public void selectBtnAdminCustomer()
+			{
+				selectBtnAdmin.click();
 			}
 }

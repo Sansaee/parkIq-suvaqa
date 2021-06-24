@@ -1,17 +1,12 @@
 package parkIQ.testCases;
 
-import java.util.logging.Logger;
-import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.support.CacheLookup;
 import org.testng.Assert;
 import org.testng.annotations.Test;
+
+import parkIQ.common.CommonFunctions;
 import parkIQ.pageObjects.CreateCustomerServiceUser;
-import parkIQ.pageObjects.CreateNewUser_AssignCustomersToUserProfilePage;
 import parkIQ.pageObjects.CreateNewUser_ReviewUserPage;
 import parkIQ.pageObjects.CreateNewUser_RolesAndPermissionsPage;
-import parkIQ.pageObjects.CreateNewUser_UserInformationPage;
-import parkIQ.pageObjects.LoginPage;
-import parkIQ.pageObjects.OperationModePrompt;
 import parkIQ.pageObjects.SuperUserPortalPage;
 
 public class TC_SuperUser_005 extends BaseClass {
@@ -21,12 +16,13 @@ public class TC_SuperUser_005 extends BaseClass {
 	@Test(priority = 0)
 	public void setupReviewUser(){
 		CreateNewUser_ReviewUserPage rup = new CreateNewUser_ReviewUserPage(driver);
+		CommonFunctions cf = new CommonFunctions();
 
 		//Login and navigate to Super User Page
-		navigateToSuperUserPage();
+		cf.navigateToSuperUserPage();
 
 		//Enter User Information and Navigate to Review User Form
-		enterUserInformationDetails();
+		cf.enterUserInformationDetails();
 
 		logger.info("SUPER USER ROLE TEST CASES - ROLES & PERMISSIONS");
 
@@ -388,8 +384,9 @@ public class TC_SuperUser_005 extends BaseClass {
 	{
 		CreateCustomerServiceUser ccs = new CreateCustomerServiceUser(driver);
 		CreateNewUser_ReviewUserPage rup = new CreateNewUser_ReviewUserPage(driver);
-
-		enterUserInformationDetails();
+		CommonFunctions cf = new CommonFunctions();
+		
+		cf.enterUserInformationDetails();
 
 		rup.clickBtnCreateNewUser();
 		logger.info("Create New User Button Clicked");
@@ -421,53 +418,6 @@ public class TC_SuperUser_005 extends BaseClass {
 		}
 	}
 
-	//Navigation Functions
-	public void navigateToSuperUserPage()
-	{
-		LoginPage lp= new LoginPage(driver);
-
-		lp.logIn(email, password);
-		logger.info("Successfully logged in");
-
-		OperationModePrompt omp = new OperationModePrompt(driver);
-		omp.selectModeOption();
-		logger.info("Operation Mode Selection Mode Displayed");
-
-		omp.selectSuperUser();
-		logger.info("Super User Portal Option Selected");
-
-		omp.clickSelect();
-		logger.info("Select Button Clicked");
-
-		logger.info("Entered Super User Portal Page");
-	}
-
-	public void enterUserInformationDetails()
-	{
-		SuperUserPortalPage sup = new SuperUserPortalPage(driver);
-		CreateNewUser_UserInformationPage uip = new CreateNewUser_UserInformationPage(driver);
-		CreateNewUser_AssignCustomersToUserProfilePage ac = new CreateNewUser_AssignCustomersToUserProfilePage(driver);
-		CreateNewUser_RolesAndPermissionsPage rap = new CreateNewUser_RolesAndPermissionsPage(driver);
-
-		sup.clickCreateUserLink();
-		logger.info("Entered Create User Page");
-
-		//Enter Details Into User Information Page
-		uip.setFirstName(name);
-		uip.setLastName(lname);
-		uip.setEmail(email);
-		uip.setPhoneNumber(validPhone);
-		uip.clickContinue();
-
-		//Assign Customers To User Profiles
-		logger.info("Entered Assign Customers To User Profile Page");
-		ac.clickCheckBox();
-		ac.clickContinueBtn();
-
-		//Assign User Roles and Permissions
-		logger.info("Entered Roles and Permissions Page");
-		rap.clickCheckBox();
-		rap.clickContBtn();
-	}
+	
 }
 
