@@ -1,0 +1,12 @@
+{
+  "baseURL":"https://inspiringchampionsstaging.azurewebsites.net",
+  "email":"debrahanson@comcast.net",
+  "password":"Inspireu2",
+  "unregisteredemail":"abc@parkindustries.com",
+  "invalidemail":"adsadadasd",
+  "invalidpassword":"ABC123@2020",
+  "geckodriverPath":"Drivers\\geckodriver.exe",
+  "chromedriverPath":"Drivers\\chromedriver.exe",
+  "msedgedriverPath":"Drivers\\msedgedriver.exe",
+  "operadriverPath":"Drivers\\operadriver.exe"
+}
