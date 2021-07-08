@@ -6,8 +6,6 @@ import org.testng.annotations.Test;
 import parkIQ.common.CommonFunctions;
 import parkIQ.pageObjects.CreateNewUser_AssignCustomersToUserProfilePage;
 import parkIQ.pageObjects.CreateNewUser_UserInformationPage;
-import parkIQ.pageObjects.LoginPage;
-import parkIQ.pageObjects.OperationModePrompt;
 import parkIQ.pageObjects.SuperUserPortalPage;
 
 

@@ -4,9 +4,6 @@ import org.testng.Assert;
 import org.testng.annotations.Test;
 import parkIQ.common.CommonFunctions;
 import parkIQ.pageObjects.CreateCustomerServiceUser;
-import parkIQ.pageObjects.LoginPage;
-import parkIQ.pageObjects.OperationModePrompt;
-import parkIQ.pageObjects.SuperUserPortalPage;
 
 public class TC_SuperUser_001 extends BaseClass {
 	//contains test cases from "create customer service user"

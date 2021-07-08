@@ -7,8 +7,6 @@ import parkIQ.common.CommonFunctions;
 import parkIQ.pageObjects.CreateNewUser_AssignCustomersToUserProfilePage;
 import parkIQ.pageObjects.CreateNewUser_RolesAndPermissionsPage;
 import parkIQ.pageObjects.CreateNewUser_UserInformationPage;
-import parkIQ.pageObjects.LoginPage;
-import parkIQ.pageObjects.OperationModePrompt;
 import parkIQ.pageObjects.SuperUserPortalPage;
 
 public class TC_SuperUser_003 extends BaseClass {
@@ -18,6 +16,8 @@ public class TC_SuperUser_003 extends BaseClass {
 	@Test(priority = 0)
 	public void setupSuperUserRole() throws InterruptedException {
 		CommonFunctions cf = new CommonFunctions();
+		
+		logger.info("SUPER USER ROLE TEST CASES - ASSIGNING CUSTOMER TO USER PROFILES");
 
 		//Login and navigate to Super User Page
 		cf.navigateToSuperUserPage();
@@ -97,8 +97,7 @@ public class TC_SuperUser_003 extends BaseClass {
 
 	@Test(priority = 4)
 	public void testBackButtonClickFunctionality() {
-		CreateNewUser_AssignCustomersToUserProfilePage ac = new CreateNewUser_AssignCustomersToUserProfilePage(
-				driver);
+		CreateNewUser_AssignCustomersToUserProfilePage ac = new CreateNewUser_AssignCustomersToUserProfilePage(driver);
 		CreateNewUser_UserInformationPage uip = new CreateNewUser_UserInformationPage(driver);
 		ac.clickBackBtn();
 		logger.info("Back button clicked");

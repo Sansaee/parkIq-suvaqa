@@ -8,8 +8,6 @@ import parkIQ.pageObjects.CreateNewUser_AssignCustomersToUserProfilePage;
 import parkIQ.pageObjects.CreateNewUser_ReviewUserPage;
 import parkIQ.pageObjects.CreateNewUser_RolesAndPermissionsPage;
 import parkIQ.pageObjects.CreateNewUser_UserInformationPage;
-import parkIQ.pageObjects.LoginPage;
-import parkIQ.pageObjects.OperationModePrompt;
 import parkIQ.pageObjects.SuperUserPortalPage;
 
 public class TC_SuperUser_004 extends BaseClass {
@@ -40,6 +38,8 @@ public class TC_SuperUser_004 extends BaseClass {
 	@Test (priority =1)
 	public void testFormTitle()
 	{
+		logger.info("SUPER USER ROLE TEST CASES - ROLES & PERMISSIONS");
+		
 		SuperUserPortalPage sup = new SuperUserPortalPage(driver);
 		CreateNewUser_UserInformationPage uip = new CreateNewUser_UserInformationPage(driver);
 		CreateNewUser_AssignCustomersToUserProfilePage ac = new CreateNewUser_AssignCustomersToUserProfilePage(

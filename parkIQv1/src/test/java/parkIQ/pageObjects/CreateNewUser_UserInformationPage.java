@@ -10,8 +10,8 @@ import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
 public class CreateNewUser_UserInformationPage {
-	 WebDriver ldriver;
-
+	
+		WebDriver ldriver;
 
 		public CreateNewUser_UserInformationPage(WebDriver rdriver) //a constructor; ldiver = local driver, rdriver = remote driver
 		{
@@ -73,12 +73,9 @@ public class CreateNewUser_UserInformationPage {
 			@FindBy(xpath="//body/div[1]/app-create-user[1]/div[3]/mat-card[1]/form[1]/div[7]/input[2]")
 			@CacheLookup
 			WebElement btnContinue;
+			
 
 			WebElementFunctions func = new WebElementFunctions();
-
-
-
-
 
 			//Confirm Header "User Information"
 			public boolean verifyHeader()

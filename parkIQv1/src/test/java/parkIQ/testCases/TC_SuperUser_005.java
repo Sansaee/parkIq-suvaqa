@@ -24,7 +24,7 @@ public class TC_SuperUser_005 extends BaseClass {
 		//Enter User Information and Navigate to Review User Form
 		cf.enterUserInformationDetails();
 
-		logger.info("SUPER USER ROLE TEST CASES - ROLES & PERMISSIONS");
+		logger.info("SUPER USER ROLE TEST CASES - REVIEW USER");
 
 		boolean isReviewUserTitle = rup.verifyUserInformationTitle();
 
